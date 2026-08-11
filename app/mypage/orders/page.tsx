@@ -10,7 +10,7 @@ import { formatPrice } from "@/lib/data/products";
 
 const demoOrders = [
   {
-    orderId: "NK20260601-1001",
+    orderId: "RM20260601-1001",
     createdAt: "2026-06-01T10:00:00.000Z",
     total: 80680,
     status: "発送済み",

@@ -20,11 +20,11 @@ const zenOldMincho = Zen_Old_Mincho({
 
 export const metadata: Metadata = {
   title: {
-    default: "NOOK interior｜暮らしに、心地いい居場所を。",
-    template: "%s｜NOOK interior",
+    default: "roomy｜暮らしに、心地いい居場所を。",
+    template: "%s｜roomy",
   },
   description:
-    "NOOK interior（ヌック インテリア）は、利用シーンから探す家具・インテリアのセレクトショップです。ソファから雑貨まで、部屋づくりの最初の1歩を提案します。",
+    "roomy（ルーミー）は、利用シーンから探す家具・インテリアのセレクトショップです。ソファから雑貨まで、部屋づくりの最初の1歩を提案します。",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

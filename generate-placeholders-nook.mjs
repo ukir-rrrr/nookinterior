@@ -1,7 +1,7 @@
 /**
- * generate-placeholders.mjs (NOOK interior 用)
+ * generate-placeholders.mjs (roomy 用)
  *
- * DESIGN.txt（NOOK interior版）の画像配置リストに基づき、
+ * DESIGN.txt（roomy版）の画像配置リストに基づき、
  * 本番と同じファイルパス・ファイル名・アスペクト比のダミー画像を一括生成します。
  *
  * 使い方:
@@ -21,13 +21,13 @@ import path from "path";
 // 出力先のベースディレクトリ（Next.js の public フォルダ）
 const OUTPUT_BASE = path.resolve(process.cwd(), "public");
 
-// カラーパレット（DESIGN.txt(NOOK interior版)のアクセントカラーをローテーションして使用）
+// カラーパレット（DESIGN.txt(roomy版)のアクセントカラーをローテーションして使用）
 // #c97c5d: テラコッタ / #8a9a7e: セージグリーン / それぞれの淡色バリエーション
 const PALETTE = ["#c97c5d", "#8a9a7e", "#e3c3b3", "#d3dbc9", "#efeae3"];
 
 /**
  * 画像定義リスト
- * DESIGN.txt(NOOK interior版)「画像配置リスト」+ ロゴ類を網羅
+ * DESIGN.txt(roomy版)「画像配置リスト」+ ロゴ類を網羅
  * 商品画像のアスペクト比は4:3（家具ECのため。キッズサイトの1:1から変更）
  */
 const IMAGES = [

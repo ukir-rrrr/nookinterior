@@ -10,7 +10,7 @@ function getSigningSecret(): string {
     if (process.env.NODE_ENV === "production") {
       throw new Error("CHECKOUT_SIGNING_SECRET or KOMOJU_SECRET_KEY is required");
     }
-    return "nook-dev-signing-secret-change-me";
+    return "roomy-dev-signing-secret-change-me";
   }
   return secret;
 }

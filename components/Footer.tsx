@@ -55,7 +55,7 @@ export default function Footer() {
             <Link href="/">
               <Image
                 src="/images/logo.png"
-                alt="NOOK interior"
+                alt="roomy"
                 width={140}
                 height={36}
                 className="h-9 w-auto opacity-80"
@@ -167,7 +167,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-[#d9d2c8] pt-6 text-center text-xs">
-          <p>&copy; {new Date().getFullYear()} NOOK interior. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} roomy. All rights reserved.</p>
         </div>
       </div>
     </footer>

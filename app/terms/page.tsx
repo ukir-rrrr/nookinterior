@@ -4,7 +4,7 @@ import { companyInfo } from "@/lib/data/company";
 
 export const metadata: Metadata = {
   title: "ご利用規約",
-  description: "NOOK interior のご利用規約です。",
+  description: "roomy のご利用規約です。",
 };
 
 export default function TermsPage() {

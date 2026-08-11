@@ -5,7 +5,7 @@ import { companyInfo } from "@/lib/data/company";
 
 export const metadata: Metadata = {
   title: "お問い合わせ",
-  description: "NOOK interior へのお問い合わせフォームです。",
+  description: "roomy へのお問い合わせフォームです。",
 };
 
 export default function ContactPage() {

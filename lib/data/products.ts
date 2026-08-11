@@ -72,7 +72,7 @@ function baseDetail(categorySlug: string, image: string, mainImage: string) {
 export const products: Product[] = [
   {
     id: "sofa-01",
-    name: "ヌック ファブリックソファ 2.5P",
+    name: "roomy ファブリックソファ 2.5P",
     price: 89800,
     salePrice: 79800,
     sceneSlugs: ["living"],

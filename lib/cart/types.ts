@@ -17,7 +17,7 @@ export type AddToCartInput = {
   quantity: number;
 };
 
-export const CART_STORAGE_KEY = "nook-interior-cart";
+export const CART_STORAGE_KEY = "roomy-cart";
 
 export const SHIPPING_FLAT = 880;
 export const SHIPPING_FREE_THRESHOLD = 22000;

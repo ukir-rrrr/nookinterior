@@ -5,7 +5,7 @@ import { newsItems } from "@/lib/data/news";
 
 export const metadata: Metadata = {
   title: "お知らせ",
-  description: "NOOK interior からのお知らせ一覧です。",
+  description: "roomy からのお知らせ一覧です。",
 };
 
 export default function NewsIndexPage() {

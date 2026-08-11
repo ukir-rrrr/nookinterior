@@ -188,7 +188,7 @@ export default function Header() {
             />
             <span className="min-w-0 leading-tight">
               <span className="block truncate font-serif text-lg tracking-wide text-text sm:text-xl md:text-2xl">
-                NOOK interior
+                roomy
               </span>
               <span className="mt-0.5 hidden text-[10px] tracking-wider text-[#8a8a8a] sm:block md:text-xs">
                 公式オンラインストア

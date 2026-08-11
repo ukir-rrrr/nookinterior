@@ -5,7 +5,7 @@ import { getAllNewArrivals } from "@/lib/data/products";
 
 export const metadata: Metadata = {
   title: "新着商品",
-  description: "NOOK interior の新着商品一覧。最近入荷した家具・インテリアをチェック。",
+  description: "roomy の新着商品一覧。最近入荷した家具・インテリアをチェック。",
 };
 
 export default function NewArrivalPage() {

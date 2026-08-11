@@ -5,7 +5,7 @@ import { companyInfo } from "@/lib/data/company";
 
 export const metadata: Metadata = {
   title: "運営会社",
-  description: "NOOK interior の運営会社情報です。",
+  description: "roomy の運営会社情報です。",
 };
 
 export default function CompanyPage() {

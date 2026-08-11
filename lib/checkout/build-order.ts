@@ -22,7 +22,7 @@ export function createSecureOrderId(): string {
   const m = String(date.getMonth() + 1).padStart(2, "0");
   const d = String(date.getDate()).padStart(2, "0");
   const rand = randomInt(1000, 10000);
-  return `NK${y}${m}${d}-${rand}`;
+  return `RM${y}${m}${d}-${rand}`;
 }
 
 /**

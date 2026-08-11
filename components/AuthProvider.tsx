@@ -11,10 +11,12 @@ import {
 } from "react";
 
 /** デモ会員用。sessionStorage のためタブを閉じると消える（DB保存なし） */
-const AUTH_KEY = "nook-interior-demo-auth";
-const FAVORITE_KEY = "nook-interior-demo-favorites";
+const AUTH_KEY = "roomy-demo-auth";
+const FAVORITE_KEY = "roomy-demo-favorites";
 const LEGACY_AUTH_KEY = "nook-interior-auth";
 const LEGACY_FAVORITE_KEY = "nook-interior-favorites";
+const LEGACY_DEMO_AUTH_KEY = "nook-interior-demo-auth";
+const LEGACY_DEMO_FAVORITE_KEY = "nook-interior-demo-favorites";
 
 export type AuthUser = {
   name: string;
@@ -42,9 +44,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     try {
-      // 以前の localStorage デモデータを掃除
+      // 以前のデモデータを掃除
       window.localStorage.removeItem(LEGACY_AUTH_KEY);
       window.localStorage.removeItem(LEGACY_FAVORITE_KEY);
+      window.sessionStorage.removeItem(LEGACY_DEMO_AUTH_KEY);
+      window.sessionStorage.removeItem(LEGACY_DEMO_FAVORITE_KEY);
 
       const authRaw = window.sessionStorage.getItem(AUTH_KEY);
       const favRaw = window.sessionStorage.getItem(FAVORITE_KEY);

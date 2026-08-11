@@ -13,7 +13,7 @@ const slides = [
   {
     id: 1,
     image: "/images/common/hero_01.jpg",
-    eyebrow: "NOOK interior",
+    eyebrow: "roomy",
     title: "暮らしに、心地いい居場所を。",
     description: "ソファから雑貨まで。部屋づくりの最初の1歩を。",
     ctaLabel: "商品を見る",

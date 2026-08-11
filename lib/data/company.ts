@@ -5,7 +5,7 @@ export const companyInfo = {
   phone: "[ここに電話番号を記入]",
   email: "[ここにメールアドレスを記入]",
   hours: "平日 10:00〜17:00（土日祝休）",
-  shopName: "NOOK interior",
+  shopName: "roomy",
 };
 
 export const legalInfo = {

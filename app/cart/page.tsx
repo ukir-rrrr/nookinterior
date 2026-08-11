@@ -3,7 +3,7 @@ import CartView from "@/components/CartView";
 
 export const metadata: Metadata = {
   title: "カート",
-  description: "NOOK interior のショッピングカートです。",
+  description: "roomy のショッピングカートです。",
 };
 
 export default function CartPage() {

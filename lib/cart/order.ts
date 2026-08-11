@@ -1,6 +1,6 @@
 import type { CartItem } from "@/lib/cart/types";
 
-export const ORDER_STORAGE_KEY = "nook-interior-last-order";
+export const ORDER_STORAGE_KEY = "roomy-last-order";
 
 export type PaymentMethod =
   | "credit"
@@ -41,5 +41,5 @@ export function createOrderId(): string {
   const m = String(date.getMonth() + 1).padStart(2, "0");
   const d = String(date.getDate()).padStart(2, "0");
   const rand = Math.floor(Math.random() * 9000) + 1000;
-  return `NK${y}${m}${d}-${rand}`;
+  return `RM${y}${m}${d}-${rand}`;
 }
