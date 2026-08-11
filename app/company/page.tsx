@@ -13,7 +13,7 @@ export default function CompanyPage() {
     <div className="pb-16 md:pb-20">
       <div className="relative aspect-21/9 min-h-56 w-full md:min-h-72">
         <Image
-          src="/images/common/about.jpg"
+          src="/images/common/about_v1.jpg"
           alt=""
           fill
           priority
@@ -43,6 +43,8 @@ export default function CompanyPage() {
             ["代表者", companyInfo.representative],
             ["所在地", companyInfo.address],
             ["電話", companyInfo.phone],
+            ["資本金", companyInfo.capital],
+            ["事業内容", companyInfo.business],
             ["メール", companyInfo.email],
             ["営業時間", companyInfo.hours],
           ].map(([label, value]) => (

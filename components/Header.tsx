@@ -179,7 +179,7 @@ export default function Header() {
 
           <Link href="/" className="flex min-w-0 shrink items-center gap-2 sm:gap-3" onClick={closeMenu}>
             <Image
-              src="/images/icon.png"
+              src="/images/icon_v1.png"
               alt=""
               width={40}
               height={40}

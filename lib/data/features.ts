@@ -14,7 +14,7 @@ export const features: Feature[] = [
     slug: "sofa-guide",
     title: "失敗しないソファの選び方",
     excerpt: "サイズ・座り心地・生地のポイントをわかりやすく解説します。",
-    image: "/images/products/sofa/main.jpg",
+    image: "/images/features/sofa-guide.jpg",
     href: "/feature/sofa-guide",
     date: "2026.06.05",
     body: [
@@ -29,7 +29,7 @@ export const features: Feature[] = [
     slug: "one-room-layout",
     title: "一人暮らしのレイアウト術",
     excerpt: "限られた空間でも心地よく過ごせる配置のヒント。",
-    image: "/images/common/scene_living.jpg",
+    image: "/images/features/one-room-layout.jpg",
     href: "/feature/one-room-layout",
     date: "2026.06.04",
     body: [
@@ -44,7 +44,7 @@ export const features: Feature[] = [
     slug: "bed-size",
     title: "ベッドサイズの選び方",
     excerpt: "シングルからキングまで、暮らしに合うサイズの見極め方。",
-    image: "/images/products/bed/main.jpg",
+    image: "/images/features/bed-size.jpg",
     href: "/feature/bed-size",
     date: "2026.06.02",
     body: [

@@ -2,17 +2,16 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import type { Swiper as SwiperType } from "swiper";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/pagination";
 
 const slides = [
   {
     id: 1,
-    image: "/images/common/hero_01.jpg",
+    image: "/images/common/hero_01_V01.jpg",
     eyebrow: "roomy",
     title: "暮らしに、心地いい居場所を。",
     description: "ソファから雑貨まで。部屋づくりの最初の1歩を。",
@@ -21,7 +20,7 @@ const slides = [
   },
   {
     id: 2,
-    image: "/images/common/hero_02.jpg",
+    image: "/images/common/hero_02_V01.jpg",
     eyebrow: "OPEN CAMPAIGN",
     title: "オープン記念、送料無料。",
     description: "22,000円（税込）以上で全国送料無料。",
@@ -30,7 +29,7 @@ const slides = [
   },
   {
     id: 3,
-    image: "/images/common/scene_living.jpg",
+    image: "/images/common/hero_03.jpg",
     eyebrow: "SCENE",
     title: "リビングを整える。",
     description: "くつろぎの時間をつくる家具をセレクト。",
@@ -39,14 +38,17 @@ const slides = [
   },
   {
     id: 4,
-    image: "/images/common/about.jpg",
-    eyebrow: "FEATURE",
-    title: "失敗しないソファの選び方",
-    description: "サイズ・座り心地・生地のポイントを解説。",
-    ctaLabel: "特集を読む",
-    ctaHref: "/feature/sofa-guide",
+    image: "/images/common/hero_04.jpg",
+    eyebrow: "SCENE",
+    title: "ダイニングを整える。",
+    description: "食卓まわりの家具で、毎日の時間を豊かに。",
+    ctaLabel: "ダイニングを見る",
+    ctaHref: "/scene/dining",
   },
 ];
+
+/** loop + centeredSlides では slidesPerView の約2倍以上必要。不足すると片側が空白になる */
+const loopSlides = [...slides, ...slides];
 
 function ChevronLeft() {
   return (
@@ -66,20 +68,26 @@ function ChevronRight() {
 
 export default function HeroCarousel() {
   const swiperRef = useRef<SwiperType | null>(null);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <section className="hero-carousel relative w-full overflow-hidden bg-[#efeae3] py-3 sm:py-4 md:py-6" aria-label="ヒーロー">
       <Swiper
-        modules={[Autoplay, Pagination]}
+        modules={[Autoplay]}
         centeredSlides
         loop
+        loopAdditionalSlides={slides.length}
+        watchSlidesProgress
         speed={700}
         spaceBetween={12}
         slidesPerView={1.08}
         autoplay={{ delay: 5000, disableOnInteraction: false }}
-        pagination={{ clickable: true }}
         onSwiper={(swiper) => {
           swiperRef.current = swiper;
+          setActiveIndex(swiper.realIndex % slides.length);
+        }}
+        onSlideChange={(swiper) => {
+          setActiveIndex(swiper.realIndex % slides.length);
         }}
         breakpoints={{
           480: { slidesPerView: 1.12, spaceBetween: 14 },
@@ -89,8 +97,8 @@ export default function HeroCarousel() {
         }}
         className="hero-swiper"
       >
-        {slides.map((slide, index) => (
-          <SwiperSlide key={slide.id}>
+        {loopSlides.map((slide, index) => (
+          <SwiperSlide key={`${slide.id}-${index}`}>
             <Link
               href={slide.ctaHref}
               className="group relative block aspect-4/3 overflow-hidden sm:aspect-16/10 md:aspect-21/9"
@@ -124,6 +132,25 @@ export default function HeroCarousel() {
           </SwiperSlide>
         ))}
       </Swiper>
+
+      <div className="mt-4 flex justify-center gap-2" role="tablist" aria-label="スライド">
+        {slides.map((slide, index) => {
+          const isActive = activeIndex === index;
+          return (
+            <button
+              key={slide.id}
+              type="button"
+              role="tab"
+              aria-selected={isActive}
+              aria-label={`${index + 1}枚目`}
+              onClick={() => swiperRef.current?.slideToLoop(index)}
+              className={`h-2 w-2 rounded-full transition-colors ${
+                isActive ? "bg-accent-1" : "bg-[#c4bbb0]"
+              }`}
+            />
+          );
+        })}
+      </div>
 
       <button
         type="button"

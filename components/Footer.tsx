@@ -54,11 +54,11 @@ export default function Footer() {
           <div className="space-y-4">
             <Link href="/">
               <Image
-                src="/images/logo.png"
+                src="/images/logo_v1.png"
                 alt="roomy"
-                width={140}
-                height={36}
-                className="h-9 w-auto opacity-80"
+                width={480}
+                height={120}
+                className="h-9 w-auto opacity-90"
               />
             </Link>
             <p className="font-serif text-sm leading-relaxed text-text">

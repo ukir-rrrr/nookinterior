@@ -25,6 +25,16 @@ export const metadata: Metadata = {
   },
   description:
     "roomy（ルーミー）は、利用シーンから探す家具・インテリアのセレクトショップです。ソファから雑貨まで、部屋づくりの最初の1歩を提案します。",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/favicon_v1.png", type: "image/png", sizes: "192x192" },
+      { url: "/favicon-32_v1.png", type: "image/png", sizes: "32x32" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: [{ url: "/images/apple-touch-icon_v1.png", sizes: "180x180" }],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

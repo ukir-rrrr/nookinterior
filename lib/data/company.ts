@@ -1,9 +1,12 @@
 export const companyInfo = {
-  name: "[ここに会社名を記入]",
-  representative: "[ここに代表者名を記入]",
-  address: "[ここに所在地を記入]",
-  phone: "[ここに電話番号を記入]",
-  email: "[ここにメールアドレスを記入]",
+  name: "フォースペース合同会社",
+  representative: "四宮  良輔",
+  address: "〒985-0084  宮城県塩竈市楓町三丁目1番13号",
+  phone: "080-6045-5714",
+  capital: "900万",
+  business:
+    "家具・インテリア雑貨の企画・販売、およびインターネットによる通信販売事業",
+  email: "shinomiya@roomy-right.com",
   hours: "平日 10:00〜17:00（土日祝休）",
   shopName: "roomy",
 };
