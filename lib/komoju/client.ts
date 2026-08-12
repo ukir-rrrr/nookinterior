@@ -8,6 +8,9 @@ type KomojuSession = {
   payment_data?: {
     external_order_num?: string;
   };
+  metadata?: {
+    order_id?: string;
+  };
   payment?: {
     status?: string;
     amount?: number;
@@ -121,32 +124,31 @@ export async function getKomojuSession(
   return data;
 }
 
-/** セッション完了かつ金額・注文番号の一致を確認 */
+/**
+ * セッション完了かつ金額・注文番号の一致を確認。
+ * external_order_num は createKomojuSession で必ず注文番号を設定しているため、
+ * 一致しない／取得できないセッションは他注文の流用とみなして拒否する。
+ */
 export function isKomojuPaymentSuccessful(
   session: KomojuSession,
   expectedAmount: number,
-  expectedOrderId?: string,
+  expectedOrderId: string,
 ): boolean {
   if (session.amount !== expectedAmount) return false;
   if (session.currency && session.currency.toUpperCase() !== "JPY") {
     return false;
   }
 
-  if (expectedOrderId) {
-    const external =
-      session.external_order_num ||
-      session.payment_data?.external_order_num ||
-      session.payment?.external_order_num;
-    if (external && external !== expectedOrderId) return false;
-  }
+  const external =
+    session.external_order_num ||
+    session.payment_data?.external_order_num ||
+    session.payment?.external_order_num ||
+    session.metadata?.order_id;
+  if (external !== expectedOrderId) return false;
 
   if (session.status === "completed") return true;
   const paymentStatus = session.payment?.status;
-  return (
-    paymentStatus === "captured" ||
-    paymentStatus === "authorized" ||
-    paymentStatus === "pending"
-  );
+  return paymentStatus === "captured" || paymentStatus === "authorized";
 }
 
 export function paymentTypesForMethod(

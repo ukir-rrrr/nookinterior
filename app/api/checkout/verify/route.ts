@@ -58,6 +58,14 @@ export async function POST(request: Request) {
     );
   }
 
+  // 前払い決済の注文が決済照会なしで完了扱いになることを防ぐ
+  if (payload.mode !== "komoju" && payload.customer.paymentMethod !== "cod") {
+    return NextResponse.json(
+      { ok: false, error: "決済情報を確認できませんでした" },
+      { status: 400 },
+    );
+  }
+
   if (payload.mode === "komoju") {
     const sessionId = parsed.data.komojuSessionId?.trim();
     if (!sessionId) {

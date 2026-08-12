@@ -51,7 +51,26 @@ export async function POST(request: Request) {
 
   const { order } = built;
   const method = order.customer.paymentMethod;
-  const useKomoju = isKomojuConfigured() && method !== "cod";
+  const requiresOnlinePayment = method !== "cod";
+
+  // 本番でKOMOJU未設定のまま前払い決済を通すと、未決済で注文完了になるため拒否する
+  if (
+    requiresOnlinePayment &&
+    !isKomojuConfigured() &&
+    process.env.NODE_ENV === "production"
+  ) {
+    console.error("[checkout/create] KOMOJU_SECRET_KEY is not configured");
+    return NextResponse.json(
+      {
+        ok: false,
+        error:
+          "ただ今オンライン決済をご利用いただけません。時間をおいて再度お試しください。",
+      },
+      { status: 503 },
+    );
+  }
+
+  const useKomoju = isKomojuConfigured() && requiresOnlinePayment;
 
   if (!useKomoju) {
     const payload = toSignedPayload(order, "demo");

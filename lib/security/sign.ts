@@ -1,18 +1,25 @@
 import { createHmac, timingSafeEqual } from "crypto";
 
+const MIN_SECRET_LENGTH = 32;
+
 function getSigningSecret(): string {
-  const secret =
-    process.env.CHECKOUT_SIGNING_SECRET ||
-    process.env.KOMOJU_SECRET_KEY ||
-    "";
-  if (!secret) {
-    // 開発時のみ。本番では必ず環境変数を設定すること
-    if (process.env.NODE_ENV === "production") {
-      throw new Error("CHECKOUT_SIGNING_SECRET or KOMOJU_SECRET_KEY is required");
+  const secret = process.env.CHECKOUT_SIGNING_SECRET?.trim() || "";
+
+  // 決済APIキーの流用は漏洩時の影響範囲が広がるため、本番は専用シークレットを必須にする
+  if (process.env.NODE_ENV === "production") {
+    if (!secret) {
+      throw new Error("CHECKOUT_SIGNING_SECRET is required in production");
     }
-    return "roomy-dev-signing-secret-change-me";
+    if (secret.length < MIN_SECRET_LENGTH) {
+      throw new Error(
+        `CHECKOUT_SIGNING_SECRET must be at least ${MIN_SECRET_LENGTH} characters`,
+      );
+    }
+    return secret;
   }
-  return secret;
+
+  // 開発時のみフォールバック。共有環境では .env.local に必ず設定すること
+  return secret || process.env.KOMOJU_SECRET_KEY?.trim() || "roomy-dev-signing-secret-change-me";
 }
 
 export function signPayload(payload: object): string {
