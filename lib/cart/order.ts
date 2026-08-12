@@ -2,15 +2,10 @@ import type { CartItem } from "@/lib/cart/types";
 
 export const ORDER_STORAGE_KEY = "roomy-last-order";
 
-export type PaymentMethod =
-  | "credit"
-  | "bank"
-  | "applepay"
-  | "cod";
+export type PaymentMethod = "credit" | "applepay" | "cod";
 
 export const paymentMethodLabels: Record<PaymentMethod, string> = {
   credit: "クレジットカード",
-  bank: "銀行振込",
   applepay: "Apple Pay",
   cod: "代金引換",
 };

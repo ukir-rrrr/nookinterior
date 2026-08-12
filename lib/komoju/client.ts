@@ -150,15 +150,13 @@ export function isKomojuPaymentSuccessful(
 }
 
 export function paymentTypesForMethod(
-  method: "credit" | "bank" | "applepay" | "cod",
+  method: "credit" | "applepay" | "cod",
 ): string[] | undefined {
   switch (method) {
     case "credit":
       return ["credit_card"];
     case "applepay":
       return ["apple_pay"];
-    case "bank":
-      return ["bank_transfer"];
     default:
       return undefined;
   }

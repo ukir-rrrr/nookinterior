@@ -1,11 +1,6 @@
 import { z } from "zod";
 
-export const paymentMethodSchema = z.enum([
-  "credit",
-  "bank",
-  "applepay",
-  "cod",
-]);
+export const paymentMethodSchema = z.enum(["credit", "applepay", "cod"]);
 
 /** クライアントから受け取る行：価格は一切受け取らない */
 export const checkoutLineItemSchema = z.object({

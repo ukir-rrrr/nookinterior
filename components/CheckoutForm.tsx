@@ -17,7 +17,7 @@ import {
 import { SHIPPING_FLAT, SHIPPING_FREE_THRESHOLD } from "@/lib/cart/types";
 import { formatPrice, getProductById } from "@/lib/data/products";
 
-const paymentOptions: PaymentMethod[] = ["credit", "bank", "applepay", "cod"];
+const paymentOptions: PaymentMethod[] = ["credit", "applepay", "cod"];
 
 const initialForm: CheckoutFormData = {
   name: "",

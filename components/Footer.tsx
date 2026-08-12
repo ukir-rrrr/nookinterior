@@ -43,7 +43,7 @@ const legalLinks = [
 //   { href: "https://line.me/", label: "LINE" },
 // ];
 
-const paymentMethods = ["クレジットカード", "銀行振込", "Apple Pay", "代金引換"];
+const paymentMethods = ["クレジットカード", "Apple Pay", "代金引換"];
 
 export default function Footer() {
   return (
