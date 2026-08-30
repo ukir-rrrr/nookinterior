@@ -1,0 +1,347 @@
+#!/usr/bin/env node
+// @ts-check
+/**
+ * Phase B: data/rakuten/manifest.json -> lib/data/products.ts
+ *
+ * docs/PROJECT_GUIDE.md の STEP 2.6 に基づき、楽天収集マニフェストから
+ * EC サイトの商品データ (lib/data/products.ts) を自動生成する。
+ *
+ * - 既存の Product 型・ProductOption 型・ProductReview 型を維持する
+ * - lib/data/products.ts が公開しているヘルパー関数群 (getProductById など、
+ *   アプリ各所から import されている) をそのまま維持する
+ * - products 配列のみをマニフェスト由来のデータで差し替える
+ *
+ * 実行: node scripts/build-products.mjs
+ */
+
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ROOT = resolve(__dirname, "..");
+const MANIFEST_PATH = join(ROOT, "data", "rakuten", "manifest.json");
+const OUTPUT_PATH = join(ROOT, "lib", "data", "products.ts");
+const PUBLIC_DIR = join(ROOT, "public");
+
+/** categories.ts に定義された有効な categorySlug */
+const VALID_CATEGORY_SLUGS = new Set([
+  "sofa",
+  "table",
+  "chair",
+  "tvboard",
+  "storage",
+  "bed",
+  "mirror",
+  "lighting",
+  "rug",
+  "goods",
+]);
+const DEFAULT_CATEGORY_SLUG = "goods";
+
+/**
+ * 楽天の itemName には "【楽天市場】" の接頭辞や "：ショップ名" の接尾辞が
+ * 含まれることがあるため、表示用に軽く整形する。
+ * @param {string} raw
+ */
+function cleanName(raw) {
+  let name = String(raw ?? "").trim();
+  name = name.replace(/^【楽天市場】\s*/u, "");
+  name = name.replace(/[：:][^：:]*$/u, "").trim();
+  return name || raw;
+}
+
+/**
+ * @param {string} publicPath e.g. "/images/products/abr920125/01.jpg"
+ */
+function imageExists(publicPath) {
+  if (typeof publicPath !== "string" || !publicPath.startsWith("/")) return false;
+  return existsSync(join(PUBLIC_DIR, publicPath.replace(/^\//, "")));
+}
+
+function loadManifest() {
+  if (!existsSync(MANIFEST_PATH)) {
+    throw new Error(`manifest が見つかりません: ${MANIFEST_PATH}`);
+  }
+  const json = JSON.parse(readFileSync(MANIFEST_PATH, "utf8"));
+  if (!Array.isArray(json.products)) {
+    throw new Error("manifest.products が配列ではありません");
+  }
+  return json;
+}
+
+const DEFAULT_REVIEWS = [
+  {
+    id: "r1",
+    author: "M.K さん",
+    rating: 5,
+    date: "2026.06.12",
+    comment:
+      "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。",
+  },
+  {
+    id: "r2",
+    author: "Y.S さん",
+    rating: 4,
+    date: "2026.06.08",
+    comment: "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。",
+  },
+];
+
+const DEFAULT_COLORS = [
+  { id: "natural", label: "ナチュラル", inStock: true },
+  { id: "walnut", label: "ウォールナット", inStock: true },
+  { id: "white", label: "ホワイト", inStock: true },
+];
+
+const DEFAULT_SIZES = [{ id: "free", label: "フリーサイズ", inStock: true }];
+
+const DEFAULT_DELIVERY_NOTE =
+  "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）";
+
+/**
+ * manifest の 1 商品を Product オブジェクトへ変換する。
+ * @param {Record<string, any>} item
+ */
+function toProduct(item, warnings) {
+  const id = String(item.id ?? "").trim();
+  if (!id) {
+    warnings.push(`id が無い商品をスキップしました: ${JSON.stringify(item).slice(0, 80)}`);
+    return null;
+  }
+
+  const images = Array.isArray(item.images)
+    ? item.images.filter((p) => typeof p === "string" && p.length > 0)
+    : [];
+  const existingImages = images.filter(imageExists);
+  const missing = images.filter((p) => !imageExists(p));
+  if (missing.length > 0) {
+    warnings.push(`${id}: 画像ファイルが見つかりません -> ${missing.join(", ")}`);
+  }
+  if (existingImages.length === 0) {
+    warnings.push(`${id}: 有効な画像が 0 枚のためスキップしました`);
+    return null;
+  }
+
+  let categorySlug = String(item.categorySlug ?? "").trim();
+  if (!VALID_CATEGORY_SLUGS.has(categorySlug)) {
+    warnings.push(
+      `${id}: 未知の categorySlug "${categorySlug}" -> "${DEFAULT_CATEGORY_SLUG}" にフォールバック`,
+    );
+    categorySlug = DEFAULT_CATEGORY_SLUG;
+  }
+
+  const price = Number(item.price);
+  if (!Number.isFinite(price) || price <= 0) {
+    warnings.push(`${id}: price が不正 (${item.price}) のためスキップしました`);
+    return null;
+  }
+
+  const name = cleanName(item.name);
+
+  /** @type {Record<string, any>} */
+  const product = {
+    id,
+    name,
+    price,
+    categorySlug,
+    sceneSlugs: [],
+    image: existingImages[0],
+    images: existingImages.slice(0, 8),
+    description: `${name}（参考：楽天市場の商品情報を基にしています）`,
+    material: "詳細は商品ページ・メーカー情報をご確認ください。",
+    sizeInfo: "サイズ・仕様の詳細は商品ページをご確認ください。",
+    deliveryNote: DEFAULT_DELIVERY_NOTE,
+    colors: DEFAULT_COLORS,
+    sizes: DEFAULT_SIZES,
+    reviews: DEFAULT_REVIEWS,
+  };
+
+  if (item.rank != null && Number.isFinite(Number(item.rank))) {
+    product.rank = Number(item.rank);
+  }
+
+  return product;
+}
+
+const FILE_HEADER = `// このファイルは scripts/build-products.mjs により自動生成されています。
+// 手動で編集せず、data/rakuten/manifest.json を更新してから
+//   node scripts/build-products.mjs
+// を再実行してください。
+
+export type ProductOption = {
+  id: string;
+  label: string;
+  inStock: boolean;
+};
+
+export type ProductReview = {
+  id: string;
+  author: string;
+  rating: number;
+  date: string;
+  comment: string;
+};
+
+export type Product = {
+  id: string;
+  name: string;
+  price: number;
+  salePrice?: number;
+  categorySlug: string;
+  sceneSlugs: string[];
+  image: string;
+  images: string[];
+  description: string;
+  material: string;
+  sizeInfo: string;
+  deliveryNote: string;
+  colors: ProductOption[];
+  sizes: ProductOption[];
+  reviews: ProductReview[];
+  isNew?: boolean;
+  isRecommended?: boolean;
+  rank?: number;
+};
+`;
+
+const FILE_FOOTER = `
+export function formatPrice(price: number): string {
+  return \`¥\${price.toLocaleString("ja-JP")}\`;
+}
+
+export function getProductById(id: string): Product | undefined {
+  return products.find((p) => p.id === id);
+}
+
+export function getRelatedProducts(product: Product, limit = 4): Product[] {
+  return products
+    .filter((p) => p.categorySlug === product.categorySlug && p.id !== product.id)
+    .slice(0, limit);
+}
+
+export function getAverageRating(product: Product): number {
+  if (product.reviews.length === 0) return 0;
+  const total = product.reviews.reduce((sum, review) => sum + review.rating, 0);
+  return Math.round((total / product.reviews.length) * 10) / 10;
+}
+
+export function getNewArrivals(limit = 4): Product[] {
+  return products.filter((p) => p.isNew).slice(0, limit);
+}
+
+export function getAllNewArrivals(): Product[] {
+  return products.filter((p) => p.isNew);
+}
+
+export type SearchFilters = {
+  q?: string;
+  category?: string;
+  scene?: string;
+  minPrice?: number;
+  maxPrice?: number;
+};
+
+export function searchProducts(filters: SearchFilters): Product[] {
+  const q = filters.q?.trim().toLowerCase() ?? "";
+
+  return products.filter((product) => {
+    if (filters.category && product.categorySlug !== filters.category) {
+      return false;
+    }
+    if (filters.scene && !product.sceneSlugs.includes(filters.scene)) {
+      return false;
+    }
+    const price = displayPrice(product);
+    if (filters.minPrice != null && price < filters.minPrice) {
+      return false;
+    }
+    if (filters.maxPrice != null && price > filters.maxPrice) {
+      return false;
+    }
+    if (!q) return true;
+    return (
+      product.name.toLowerCase().includes(q) ||
+      product.description.toLowerCase().includes(q) ||
+      product.material.toLowerCase().includes(q)
+    );
+  });
+}
+
+export function getRecommended(limit = 4): Product[] {
+  return products.filter((p) => p.isRecommended).slice(0, limit);
+}
+
+export function getRankingByCategory(categorySlug: string, limit = 4): Product[] {
+  return products
+    .filter((p) => p.categorySlug === categorySlug)
+    .sort((a, b) => (a.rank ?? 99) - (b.rank ?? 99))
+    .slice(0, limit);
+}
+
+export type ProductSort = "recommended" | "price-asc" | "price-desc" | "new";
+
+function displayPrice(product: Product): number {
+  return product.salePrice ?? product.price;
+}
+
+export function getProductsByCategory(
+  categorySlug: string,
+  sort: ProductSort = "recommended",
+): Product[] {
+  const items = products.filter((p) => p.categorySlug === categorySlug);
+  return sortProducts(items, sort);
+}
+
+export function getProductsByScene(
+  sceneSlug: string,
+  sort: ProductSort = "recommended",
+): Product[] {
+  const items = products.filter((p) => p.sceneSlugs.includes(sceneSlug));
+  return sortProducts(items, sort);
+}
+
+function sortProducts(items: Product[], sort: ProductSort): Product[] {
+  switch (sort) {
+    case "price-asc":
+      return [...items].sort((a, b) => displayPrice(a) - displayPrice(b));
+    case "price-desc":
+      return [...items].sort((a, b) => displayPrice(b) - displayPrice(a));
+    case "new":
+      return [...items].sort((a, b) => Number(b.isNew) - Number(a.isNew));
+    case "recommended":
+    default:
+      return [...items].sort((a, b) => (a.rank ?? 99) - (b.rank ?? 99));
+  }
+}
+`;
+
+function main() {
+  const manifest = loadManifest();
+  /** @type {string[]} */
+  const warnings = [];
+
+  const products = manifest.products
+    .map((item) => toProduct(item, warnings))
+    .filter((p) => p !== null);
+
+  const productsLiteral = JSON.stringify(products, null, 2);
+  const output = `${FILE_HEADER}\nexport const products: Product[] = ${productsLiteral};\n${FILE_FOOTER}`;
+
+  writeFileSync(OUTPUT_PATH, output, "utf8");
+
+  const totalImages = products.reduce((sum, p) => sum + p.images.length, 0);
+  console.log(`Phase B 完了`);
+  console.log(`- manifest 商品数: ${manifest.products.length}`);
+  console.log(`- 生成商品数: ${products.length}`);
+  console.log(`- 画像合計: ${totalImages} 枚`);
+  console.log(`- 出力: ${OUTPUT_PATH.replace(ROOT + "/", "")}`);
+  if (warnings.length > 0) {
+    console.log(`- 警告 (${warnings.length} 件):`);
+    for (const w of warnings) console.log(`  * ${w}`);
+  } else {
+    console.log(`- 警告: なし`);
+  }
+}
+
+main();

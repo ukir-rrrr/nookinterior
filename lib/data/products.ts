@@ -1,3 +1,8 @@
+// このファイルは scripts/build-products.mjs により自動生成されています。
+// 手動で編集せず、data/rakuten/manifest.json を更新してから
+//   node scripts/build-products.mjs
+// を再実行してください。
+
 export type ProductOption = {
   id: string;
   label: string;
@@ -33,435 +38,317 @@ export type Product = {
   rank?: number;
 };
 
-const defaultReviews: ProductReview[] = [
-  {
-    id: "r1",
-    author: "M.K さん",
-    rating: 5,
-    date: "2026.06.12",
-    comment: "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。",
-  },
-  {
-    id: "r2",
-    author: "Y.S さん",
-    rating: 4,
-    date: "2026.06.08",
-    comment: "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。",
-  },
-];
-
-function baseDetail(categorySlug: string, image: string, mainImage: string) {
-  return {
-    images: [image, mainImage],
-    deliveryNote: "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
-    colors: [
-      { id: "natural", label: "ナチュラル", inStock: true },
-      { id: "walnut", label: "ウォールナット", inStock: true },
-      { id: "gray", label: "グレー", inStock: false },
-    ],
-    sizes: [
-      { id: "s", label: "S", inStock: true },
-      { id: "m", label: "M", inStock: true },
-      { id: "l", label: "L", inStock: false },
-    ],
-    reviews: defaultReviews,
-    categorySlug,
-  };
-}
-
 export const products: Product[] = [
   {
-    id: "sofa-01",
-    name: "roomy ファブリックソファ 2.5P",
-    price: 89800,
-    salePrice: 79800,
-    sceneSlugs: ["living"],
-    image: "/images/products/sofa/01.jpg",
-    ...baseDetail("sofa", "/images/products/sofa/01.jpg", "/images/products/sofa/main.jpg"),
-    description:
-      "ゆったり座れる2.5人掛けソファ。柔らかなファブリックと落ち着いたフォルムで、リビングの中心になる一脚です。",
-    material: "本体：木材（パイン）／張地：ポリエステル100%",
-    sizeInfo: "W180 × D85 × H78 cm（座面高 42 cm）",
-    isNew: true,
-    isRecommended: true,
-    rank: 1,
-    sizes: [
-      { id: "2p", label: "2人掛け", inStock: true },
-      { id: "2.5p", label: "2.5人掛け", inStock: true },
-      { id: "3p", label: "3人掛け", inStock: false },
+    "id": "abr920125",
+    "name": "ワゴン キャスター付き 3段 クローゼット収納ワゴン ブックラック 多目的ラック サイドラック オフィスラック 本棚 a4 雑誌 文庫 コミック CD DVD 大容量 扉付 約 奥行き30 奥深タイプ 木目調 ウォールナット/オーク/ホワイト 【組立品/完成品が選べる】 ABR920125",
+    "price": 8479,
+    "categorySlug": "storage",
+    "sceneSlugs": [],
+    "image": "/images/products/abr920125/01.jpg",
+    "images": [
+      "/images/products/abr920125/01.jpg",
+      "/images/products/abr920125/02.jpg",
+      "/images/products/abr920125/03.jpg",
+      "/images/products/abr920125/04.jpg",
+      "/images/products/abr920125/05.jpg",
+      "/images/products/abr920125/06.jpg",
+      "/images/products/abr920125/07.jpg",
+      "/images/products/abr920125/08.jpg"
     ],
-  },
-  {
-    id: "sofa-02",
-    name: "コンパクトソファ グレー",
-    price: 59800,
-    sceneSlugs: ["living"],
-    image: "/images/products/sofa/main.jpg",
-    ...baseDetail("sofa", "/images/products/sofa/main.jpg", "/images/products/sofa/01.jpg"),
-    description: "一人暮らしや小さめのリビングに合うコンパクトソファ。すっきりとした脚部で空間を広く見せます。",
-    material: "本体：木材／張地：ポリエステル・レーヨン混",
-    sizeInfo: "W140 × D78 × H75 cm",
-    rank: 2,
-  },
-  {
-    id: "sofa-03",
-    name: "コーナーソファ ライトグレー",
-    price: 128000,
-    sceneSlugs: ["living"],
-    image: "/images/products/sofa/01.jpg",
-    ...baseDetail("sofa", "/images/products/sofa/01.jpg", "/images/products/sofa/main.jpg"),
-    description: "ゆとりのあるリビング向けのコーナーソファ。家族団らんの時間をゆったり支えます。",
-    material: "本体：木材／張地：ポリエステル100%",
-    sizeInfo: "W240 × D160 × H78 cm",
-    rank: 3,
-  },
-  {
-    id: "sofa-04",
-    name: "カバーリングソファ アイボリー",
-    price: 72000,
-    sceneSlugs: ["living"],
-    image: "/images/products/sofa/main.jpg",
-    ...baseDetail("sofa", "/images/products/sofa/main.jpg", "/images/products/sofa/01.jpg"),
-    description: "カバーを外して洗える、暮らしやすさ重視のソファ。",
-    material: "本体：木材／張地：コットン混",
-    sizeInfo: "W170 × D82 × H76 cm",
-    rank: 4,
-  },
-  {
-    id: "table-01",
-    name: "オーク ダイニングテーブル 150",
-    price: 64800,
-    sceneSlugs: ["dining"],
-    image: "/images/products/table/01.jpg",
-    ...baseDetail("table", "/images/products/table/01.jpg", "/images/products/table/main.jpg"),
-    description: "オーク無垢材の温もりを感じるダイニングテーブル。4人での食事にぴったりなサイズ感です。",
-    material: "オーク無垢材（オイル仕上げ）",
-    sizeInfo: "W150 × D80 × H72 cm",
-    isRecommended: true,
-    rank: 1,
-    sizes: [
-      { id: "135", label: "135cm", inStock: true },
-      { id: "150", label: "150cm", inStock: true },
-      { id: "180", label: "180cm", inStock: false },
+    "description": "ワゴン キャスター付き 3段 クローゼット収納ワゴン ブックラック 多目的ラック サイドラック オフィスラック 本棚 a4 雑誌 文庫 コミック CD DVD 大容量 扉付 約 奥行き30 奥深タイプ 木目調 ウォールナット/オーク/ホワイト 【組立品/完成品が選べる】 ABR920125（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
     ],
-  },
-  {
-    id: "table-02",
-    name: "ラウンドサイドテーブル",
-    price: 19800,
-    sceneSlugs: ["living", "bedroom"],
-    image: "/images/products/table/main.jpg",
-    ...baseDetail("table", "/images/products/table/main.jpg", "/images/products/table/01.jpg"),
-    description: "ソファ横やベッドサイドに置きやすい丸型サイドテーブル。軽やかな印象のデザインです。",
-    material: "オーク突板／スチール",
-    sizeInfo: "φ45 × H50 cm",
-    isNew: true,
-    rank: 2,
-    sizes: [{ id: "free", label: "フリーサイズ", inStock: true }],
-  },
-  {
-    id: "table-03",
-    name: "ローテーブル ウォールナット",
-    price: 34800,
-    sceneSlugs: ["living"],
-    image: "/images/products/table/01.jpg",
-    ...baseDetail("table", "/images/products/table/01.jpg", "/images/products/table/main.jpg"),
-    description: "ソファ前に合う低めのローテーブル。落ち着いた色合いが空間を引き締めます。",
-    material: "ウォールナット突板",
-    sizeInfo: "W110 × D50 × H38 cm",
-    rank: 3,
-  },
-  {
-    id: "table-04",
-    name: "コンパクトデスク オーク",
-    price: 29800,
-    sceneSlugs: ["study", "bedroom"],
-    image: "/images/products/table/main.jpg",
-    ...baseDetail("table", "/images/products/table/main.jpg", "/images/products/table/01.jpg"),
-    description: "在宅ワークや学習に使いやすいコンパクトデスク。",
-    material: "オーク突板／スチール",
-    sizeInfo: "W100 × D50 × H72 cm",
-    rank: 4,
-  },
-  {
-    id: "chair-01",
-    name: "ラウンジチェア ベージュ",
-    price: 32800,
-    sceneSlugs: ["living", "study"],
-    image: "/images/products/chair/01.jpg",
-    ...baseDetail("chair", "/images/products/chair/01.jpg", "/images/products/chair/main.jpg"),
-    description: "読書やくつろぎの時間に寄り添うラウンジチェア。程よい傾斜で長時間座っても疲れにくい設計です。",
-    material: "フレーム：アッシュ材／張地：ファブリック",
-    sizeInfo: "W68 × D78 × H82 cm",
-    isNew: true,
-    isRecommended: true,
-    rank: 1,
-    sizes: [{ id: "free", label: "フリーサイズ", inStock: true }],
-  },
-  {
-    id: "chair-02",
-    name: "ダイニングチェア 2脚セット",
-    price: 24800,
-    sceneSlugs: ["dining"],
-    image: "/images/products/chair/main.jpg",
-    ...baseDetail("chair", "/images/products/chair/main.jpg", "/images/products/chair/01.jpg"),
-    description: "テーブルを選ばないシンプルなダイニングチェア。2脚セットで揃えやすい価格です。",
-    material: "オーク材／座面：ファブリック",
-    sizeInfo: "W45 × D52 × H78 cm（1脚）",
-    rank: 2,
-  },
-  {
-    id: "chair-03",
-    name: "アームチェア ダークブラウン",
-    price: 27800,
-    sceneSlugs: ["living", "study"],
-    image: "/images/products/chair/01.jpg",
-    ...baseDetail("chair", "/images/products/chair/01.jpg", "/images/products/chair/main.jpg"),
-    description: "肘付きで座りやすいアームチェア。ダイニングにもワークスペースにも。",
-    material: "オーク材／座面：ファブリック",
-    sizeInfo: "W55 × D54 × H78 cm",
-    rank: 3,
-  },
-  {
-    id: "chair-04",
-    name: "ベンチシート ナチュラル",
-    price: 22800,
-    sceneSlugs: ["dining", "living"],
-    image: "/images/products/chair/main.jpg",
-    ...baseDetail("chair", "/images/products/chair/main.jpg", "/images/products/chair/01.jpg"),
-    description: "ダイニングに合わせやすい木製ベンチ。人数に応じて柔軟に使えます。",
-    material: "オーク材",
-    sizeInfo: "W120 × D35 × H45 cm",
-    rank: 4,
-  },
-  {
-    id: "tvboard-01",
-    name: "ローボード ウォールナット 180",
-    price: 54800,
-    sceneSlugs: ["living"],
-    image: "/images/products/tvboard/01_V1.jpg",
-    ...baseDetail("tvboard", "/images/products/tvboard/01_V1.jpg", "/images/products/tvboard/main_V1.jpg"),
-    description: "配線すっきりのローボード。ウォールナットの落ち着いた色合いがリビングを引き締めます。",
-    material: "ウォールナット突板／MDF",
-    sizeInfo: "W180 × D40 × H40 cm",
-    rank: 1,
-    sizes: [
-      { id: "150", label: "150cm", inStock: true },
-      { id: "180", label: "180cm", inStock: true },
-      { id: "200", label: "200cm", inStock: false },
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
     ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ]
   },
   {
-    id: "storage-01",
-    name: "オープンシェルフ ナチュラル",
-    price: 27800,
-    sceneSlugs: ["living", "study"],
-    image: "/images/products/storage/01.jpg",
-    ...baseDetail("storage", "/images/products/storage/01.jpg", "/images/products/storage/main.jpg"),
-    description: "見せる収納にぴったりのオープンシェルフ。本棚やディスプレイラックとして使えます。",
-    material: "パイン材（クリア塗装）",
-    sizeInfo: "W90 × D30 × H150 cm",
-    isRecommended: true,
-    rank: 1,
-  },
-  {
-    id: "storage-02",
-    name: "キャビネット オーク",
-    price: 42800,
-    sceneSlugs: ["living"],
-    image: "/images/products/storage/main.jpg",
-    ...baseDetail("storage", "/images/products/storage/main.jpg", "/images/products/storage/01.jpg"),
-    description: "扉付きで生活感を隠せるキャビネット。リビングやダイニングの収納として活躍します。",
-    material: "オーク突板／MDF",
-    sizeInfo: "W80 × D40 × H100 cm",
-    rank: 2,
-  },
-  {
-    id: "storage-03",
-    name: "サイドボード ウォールナット",
-    price: 49800,
-    sceneSlugs: ["living", "dining"],
-    image: "/images/products/storage/01.jpg",
-    ...baseDetail("storage", "/images/products/storage/01.jpg", "/images/products/storage/main.jpg"),
-    description: "リビングやダイニングに置きやすいサイドボード。収納力と見た目のバランスがよい一台です。",
-    material: "ウォールナット突板／MDF",
-    sizeInfo: "W120 × D40 × H75 cm",
-    rank: 3,
-  },
-  {
-    id: "storage-04",
-    name: "ブックシェルフ スリム",
-    price: 19800,
-    sceneSlugs: ["study", "living"],
-    image: "/images/products/storage/main.jpg",
-    ...baseDetail("storage", "/images/products/storage/main.jpg", "/images/products/storage/01.jpg"),
-    description: "狭小スペースにも置きやすいスリムな本棚。",
-    material: "パイン材",
-    sizeInfo: "W45 × D28 × H180 cm",
-    rank: 4,
-  },
-  {
-    id: "bed-01",
-    name: "ベッドフレーム ダブル オーク",
-    price: 79800,
-    sceneSlugs: ["bedroom"],
-    image: "/images/products/bed/01.jpg",
-    ...baseDetail("bed", "/images/products/bed/01.jpg", "/images/products/bed/main.jpg"),
-    description: "シンプルなオークのベッドフレーム。ヘッドボードのやさしい曲線が寝室をやわらかく演出します。",
-    material: "オーク突板／パイン材",
-    sizeInfo: "W146 × D200 × H85 cm（マットレス別売）",
-    isNew: true,
-    rank: 1,
-    sizes: [
-      { id: "single", label: "シングル", inStock: true },
-      { id: "semi", label: "セミダブル", inStock: true },
-      { id: "double", label: "ダブル", inStock: true },
+    "id": "abr920153",
+    "name": "本棚 ガラス扉キャビネット コミックシェルフ ブックシェルフ コレクション 棚 整理棚 リビングボード カップボード コミック収納 PUTUPUTU 2扉/3扉/4扉/グレージュ/グレー 【組立品/完成品が選べる】",
+    "price": 13380,
+    "categorySlug": "storage",
+    "sceneSlugs": [],
+    "image": "/images/products/abr920153/01.jpg",
+    "images": [
+      "/images/products/abr920153/01.jpg",
+      "/images/products/abr920153/02.jpg",
+      "/images/products/abr920153/03.jpg",
+      "/images/products/abr920153/04.jpg",
+      "/images/products/abr920153/05.jpg",
+      "/images/products/abr920153/06.jpg",
+      "/images/products/abr920153/07.jpg",
+      "/images/products/abr920153/08.jpg"
     ],
-  },
-  {
-    id: "bed-02",
-    name: "ヘッドボード付きベッド シングル",
-    price: 54800,
-    sceneSlugs: ["bedroom"],
-    image: "/images/products/bed/main.jpg",
-    ...baseDetail("bed", "/images/products/bed/main.jpg", "/images/products/bed/01.jpg"),
-    description: "一人暮らしにぴったりなシングルベッド。ヘッドボードにクッション性があり、読書にも便利です。",
-    material: "木材／ファブリック",
-    sizeInfo: "W100 × D205 × H90 cm",
-    rank: 2,
-    sizes: [
-      { id: "single", label: "シングル", inStock: true },
-      { id: "semi", label: "セミダブル", inStock: false },
+    "description": "本棚 ガラス扉キャビネット コミックシェルフ ブックシェルフ コレクション 棚 整理棚 リビングボード カップボード コミック収納 PUTUPUTU 2扉/3扉/4扉/グレージュ/グレー 【組立品/完成品が選べる】（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
     ],
-  },
-  {
-    id: "bed-03",
-    name: "ローベッド セミダブル",
-    price: 62800,
-    sceneSlugs: ["bedroom"],
-    image: "/images/products/bed/01.jpg",
-    ...baseDetail("bed", "/images/products/bed/01.jpg", "/images/products/bed/main.jpg"),
-    description: "低い重心で部屋を広く見せるローベッド。",
-    material: "オーク突板",
-    sizeInfo: "W124 × D200 × H40 cm",
-    rank: 3,
-  },
-  {
-    id: "bed-04",
-    name: "収納付きベッド ダブル",
-    price: 98000,
-    sceneSlugs: ["bedroom"],
-    image: "/images/products/bed/main.jpg",
-    ...baseDetail("bed", "/images/products/bed/main.jpg", "/images/products/bed/01.jpg"),
-    description: "引き出し収納付きで、寝室の収納をまとめて確保できます。",
-    material: "オーク突板／MDF",
-    sizeInfo: "W146 × D200 × H85 cm",
-    rank: 4,
-  },
-  {
-    id: "mirror-01",
-    name: "スタンドミラー ウッドフレーム",
-    price: 19800,
-    sceneSlugs: ["bedroom", "living"],
-    image: "/images/products/mirror/01_V1.jpg",
-    ...baseDetail("mirror", "/images/products/mirror/01_V1.jpg", "/images/products/mirror/main_V1.jpg"),
-    description: "木枠のあたたかみがあるスタンドミラー。姿見として寝室や玄関に置けます。",
-    material: "アッシュ材／ガラス",
-    sizeInfo: "W50 × D40 × H160 cm",
-    rank: 1,
-    sizes: [{ id: "free", label: "フリーサイズ", inStock: true }],
-  },
-  {
-    id: "lighting-01",
-    name: "ペンダントライト リネンシェード",
-    price: 14800,
-    sceneSlugs: ["dining", "living"],
-    image: "/images/products/lighting/01.jpg",
-    ...baseDetail("lighting", "/images/products/lighting/01.jpg", "/images/products/lighting/main.jpg"),
-    description: "リネンシェードがやわらかな光を広げるペンダントライト。ダイニングテーブルの上に最適です。",
-    material: "シェード：リネン／金具：スチール",
-    sizeInfo: "φ40 × H28 cm（コード長 100 cm）",
-    isNew: true,
-    isRecommended: true,
-    rank: 1,
-    colors: [
-      { id: "ivory", label: "アイボリー", inStock: true },
-      { id: "beige", label: "ベージュ", inStock: true },
-      { id: "gray", label: "グレー", inStock: false },
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
     ],
-    sizes: [{ id: "free", label: "フリーサイズ", inStock: true }],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ]
   },
   {
-    id: "rug-01",
-    name: "ウールラグ 140×200",
-    price: 24800,
-    salePrice: 19800,
-    sceneSlugs: ["living", "bedroom"],
-    image: "/images/products/rug/01.jpg",
-    ...baseDetail("rug", "/images/products/rug/01.jpg", "/images/products/rug/main.jpg"),
-    description: "肌触りのよいウールラグ。足元から季節感と心地よさをプラスします。",
-    material: "ウール80%・コットン20%",
-    sizeInfo: "140 × 200 cm（厚さ 約12 mm）",
-    isRecommended: true,
-    rank: 1,
-    sizes: [
-      { id: "140", label: "140×200", inStock: true },
-      { id: "160", label: "160×230", inStock: true },
-      { id: "200", label: "200×250", inStock: false },
+    "id": "lcb642266",
+    "name": "本棚 木製 約 幅90 奥行30 高さ90cm　オープンラック スリム コンパクト 大容量 ラック ロータイプ ランドセルラック 棚 可動棚 オープンシェルフ リビング 子ども部屋 収納 ウォールナット/オーク/ホワイト 【組立品/完成品が選べる】 LCB642266",
+    "price": 9680,
+    "categorySlug": "storage",
+    "sceneSlugs": [],
+    "image": "/images/products/lcb642266/01.jpg",
+    "images": [
+      "/images/products/lcb642266/01.jpg",
+      "/images/products/lcb642266/02.jpg",
+      "/images/products/lcb642266/03.jpg",
+      "/images/products/lcb642266/04.jpg",
+      "/images/products/lcb642266/05.jpg",
+      "/images/products/lcb642266/06.jpg",
+      "/images/products/lcb642266/07.jpg",
+      "/images/products/lcb642266/08.jpg"
     ],
+    "description": "本棚 木製 約 幅90 奥行30 高さ90cm　オープンラック スリム コンパクト 大容量 ラック ロータイプ ランドセルラック 棚 可動棚 オープンシェルフ リビング 子ども部屋 収納 ウォールナット/オーク/ホワイト 【組立品/完成品が選べる】 LCB642266（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ]
   },
   {
-    id: "goods-01",
-    name: "セラミックベース セット",
-    price: 6800,
-    sceneSlugs: ["living", "dining"],
-    image: "/images/products/goods/01.jpg",
-    ...baseDetail("goods", "/images/products/goods/01.jpg", "/images/products/goods/main.jpg"),
-    description: "表情のある釉薬が魅力のセラミックベース。大小2点セットで飾り方の幅が広がります。",
-    material: "陶器",
-    sizeInfo: "大：H22 cm／小：H14 cm",
-    isNew: true,
-    rank: 1,
-    sizes: [{ id: "set", label: "2点セット", inStock: true }],
+    "id": "push_cabinet03",
+    "name": "本棚 壁面収納 約 幅 30/45/60/75 cm 国産 本 マンガ cd dvd 収納 書棚 木製 シェルフ リビング オフィス 書斎 ラック ブックシェルフ キャビネット 食器棚 整理棚 壁面 おしゃれ ナチュラル/ホワイト/ブラウン 【組立品/完成品が選べる】",
+    "price": 54000,
+    "categorySlug": "storage",
+    "sceneSlugs": [],
+    "image": "/images/products/push_cabinet03/01.jpg",
+    "images": [
+      "/images/products/push_cabinet03/01.jpg",
+      "/images/products/push_cabinet03/02.jpg",
+      "/images/products/push_cabinet03/03.jpg",
+      "/images/products/push_cabinet03/04.jpg",
+      "/images/products/push_cabinet03/05.jpg",
+      "/images/products/push_cabinet03/06.jpg",
+      "/images/products/push_cabinet03/07.jpg",
+      "/images/products/push_cabinet03/08.jpg"
+    ],
+    "description": "本棚 壁面収納 約 幅 30/45/60/75 cm 国産 本 マンガ cd dvd 収納 書棚 木製 シェルフ リビング オフィス 書斎 ラック ブックシェルフ キャビネット 食器棚 整理棚 壁面 おしゃれ ナチュラル/ホワイト/ブラウン 【組立品/完成品が選べる】（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ]
   },
   {
-    id: "goods-02",
-    name: "ウッドトレイ＆キャンドルホルダー",
-    price: 4800,
-    sceneSlugs: ["living"],
-    image: "/images/products/goods/main.jpg",
-    ...baseDetail("goods", "/images/products/goods/main.jpg", "/images/products/goods/01.jpg"),
-    description: "テーブルコーディネートに使えるウッドトレイとキャンドルホルダーのセット。",
-    material: "アカシア材／ガラス",
-    sizeInfo: "トレイ：W30 × D20 cm",
-    isRecommended: true,
-    rank: 2,
-    sizes: [{ id: "set", label: "セット", inStock: true }],
-  },
-  {
-    id: "goods-03",
-    name: "リネンクッションカバー 2枚組",
-    price: 5800,
-    sceneSlugs: ["living", "bedroom"],
-    image: "/images/products/goods/01.jpg",
-    ...baseDetail("goods", "/images/products/goods/01.jpg", "/images/products/goods/main.jpg"),
-    description: "ソファやベッドに合わせやすいリネンのクッションカバー。",
-    material: "リネン100%",
-    sizeInfo: "45 × 45 cm",
-    rank: 3,
-  },
-  {
-    id: "goods-04",
-    name: "アロマディフューザー ウッド",
-    price: 7800,
-    sceneSlugs: ["living", "bedroom"],
-    image: "/images/products/goods/main.jpg",
-    ...baseDetail("goods", "/images/products/goods/main.jpg", "/images/products/goods/01.jpg"),
-    description: "木目が美しい卓上ディフューザー。空間にやさしい香りを。",
-    material: "アッシュ材／ガラス",
-    sizeInfo: "φ8 × H18 cm",
-    rank: 4,
-  },
+    "id": "simple_woodrack999",
+    "name": "オープンラック 木製 北欧 ブックシェルフ スリム おしゃれ ラック 棚 収納棚 大容量 本棚 6段 カラーボックス ブックラック CD収納 DVD収納 a4 雑誌 シェルフ オフィス 約 幅 30cm/44cm/60cm/90cm 全4色 【組立品/完成品が選べる】",
+    "price": 54000,
+    "categorySlug": "storage",
+    "sceneSlugs": [],
+    "image": "/images/products/simple_woodrack999/01.jpg",
+    "images": [
+      "/images/products/simple_woodrack999/01.jpg",
+      "/images/products/simple_woodrack999/02.jpg",
+      "/images/products/simple_woodrack999/03.jpg",
+      "/images/products/simple_woodrack999/04.jpg",
+      "/images/products/simple_woodrack999/05.jpg",
+      "/images/products/simple_woodrack999/06.jpg",
+      "/images/products/simple_woodrack999/07.jpg",
+      "/images/products/simple_woodrack999/08.jpg"
+    ],
+    "description": "オープンラック 木製 北欧 ブックシェルフ スリム おしゃれ ラック 棚 収納棚 大容量 本棚 6段 カラーボックス ブックラック CD収納 DVD収納 a4 雑誌 シェルフ オフィス 約 幅 30cm/44cm/60cm/90cm 全4色 【組立品/完成品が選べる】（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ]
+  }
 ];
 
 export function formatPrice(price: number): string {
