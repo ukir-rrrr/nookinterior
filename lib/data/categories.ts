@@ -43,6 +43,27 @@ export const categories: Category[] = [
     description: "見せる収納と隠す収納。暮らしを整えるリビング収納。",
   },
   {
+    slug: "kitchen",
+    name: "キッチン収納",
+    href: "/category/kitchen",
+    image: "/images/categories/kitchen.jpg",
+    description: "食器から調理道具まで、キッチンをすっきり整える収納家具。",
+  },
+  {
+    slug: "clothing",
+    name: "衣類収納",
+    href: "/category/clothing",
+    image: "/images/categories/clothing.jpg",
+    description: "クローゼットやチェストで、衣類を美しく収納。",
+  },
+  {
+    slug: "kotatsu",
+    name: "こたつ",
+    href: "/category/kotatsu",
+    image: "/images/categories/kotatsu.jpg",
+    description: "冬のリビングに欠かせない、暖かく快適なこたつ。",
+  },
+  {
     slug: "bed",
     name: "ベッド",
     href: "/category/bed",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T17:21:39.584644+09:00",
+  "generatedAt": "2026-08-30T18:21:31.306134+09:00",
   "source": {
     "site": "kurashi-ec.jp",
     "baseUrl": "https://www.kurashi-ec.jp",
@@ -238,6 +238,58 @@
         "https://kurashiec202009.itembox.cloud/product/168/000000016833/000000016833-06.jpg",
         "https://kurashiec202009.itembox.cloud/product/168/000000016833/000000016833-07.jpg",
         "https://kurashiec202009.itembox.cloud/product/168/000000016833/000000016833-08.jpg"
+      ]
+    },
+    {
+      "id": "spi-lt-1609",
+      "name": "1灯 ペンダントライト オリテ ガラス ライト",
+      "price": 16830,
+      "categorySlug": "lighting",
+      "itemUrl": "https://www.kurashi-ec.jp/c/lights/ceiling-pendant-lights/pendant-lights/spi-lt-1609/",
+      "itemCode": "kurashi:000000016514",
+      "rank": 9,
+      "images": [
+        "/images/products/spi-lt-1609/01.jpg",
+        "/images/products/spi-lt-1609/02.jpg",
+        "/images/products/spi-lt-1609/03.jpg",
+        "/images/products/spi-lt-1609/04.jpg",
+        "/images/products/spi-lt-1609/05.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/165/000000016514/000000016514-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/165/000000016514/000000016514-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/165/000000016514/000000016514-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/165/000000016514/000000016514-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/165/000000016514/000000016514-27.jpg"
+      ]
+    },
+    {
+      "id": "rz-rky05",
+      "name": "卓上ライト Shizuku(しずく) フロアランプ 置き型 照明",
+      "price": 38500,
+      "categorySlug": "lighting",
+      "itemUrl": "https://www.kurashi-ec.jp/c/lights/desk-light/rz-rky05/",
+      "itemCode": "kurashi:000000016674",
+      "rank": 10,
+      "images": [
+        "/images/products/rz-rky05/01.jpg",
+        "/images/products/rz-rky05/02.jpg",
+        "/images/products/rz-rky05/03.jpg",
+        "/images/products/rz-rky05/04.jpg",
+        "/images/products/rz-rky05/05.jpg",
+        "/images/products/rz-rky05/06.jpg",
+        "/images/products/rz-rky05/07.jpg",
+        "/images/products/rz-rky05/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/166/000000016674/000000016674-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/166/000000016674/000000016674-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/166/000000016674/000000016674-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/166/000000016674/000000016674-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/166/000000016674/000000016674-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/166/000000016674/000000016674-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/166/000000016674/000000016674-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/166/000000016674/000000016674-08.jpg"
       ]
     }
   ]

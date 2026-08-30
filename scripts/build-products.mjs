@@ -48,6 +48,9 @@ const VALID_CATEGORY_SLUGS = new Set([
   "lighting",
   "rug",
   "goods",
+  "kitchen",
+  "clothing",
+  "kotatsu",
 ]);
 const DEFAULT_CATEGORY_SLUG = "goods";
 

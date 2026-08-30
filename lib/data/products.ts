@@ -107,6 +107,136 @@ export const products: Product[] = [
     "isRecommended": true
   },
   {
+    "id": "ha-monewsset",
+    "name": "家具調 こたつセット 円形 リバーシブル 2点",
+    "price": 24700,
+    "categorySlug": "kotatsu",
+    "sceneSlugs": [],
+    "image": "/images/products/ha-monewsset/01.jpg",
+    "images": [
+      "/images/products/ha-monewsset/01.jpg",
+      "/images/products/ha-monewsset/02.jpg",
+      "/images/products/ha-monewsset/03.jpg",
+      "/images/products/ha-monewsset/04.jpg",
+      "/images/products/ha-monewsset/05.jpg",
+      "/images/products/ha-monewsset/06.jpg",
+      "/images/products/ha-monewsset/07.jpg",
+      "/images/products/ha-monewsset/08.jpg"
+    ],
+    "description": "家具調 こたつセット 円形 リバーシブル 2点（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 1,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": "iw-046-2",
+    "name": "幅80cm 木製 チェスト メリッサ 天然木",
+    "price": 69800,
+    "categorySlug": "clothing",
+    "sceneSlugs": [],
+    "image": "/images/products/iw-046-2/01.jpg",
+    "images": [
+      "/images/products/iw-046-2/01.jpg",
+      "/images/products/iw-046-2/02.jpg",
+      "/images/products/iw-046-2/03.jpg",
+      "/images/products/iw-046-2/04.jpg",
+      "/images/products/iw-046-2/05.jpg",
+      "/images/products/iw-046-2/06.jpg",
+      "/images/products/iw-046-2/07.jpg",
+      "/images/products/iw-046-2/08.jpg"
+    ],
+    "description": "幅80cm 木製 チェスト メリッサ 天然木（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 1,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
     "id": "kd-moduliast",
     "name": "幅70cm オットマン MODULIA 撥水 脚付き",
     "price": 25900,
@@ -237,9 +367,7 @@ export const products: Product[] = [
         "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
       }
     ],
-    "rank": 1,
-    "isNew": true,
-    "isRecommended": true
+    "rank": 1
   },
   {
     "id": "kim-glm180lowbm",
@@ -304,9 +432,7 @@ export const products: Product[] = [
         "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
       }
     ],
-    "rank": 1,
-    "isNew": true,
-    "isRecommended": true
+    "rank": 1
   },
   {
     "id": "kim-orv15vid5set",
@@ -329,6 +455,69 @@ export const products: Product[] = [
       "/images/products/kim-orv15vid5set/08.jpg"
     ],
     "description": "4人用 ダイニングテーブルセット 5点 ORV コンセント付き（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 1
+  },
+  {
+    "id": "ma-mirenia140kct",
+    "name": "幅140cm ステンレス天板 キッチンカウンター MIRENIA",
+    "price": 83900,
+    "categorySlug": "kitchen",
+    "sceneSlugs": [],
+    "image": "/images/products/ma-mirenia140kct/01.jpg",
+    "images": [
+      "/images/products/ma-mirenia140kct/01.jpg",
+      "/images/products/ma-mirenia140kct/02.jpg",
+      "/images/products/ma-mirenia140kct/03.jpg",
+      "/images/products/ma-mirenia140kct/04.jpg",
+      "/images/products/ma-mirenia140kct/05.jpg",
+      "/images/products/ma-mirenia140kct/06.jpg",
+      "/images/products/ma-mirenia140kct/07.jpg",
+      "/images/products/ma-mirenia140kct/08.jpg"
+    ],
+    "description": "幅140cm ステンレス天板 キッチンカウンター MIRENIA（参考：楽天市場の商品情報を基にしています）",
     "material": "詳細は商品ページ・メーカー情報をご確認ください。",
     "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
     "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
@@ -704,6 +893,69 @@ export const products: Product[] = [
     "rank": 2
   },
   {
+    "id": "ha-merenge",
+    "name": "こたつ布団 円形 90×90cm天板対応 こたつ用布団 洗濯可能",
+    "price": 24700,
+    "categorySlug": "kotatsu",
+    "sceneSlugs": [],
+    "image": "/images/products/ha-merenge/01.jpg",
+    "images": [
+      "/images/products/ha-merenge/01.jpg",
+      "/images/products/ha-merenge/02.jpg",
+      "/images/products/ha-merenge/03.jpg",
+      "/images/products/ha-merenge/04.jpg",
+      "/images/products/ha-merenge/05.jpg",
+      "/images/products/ha-merenge/06.jpg",
+      "/images/products/ha-merenge/07.jpg",
+      "/images/products/ha-merenge/08.jpg"
+    ],
+    "description": "こたつ布団 円形 90×90cm天板対応 こたつ用布団 洗濯可能（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 2
+  },
+  {
     "id": "ha-wb-7721s",
     "name": "シングル ベッドフレーム 国産 ひのき ベッド",
     "price": 16900,
@@ -769,6 +1021,69 @@ export const products: Product[] = [
     "rank": 2
   },
   {
+    "id": "ka-dresserqt2811",
+    "name": "カリモク 幅70.9cm ドレッサー 日本製 木製",
+    "price": 157300,
+    "categorySlug": "clothing",
+    "sceneSlugs": [],
+    "image": "/images/products/ka-dresserqt2811/01.jpg",
+    "images": [
+      "/images/products/ka-dresserqt2811/01.jpg",
+      "/images/products/ka-dresserqt2811/02.jpg",
+      "/images/products/ka-dresserqt2811/03.jpg",
+      "/images/products/ka-dresserqt2811/04.jpg",
+      "/images/products/ka-dresserqt2811/05.jpg",
+      "/images/products/ka-dresserqt2811/06.jpg",
+      "/images/products/ka-dresserqt2811/07.jpg",
+      "/images/products/ka-dresserqt2811/08.jpg"
+    ],
+    "description": "カリモク 幅70.9cm ドレッサー 日本製 木製（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 2
+  },
+  {
     "id": "kd-modulia1as",
     "name": "幅111cm 1人掛け ソファ 肘掛けテーブル付き MODULIA",
     "price": 25900,
@@ -788,6 +1103,69 @@ export const products: Product[] = [
       "/images/products/kd-modulia1as/08.jpg"
     ],
     "description": "幅111cm 1人掛け ソファ 肘掛けテーブル付き MODULIA（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "id": "kim-aura18kctsco",
+    "name": "幅180cm キッチンカウンター AURA 日本製 メラミン天板",
+    "price": 78900,
+    "categorySlug": "kitchen",
+    "sceneSlugs": [],
+    "image": "/images/products/kim-aura18kctsco/01.jpg",
+    "images": [
+      "/images/products/kim-aura18kctsco/01.jpg",
+      "/images/products/kim-aura18kctsco/02.jpg",
+      "/images/products/kim-aura18kctsco/03.jpg",
+      "/images/products/kim-aura18kctsco/04.jpg",
+      "/images/products/kim-aura18kctsco/05.jpg",
+      "/images/products/kim-aura18kctsco/06.jpg",
+      "/images/products/kim-aura18kctsco/07.jpg",
+      "/images/products/kim-aura18kctsco/08.jpg"
+    ],
+    "description": "幅180cm キッチンカウンター AURA 日本製 メラミン天板（参考：楽天市場の商品情報を基にしています）",
     "material": "詳細は商品ページ・メーカー情報をご確認ください。",
     "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
     "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
@@ -1230,6 +1608,69 @@ export const products: Product[] = [
     "rank": 2
   },
   {
+    "id": "am-db30203l",
+    "name": "幅100cm 3段 チェスト EDDA 木製",
+    "price": 148500,
+    "categorySlug": "clothing",
+    "sceneSlugs": [],
+    "image": "/images/products/am-db30203l/01.jpg",
+    "images": [
+      "/images/products/am-db30203l/01.jpg",
+      "/images/products/am-db30203l/02.jpg",
+      "/images/products/am-db30203l/03.jpg",
+      "/images/products/am-db30203l/04.jpg",
+      "/images/products/am-db30203l/05.jpg",
+      "/images/products/am-db30203l/06.jpg",
+      "/images/products/am-db30203l/07.jpg",
+      "/images/products/am-db30203l/08.jpg"
+    ],
+    "description": "幅100cm 3段 チェスト EDDA 木製（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 3
+  },
+  {
     "id": "grt-berio-sd",
     "name": "セミダブル ベッドフレーム ベリオ LED 照明付き",
     "price": 48900,
@@ -1249,6 +1690,69 @@ export const products: Product[] = [
       "/images/products/grt-berio-sd/08.jpg"
     ],
     "description": "セミダブル ベッドフレーム ベリオ LED 照明付き（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 3
+  },
+  {
+    "id": "ha-carnaset",
+    "name": "家具調 こたつセット 楕円 ナチュラル 2点",
+    "price": 24700,
+    "categorySlug": "kotatsu",
+    "sceneSlugs": [],
+    "image": "/images/products/ha-carnaset/01.jpg",
+    "images": [
+      "/images/products/ha-carnaset/01.jpg",
+      "/images/products/ha-carnaset/02.jpg",
+      "/images/products/ha-carnaset/03.jpg",
+      "/images/products/ha-carnaset/04.jpg",
+      "/images/products/ha-carnaset/05.jpg",
+      "/images/products/ha-carnaset/06.jpg",
+      "/images/products/ha-carnaset/07.jpg",
+      "/images/products/ha-carnaset/08.jpg"
+    ],
+    "description": "家具調 こたつセット 楕円 ナチュラル 2点（参考：楽天市場の商品情報を基にしています）",
     "material": "詳細は商品ページ・メーカー情報をご確認ください。",
     "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
     "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
@@ -1380,6 +1884,69 @@ export const products: Product[] = [
       "/images/products/kd-moduliacuset/08.jpg"
     ],
     "description": "幅257cm 3人掛け カウチソファ セット 組み合わせ自由（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 3
+  },
+  {
+    "id": "kim-aura18kctscd",
+    "name": "幅180cm キッチンカウンター AURA 日本製 メラミン天板",
+    "price": 117000,
+    "categorySlug": "kitchen",
+    "sceneSlugs": [],
+    "image": "/images/products/kim-aura18kctscd/01.jpg",
+    "images": [
+      "/images/products/kim-aura18kctscd/01.jpg",
+      "/images/products/kim-aura18kctscd/02.jpg",
+      "/images/products/kim-aura18kctscd/03.jpg",
+      "/images/products/kim-aura18kctscd/04.jpg",
+      "/images/products/kim-aura18kctscd/05.jpg",
+      "/images/products/kim-aura18kctscd/06.jpg",
+      "/images/products/kim-aura18kctscd/07.jpg",
+      "/images/products/kim-aura18kctscd/08.jpg"
+    ],
+    "description": "幅180cm キッチンカウンター AURA 日本製 メラミン天板（参考：楽天市場の商品情報を基にしています）",
     "material": "詳細は商品ページ・メーカー情報をご確認ください。",
     "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
     "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
@@ -1821,6 +2388,69 @@ export const products: Product[] = [
     "rank": 4
   },
   {
+    "id": "ha-carwsset",
+    "name": "家具調 こたつセット 楕円 白 2点",
+    "price": 24700,
+    "categorySlug": "kotatsu",
+    "sceneSlugs": [],
+    "image": "/images/products/ha-carwsset/01.jpg",
+    "images": [
+      "/images/products/ha-carwsset/01.jpg",
+      "/images/products/ha-carwsset/02.jpg",
+      "/images/products/ha-carwsset/03.jpg",
+      "/images/products/ha-carwsset/04.jpg",
+      "/images/products/ha-carwsset/05.jpg",
+      "/images/products/ha-carwsset/06.jpg",
+      "/images/products/ha-carwsset/07.jpg",
+      "/images/products/ha-carwsset/08.jpg"
+    ],
+    "description": "家具調 こたつセット 楕円 白 2点（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 4
+  },
+  {
     "id": "hbdk-workchair",
     "name": "パソコンチェア メティオ 回転 チェア キャスター付き",
     "price": 23980,
@@ -1841,6 +2471,69 @@ export const products: Product[] = [
       "/images/products/hbdk-workchair/08.jpg"
     ],
     "description": "パソコンチェア メティオ 回転 チェア キャスター付き（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 4
+  },
+  {
+    "id": "ka-chestqt2814",
+    "name": "カリモク 幅78.5cm リビングチェスト 日本製 木製",
+    "price": 177100,
+    "categorySlug": "clothing",
+    "sceneSlugs": [],
+    "image": "/images/products/ka-chestqt2814/01.jpg",
+    "images": [
+      "/images/products/ka-chestqt2814/01.jpg",
+      "/images/products/ka-chestqt2814/02.jpg",
+      "/images/products/ka-chestqt2814/03.jpg",
+      "/images/products/ka-chestqt2814/04.jpg",
+      "/images/products/ka-chestqt2814/05.jpg",
+      "/images/products/ka-chestqt2814/06.jpg",
+      "/images/products/ka-chestqt2814/07.jpg",
+      "/images/products/ka-chestqt2814/08.jpg"
+    ],
+    "description": "カリモク 幅78.5cm リビングチェスト 日本製 木製（参考：楽天市場の商品情報を基にしています）",
     "material": "詳細は商品ページ・メーカー情報をご確認ください。",
     "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
     "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
@@ -1972,6 +2665,69 @@ export const products: Product[] = [
       "/images/products/kim-arcustud5set/08.jpg"
     ],
     "description": "4人用 ダイニングテーブルセット 5点 LUGA 楕円（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 4
+  },
+  {
+    "id": "kim-aurak18ctsdo",
+    "name": "幅180cm キッチンカウンター AURA 日本製 メラミン天板",
+    "price": 117000,
+    "categorySlug": "kitchen",
+    "sceneSlugs": [],
+    "image": "/images/products/kim-aurak18ctsdo/01.jpg",
+    "images": [
+      "/images/products/kim-aurak18ctsdo/01.jpg",
+      "/images/products/kim-aurak18ctsdo/02.jpg",
+      "/images/products/kim-aurak18ctsdo/03.jpg",
+      "/images/products/kim-aurak18ctsdo/04.jpg",
+      "/images/products/kim-aurak18ctsdo/05.jpg",
+      "/images/products/kim-aurak18ctsdo/06.jpg",
+      "/images/products/kim-aurak18ctsdo/07.jpg",
+      "/images/products/kim-aurak18ctsdo/08.jpg"
+    ],
+    "description": "幅180cm キッチンカウンター AURA 日本製 メラミン天板（参考：楽天市場の商品情報を基にしています）",
     "material": "詳細は商品ページ・メーカー情報をご確認ください。",
     "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
     "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
@@ -2412,6 +3168,69 @@ export const products: Product[] = [
     "rank": 5
   },
   {
+    "id": "ha-carwnset",
+    "name": "家具調 こたつセット 楕円 ブラウン 2点",
+    "price": 24700,
+    "categorySlug": "kotatsu",
+    "sceneSlugs": [],
+    "image": "/images/products/ha-carwnset/01.jpg",
+    "images": [
+      "/images/products/ha-carwnset/01.jpg",
+      "/images/products/ha-carwnset/02.jpg",
+      "/images/products/ha-carwnset/03.jpg",
+      "/images/products/ha-carwnset/04.jpg",
+      "/images/products/ha-carwnset/05.jpg",
+      "/images/products/ha-carwnset/06.jpg",
+      "/images/products/ha-carwnset/07.jpg",
+      "/images/products/ha-carwnset/08.jpg"
+    ],
+    "description": "家具調 こたつセット 楕円 ブラウン 2点（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 5
+  },
+  {
     "id": "hbdk-workchair-c",
     "name": "パソコンチェア メティオ2.0 チェック柄 高さ調節 椅子",
     "price": 27990,
@@ -2478,26 +3297,23 @@ export const products: Product[] = [
     "rank": 5
   },
   {
-    "id": "iw-046-2",
-    "name": "幅80cm 木製 チェスト メリッサ 天然木",
-    "price": 69800,
-    "categorySlug": "storage",
-    "sceneSlugs": [
-      "living",
-      "study"
-    ],
-    "image": "/images/products/iw-046-2/01.jpg",
+    "id": "kim-aurak18ctc2s",
+    "name": "幅180cm キッチンカウンター AURA 日本製 メラミン天板",
+    "price": 83900,
+    "categorySlug": "kitchen",
+    "sceneSlugs": [],
+    "image": "/images/products/kim-aurak18ctc2s/01.jpg",
     "images": [
-      "/images/products/iw-046-2/01.jpg",
-      "/images/products/iw-046-2/02.jpg",
-      "/images/products/iw-046-2/03.jpg",
-      "/images/products/iw-046-2/04.jpg",
-      "/images/products/iw-046-2/05.jpg",
-      "/images/products/iw-046-2/06.jpg",
-      "/images/products/iw-046-2/07.jpg",
-      "/images/products/iw-046-2/08.jpg"
+      "/images/products/kim-aurak18ctc2s/01.jpg",
+      "/images/products/kim-aurak18ctc2s/02.jpg",
+      "/images/products/kim-aurak18ctc2s/03.jpg",
+      "/images/products/kim-aurak18ctc2s/04.jpg",
+      "/images/products/kim-aurak18ctc2s/05.jpg",
+      "/images/products/kim-aurak18ctc2s/06.jpg",
+      "/images/products/kim-aurak18ctc2s/07.jpg",
+      "/images/products/kim-aurak18ctc2s/08.jpg"
     ],
-    "description": "幅80cm 木製 チェスト メリッサ 天然木（参考：楽天市場の商品情報を基にしています）",
+    "description": "幅180cm キッチンカウンター AURA 日本製 メラミン天板（参考：楽天市場の商品情報を基にしています）",
     "material": "詳細は商品ページ・メーカー情報をご確認ください。",
     "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
     "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
@@ -2629,6 +3445,69 @@ export const products: Product[] = [
       "/images/products/ma-mocha180tv/08.jpg"
     ],
     "description": "幅180cm ローボード 日本製 セラミック調 アイアン脚（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 5
+  },
+  {
+    "id": "ma-morl110lc",
+    "name": "幅110cm チェスト 6段 日本製 国産",
+    "price": 48900,
+    "categorySlug": "clothing",
+    "sceneSlugs": [],
+    "image": "/images/products/ma-morl110lc/01.jpg",
+    "images": [
+      "/images/products/ma-morl110lc/01.jpg",
+      "/images/products/ma-morl110lc/02.jpg",
+      "/images/products/ma-morl110lc/03.jpg",
+      "/images/products/ma-morl110lc/04.jpg",
+      "/images/products/ma-morl110lc/05.jpg",
+      "/images/products/ma-morl110lc/06.jpg",
+      "/images/products/ma-morl110lc/07.jpg",
+      "/images/products/ma-morl110lc/08.jpg"
+    ],
+    "description": "幅110cm チェスト 6段 日本製 国産（参考：楽天市場の商品情報を基にしています）",
     "material": "詳細は商品ページ・メーカー情報をご確認ください。",
     "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
     "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
@@ -3131,6 +4010,132 @@ export const products: Product[] = [
     "rank": 6
   },
   {
+    "id": "ha-monenaset",
+    "name": "家具調 こたつセット 円形 ナチュラル 2点",
+    "price": 24700,
+    "categorySlug": "kotatsu",
+    "sceneSlugs": [],
+    "image": "/images/products/ha-monenaset/01.jpg",
+    "images": [
+      "/images/products/ha-monenaset/01.jpg",
+      "/images/products/ha-monenaset/02.jpg",
+      "/images/products/ha-monenaset/03.jpg",
+      "/images/products/ha-monenaset/04.jpg",
+      "/images/products/ha-monenaset/05.jpg",
+      "/images/products/ha-monenaset/06.jpg",
+      "/images/products/ha-monenaset/07.jpg",
+      "/images/products/ha-monenaset/08.jpg"
+    ],
+    "description": "家具調 こたつセット 円形 ナチュラル 2点（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 6
+  },
+  {
+    "id": "icb-h-3395",
+    "name": "幅32cm コートハンガー cime 木製 ポールハンガー",
+    "price": 5900,
+    "categorySlug": "clothing",
+    "sceneSlugs": [],
+    "image": "/images/products/icb-h-3395/01.jpg",
+    "images": [
+      "/images/products/icb-h-3395/01.jpg",
+      "/images/products/icb-h-3395/02.jpg",
+      "/images/products/icb-h-3395/03.jpg",
+      "/images/products/icb-h-3395/04.jpg",
+      "/images/products/icb-h-3395/05.jpg",
+      "/images/products/icb-h-3395/06.jpg",
+      "/images/products/icb-h-3395/07.jpg",
+      "/images/products/icb-h-3395/08.jpg"
+    ],
+    "description": "幅32cm コートハンガー cime 木製 ポールハンガー（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 6
+  },
+  {
     "id": "kd-modulia25s",
     "name": "幅184cm 2.5人掛け ソファ 組み合わせ自由 MODULIA",
     "price": 25900,
@@ -3348,6 +4353,69 @@ export const products: Product[] = [
       "/images/products/kim-orvdc2set/08.jpg"
     ],
     "description": "ダイニングチェア 肘付き PUレザー ORV ゴールド（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 6
+  },
+  {
+    "id": "ma-mirenia160kct",
+    "name": "幅160cm ステンレス天板 キッチンカウンター MIRENIA",
+    "price": 83900,
+    "categorySlug": "kitchen",
+    "sceneSlugs": [],
+    "image": "/images/products/ma-mirenia160kct/01.jpg",
+    "images": [
+      "/images/products/ma-mirenia160kct/01.jpg",
+      "/images/products/ma-mirenia160kct/02.jpg",
+      "/images/products/ma-mirenia160kct/03.jpg",
+      "/images/products/ma-mirenia160kct/04.jpg",
+      "/images/products/ma-mirenia160kct/05.jpg",
+      "/images/products/ma-mirenia160kct/06.jpg",
+      "/images/products/ma-mirenia160kct/07.jpg",
+      "/images/products/ma-mirenia160kct/08.jpg"
+    ],
+    "description": "幅160cm ステンレス天板 キッチンカウンター MIRENIA（参考：楽天市場の商品情報を基にしています）",
     "material": "詳細は商品ページ・メーカー情報をご確認ください。",
     "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
     "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
@@ -3654,6 +4722,132 @@ export const products: Product[] = [
     "rank": 7
   },
   {
+    "id": "hks-morter105",
+    "name": "幅105cm 家具調 こたつテーブル 長方形 石英管ヒーター",
+    "price": 29800,
+    "categorySlug": "kotatsu",
+    "sceneSlugs": [],
+    "image": "/images/products/hks-morter105/01.jpg",
+    "images": [
+      "/images/products/hks-morter105/01.jpg",
+      "/images/products/hks-morter105/02.jpg",
+      "/images/products/hks-morter105/03.jpg",
+      "/images/products/hks-morter105/04.jpg",
+      "/images/products/hks-morter105/05.jpg",
+      "/images/products/hks-morter105/06.jpg",
+      "/images/products/hks-morter105/07.jpg",
+      "/images/products/hks-morter105/08.jpg"
+    ],
+    "description": "幅105cm 家具調 こたつテーブル 長方形 石英管ヒーター（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 7
+  },
+  {
+    "id": "iw-046-3",
+    "name": "幅45cm 木製 ジュエリーチェスト メリッサ 天然木",
+    "price": 69800,
+    "categorySlug": "clothing",
+    "sceneSlugs": [],
+    "image": "/images/products/iw-046-3/01.jpg",
+    "images": [
+      "/images/products/iw-046-3/01.jpg",
+      "/images/products/iw-046-3/02.jpg",
+      "/images/products/iw-046-3/03.jpg",
+      "/images/products/iw-046-3/04.jpg",
+      "/images/products/iw-046-3/05.jpg",
+      "/images/products/iw-046-3/06.jpg",
+      "/images/products/iw-046-3/07.jpg",
+      "/images/products/iw-046-3/08.jpg"
+    ],
+    "description": "幅45cm 木製 ジュエリーチェスト メリッサ 天然木（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 7
+  },
+  {
     "id": "kd-modulia1asset",
     "name": "幅111cm 1人掛け ソファ セット MODULIA",
     "price": 25900,
@@ -3785,6 +4979,69 @@ export const products: Product[] = [
     "rank": 7
   },
   {
+    "id": "kim-aurak18ctc2o",
+    "name": "幅180cm キッチンカウンター AURA 日本製 メラミン天板",
+    "price": 117000,
+    "categorySlug": "kitchen",
+    "sceneSlugs": [],
+    "image": "/images/products/kim-aurak18ctc2o/01.jpg",
+    "images": [
+      "/images/products/kim-aurak18ctc2o/01.jpg",
+      "/images/products/kim-aurak18ctc2o/02.jpg",
+      "/images/products/kim-aurak18ctc2o/03.jpg",
+      "/images/products/kim-aurak18ctc2o/04.jpg",
+      "/images/products/kim-aurak18ctc2o/05.jpg",
+      "/images/products/kim-aurak18ctc2o/06.jpg",
+      "/images/products/kim-aurak18ctc2o/07.jpg",
+      "/images/products/kim-aurak18ctc2o/08.jpg"
+    ],
+    "description": "幅180cm キッチンカウンター AURA 日本製 メラミン天板（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 7
+  },
+  {
     "id": "pr-jina1919",
     "name": "190×190cm ラグ ジーナ 日本製 リビング",
     "price": 39800,
@@ -3870,72 +5127,6 @@ export const products: Product[] = [
       "/images/products/rok-mdimension/08.jpg"
     ],
     "description": "幅50cm 壁掛け時計 アナログ マルチディメンション インテリア（参考：楽天市場の商品情報を基にしています）",
-    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
-    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
-    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
-    "colors": [
-      {
-        "id": "natural",
-        "label": "ナチュラル",
-        "inStock": true
-      },
-      {
-        "id": "walnut",
-        "label": "ウォールナット",
-        "inStock": true
-      },
-      {
-        "id": "white",
-        "label": "ホワイト",
-        "inStock": true
-      }
-    ],
-    "sizes": [
-      {
-        "id": "free",
-        "label": "フリーサイズ",
-        "inStock": true
-      }
-    ],
-    "reviews": [
-      {
-        "id": "r1",
-        "author": "M.K さん",
-        "rating": 5,
-        "date": "2026.06.12",
-        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
-      },
-      {
-        "id": "r2",
-        "author": "Y.S さん",
-        "rating": 4,
-        "date": "2026.06.08",
-        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
-      }
-    ],
-    "rank": 7
-  },
-  {
-    "id": "sn-44050",
-    "name": "幅138cm サイドボード セラミック天板 木目 引き出し",
-    "price": 117000,
-    "categorySlug": "storage",
-    "sceneSlugs": [
-      "living",
-      "study"
-    ],
-    "image": "/images/products/sn-44050/01.jpg",
-    "images": [
-      "/images/products/sn-44050/01.jpg",
-      "/images/products/sn-44050/02.jpg",
-      "/images/products/sn-44050/03.jpg",
-      "/images/products/sn-44050/04.jpg",
-      "/images/products/sn-44050/05.jpg",
-      "/images/products/sn-44050/06.jpg",
-      "/images/products/sn-44050/07.jpg",
-      "/images/products/sn-44050/08.jpg"
-    ],
-    "description": "幅138cm サイドボード セラミック天板 木目 引き出し（参考：楽天市場の商品情報を基にしています）",
     "material": "詳細は商品ページ・メーカー情報をご確認ください。",
     "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
     "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
@@ -4312,6 +5503,132 @@ export const products: Product[] = [
     "rank": 8
   },
   {
+    "id": "hks-lapis105",
+    "name": "幅105cm 家具調 こたつテーブル 長方形 石英管ヒーター",
+    "price": 34800,
+    "categorySlug": "kotatsu",
+    "sceneSlugs": [],
+    "image": "/images/products/hks-lapis105/01.jpg",
+    "images": [
+      "/images/products/hks-lapis105/01.jpg",
+      "/images/products/hks-lapis105/02.jpg",
+      "/images/products/hks-lapis105/03.jpg",
+      "/images/products/hks-lapis105/04.jpg",
+      "/images/products/hks-lapis105/05.jpg",
+      "/images/products/hks-lapis105/06.jpg",
+      "/images/products/hks-lapis105/07.jpg",
+      "/images/products/hks-lapis105/08.jpg"
+    ],
+    "description": "幅105cm 家具調 こたつテーブル 長方形 石英管ヒーター（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 8
+  },
+  {
+    "id": "icb-h-3314",
+    "name": "幅30cm クレインハンガー 木製 ポールハンガー コートハンガー",
+    "price": 6300,
+    "categorySlug": "clothing",
+    "sceneSlugs": [],
+    "image": "/images/products/icb-h-3314/01.jpg",
+    "images": [
+      "/images/products/icb-h-3314/01.jpg",
+      "/images/products/icb-h-3314/02.jpg",
+      "/images/products/icb-h-3314/03.jpg",
+      "/images/products/icb-h-3314/04.jpg",
+      "/images/products/icb-h-3314/05.jpg",
+      "/images/products/icb-h-3314/06.jpg",
+      "/images/products/icb-h-3314/07.jpg",
+      "/images/products/icb-h-3314/08.jpg"
+    ],
+    "description": "幅30cm クレインハンガー 木製 ポールハンガー コートハンガー（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 8
+  },
+  {
     "id": "ka-ltvbqd6107",
     "name": "カリモク 幅182cm 木製 テレビボード 日本製",
     "price": 185900,
@@ -4396,6 +5713,69 @@ export const products: Product[] = [
       "/images/products/ka-stoolzw7306/08.jpg"
     ],
     "description": "カリモク 幅68.5cm オットマン 日本製 本革張り（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 8
+  },
+  {
+    "id": "kim-aurak18ctcdo",
+    "name": "幅180cm キッチンカウンター AURA 日本製 メラミン天板",
+    "price": 78900,
+    "categorySlug": "kitchen",
+    "sceneSlugs": [],
+    "image": "/images/products/kim-aurak18ctcdo/01.jpg",
+    "images": [
+      "/images/products/kim-aurak18ctcdo/01.jpg",
+      "/images/products/kim-aurak18ctcdo/02.jpg",
+      "/images/products/kim-aurak18ctcdo/03.jpg",
+      "/images/products/kim-aurak18ctcdo/04.jpg",
+      "/images/products/kim-aurak18ctcdo/05.jpg",
+      "/images/products/kim-aurak18ctcdo/06.jpg",
+      "/images/products/kim-aurak18ctcdo/07.jpg",
+      "/images/products/kim-aurak18ctcdo/08.jpg"
+    ],
+    "description": "幅180cm キッチンカウンター AURA 日本製 メラミン天板（参考：楽天市場の商品情報を基にしています）",
     "material": "詳細は商品ページ・メーカー情報をご確認ください。",
     "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
     "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
@@ -4638,6 +6018,515 @@ export const products: Product[] = [
       }
     ],
     "rank": 8
+  },
+  {
+    "id": "kim-orv150kct",
+    "name": "幅150cm 大理石調 キッチンカウンター ORV コンセント付き",
+    "price": 117000,
+    "categorySlug": "kitchen",
+    "sceneSlugs": [],
+    "image": "/images/products/kim-orv150kct/01.jpg",
+    "images": [
+      "/images/products/kim-orv150kct/01.jpg",
+      "/images/products/kim-orv150kct/02.jpg",
+      "/images/products/kim-orv150kct/03.jpg",
+      "/images/products/kim-orv150kct/04.jpg",
+      "/images/products/kim-orv150kct/05.jpg",
+      "/images/products/kim-orv150kct/06.jpg",
+      "/images/products/kim-orv150kct/07.jpg",
+      "/images/products/kim-orv150kct/08.jpg"
+    ],
+    "description": "幅150cm 大理石調 キッチンカウンター ORV コンセント付き（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 9
+  },
+  {
+    "id": "sko-0043100",
+    "name": "幅60cm ドレッサー 椅子付き 角タイプ ベロア調",
+    "price": 27900,
+    "categorySlug": "clothing",
+    "sceneSlugs": [],
+    "image": "/images/products/sko-0043100/01.jpg",
+    "images": [
+      "/images/products/sko-0043100/01.jpg",
+      "/images/products/sko-0043100/02.jpg",
+      "/images/products/sko-0043100/03.jpg",
+      "/images/products/sko-0043100/04.jpg",
+      "/images/products/sko-0043100/05.jpg",
+      "/images/products/sko-0043100/06.jpg",
+      "/images/products/sko-0043100/07.jpg",
+      "/images/products/sko-0043100/08.jpg"
+    ],
+    "description": "幅60cm ドレッサー 椅子付き 角タイプ ベロア調（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 9
+  },
+  {
+    "id": "spi-lt-1609",
+    "name": "1灯 ペンダントライト オリテ ガラス ライト",
+    "price": 16830,
+    "categorySlug": "lighting",
+    "sceneSlugs": [
+      "living",
+      "bedroom",
+      "study"
+    ],
+    "image": "/images/products/spi-lt-1609/01.jpg",
+    "images": [
+      "/images/products/spi-lt-1609/01.jpg",
+      "/images/products/spi-lt-1609/02.jpg",
+      "/images/products/spi-lt-1609/03.jpg",
+      "/images/products/spi-lt-1609/04.jpg",
+      "/images/products/spi-lt-1609/05.jpg"
+    ],
+    "description": "1灯 ペンダントライト オリテ ガラス ライト（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 9
+  },
+  {
+    "id": "ue-hkft120",
+    "name": "こたつ布団 ダイニングこたつ用 90×75cm天板対応 長方形",
+    "price": 14500,
+    "categorySlug": "kotatsu",
+    "sceneSlugs": [],
+    "image": "/images/products/ue-hkft120/01.jpg",
+    "images": [
+      "/images/products/ue-hkft120/01.jpg",
+      "/images/products/ue-hkft120/02.jpg",
+      "/images/products/ue-hkft120/03.jpg",
+      "/images/products/ue-hkft120/04.jpg",
+      "/images/products/ue-hkft120/05.jpg",
+      "/images/products/ue-hkft120/06.jpg",
+      "/images/products/ue-hkft120/07.jpg",
+      "/images/products/ue-hkft120/08.jpg"
+    ],
+    "description": "こたつ布団 ダイニングこたつ用 90×75cm天板対応 長方形（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 9
+  },
+  {
+    "id": "doi-rea50hmsbx",
+    "name": "幅50.4cm ハイタイプ シューズボックス 日本製 リアル",
+    "price": 61900,
+    "categorySlug": "clothing",
+    "sceneSlugs": [],
+    "image": "/images/products/doi-rea50hmsbx/01.jpg",
+    "images": [
+      "/images/products/doi-rea50hmsbx/01.jpg",
+      "/images/products/doi-rea50hmsbx/02.jpg",
+      "/images/products/doi-rea50hmsbx/03.jpg",
+      "/images/products/doi-rea50hmsbx/04.jpg",
+      "/images/products/doi-rea50hmsbx/05.jpg",
+      "/images/products/doi-rea50hmsbx/06.jpg",
+      "/images/products/doi-rea50hmsbx/07.jpg",
+      "/images/products/doi-rea50hmsbx/08.jpg"
+    ],
+    "description": "幅50.4cm ハイタイプ シューズボックス 日本製 リアル（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 10
+  },
+  {
+    "id": "rz-rky05",
+    "name": "卓上ライト Shizuku(しずく) フロアランプ 置き型 照明",
+    "price": 38500,
+    "categorySlug": "lighting",
+    "sceneSlugs": [
+      "living",
+      "bedroom",
+      "study"
+    ],
+    "image": "/images/products/rz-rky05/01.jpg",
+    "images": [
+      "/images/products/rz-rky05/01.jpg",
+      "/images/products/rz-rky05/02.jpg",
+      "/images/products/rz-rky05/03.jpg",
+      "/images/products/rz-rky05/04.jpg",
+      "/images/products/rz-rky05/05.jpg",
+      "/images/products/rz-rky05/06.jpg",
+      "/images/products/rz-rky05/07.jpg",
+      "/images/products/rz-rky05/08.jpg"
+    ],
+    "description": "卓上ライト Shizuku(しずく) フロアランプ 置き型 照明（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 10
+  },
+  {
+    "id": "sn-44050",
+    "name": "幅138cm サイドボード セラミック天板 木目 引き出し",
+    "price": 117000,
+    "categorySlug": "kitchen",
+    "sceneSlugs": [],
+    "image": "/images/products/sn-44050/01.jpg",
+    "images": [
+      "/images/products/sn-44050/01.jpg",
+      "/images/products/sn-44050/02.jpg",
+      "/images/products/sn-44050/03.jpg",
+      "/images/products/sn-44050/04.jpg",
+      "/images/products/sn-44050/05.jpg",
+      "/images/products/sn-44050/06.jpg",
+      "/images/products/sn-44050/07.jpg",
+      "/images/products/sn-44050/08.jpg"
+    ],
+    "description": "幅138cm サイドボード セラミック天板 木目 引き出し（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 10
+  },
+  {
+    "id": "ue-kft548",
+    "name": "こたつ布団セット こたつ用掛布団敷布団セット 掛け敷きセット",
+    "price": 16200,
+    "categorySlug": "kotatsu",
+    "sceneSlugs": [],
+    "image": "/images/products/ue-kft548/01.jpg",
+    "images": [
+      "/images/products/ue-kft548/01.jpg",
+      "/images/products/ue-kft548/02.jpg",
+      "/images/products/ue-kft548/03.jpg",
+      "/images/products/ue-kft548/04.jpg",
+      "/images/products/ue-kft548/05.jpg",
+      "/images/products/ue-kft548/06.jpg",
+      "/images/products/ue-kft548/07.jpg",
+      "/images/products/ue-kft548/08.jpg"
+    ],
+    "description": "こたつ布団セット こたつ用掛布団敷布団セット 掛け敷きセット（参考：楽天市場の商品情報を基にしています）",
+    "material": "詳細は商品ページ・メーカー情報をご確認ください。",
+    "sizeInfo": "サイズ・仕様の詳細は商品ページをご確認ください。",
+    "deliveryNote": "ご注文確定後、通常5〜10営業日以内に発送（大型家具は別途納期をご案内）",
+    "colors": [
+      {
+        "id": "natural",
+        "label": "ナチュラル",
+        "inStock": true
+      },
+      {
+        "id": "walnut",
+        "label": "ウォールナット",
+        "inStock": true
+      },
+      {
+        "id": "white",
+        "label": "ホワイト",
+        "inStock": true
+      }
+    ],
+    "sizes": [
+      {
+        "id": "free",
+        "label": "フリーサイズ",
+        "inStock": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "M.K さん",
+        "rating": 5,
+        "date": "2026.06.12",
+        "comment": "質感がよく、写真どおりの落ち着いた印象でした。組み立てもしやすく満足です。"
+      },
+      {
+        "id": "r2",
+        "author": "Y.S さん",
+        "rating": 4,
+        "date": "2026.06.08",
+        "comment": "サイズ感がちょうどよく、部屋になじみました。配送も丁寧でした。"
+      }
+    ],
+    "rank": 10
   }
 ];
 

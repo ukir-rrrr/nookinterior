@@ -1,0 +1,302 @@
+{
+  "generatedAt": "2026-08-30T18:19:50.773285+09:00",
+  "source": {
+    "site": "kurashi-ec.jp",
+    "baseUrl": "https://www.kurashi-ec.jp",
+    "categoryUrls": [
+      "https://www.kurashi-ec.jp/c/kitchen-cabinets/"
+    ]
+  },
+  "products": [
+    {
+      "id": "ma-mirenia140kct",
+      "name": "幅140cm ステンレス天板 キッチンカウンター MIRENIA",
+      "price": 83900,
+      "categorySlug": "kitchen",
+      "itemUrl": "https://www.kurashi-ec.jp/c/kitchen-cabinets/kitchen-counter/ma-mirenia140kct/",
+      "itemCode": "kurashi:000000019826",
+      "rank": 1,
+      "images": [
+        "/images/products/ma-mirenia140kct/01.jpg",
+        "/images/products/ma-mirenia140kct/02.jpg",
+        "/images/products/ma-mirenia140kct/03.jpg",
+        "/images/products/ma-mirenia140kct/04.jpg",
+        "/images/products/ma-mirenia140kct/05.jpg",
+        "/images/products/ma-mirenia140kct/06.jpg",
+        "/images/products/ma-mirenia140kct/07.jpg",
+        "/images/products/ma-mirenia140kct/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/198/000000019826/000000019826-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/198/000000019826/000000019826-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/198/000000019826/000000019826-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/198/000000019826/000000019826-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/198/000000019826/000000019826-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/198/000000019826/000000019826-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/198/000000019826/000000019826-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/198/000000019826/000000019826-08.jpg"
+      ]
+    },
+    {
+      "id": "kim-aura18kctsco",
+      "name": "幅180cm キッチンカウンター AURA 日本製 メラミン天板",
+      "price": 78900,
+      "categorySlug": "kitchen",
+      "itemUrl": "https://www.kurashi-ec.jp/c/kitchen-cabinets/kitchen-counter/kim-aura18kctsco/",
+      "itemCode": "kurashi:000000017130",
+      "rank": 2,
+      "images": [
+        "/images/products/kim-aura18kctsco/01.jpg",
+        "/images/products/kim-aura18kctsco/02.jpg",
+        "/images/products/kim-aura18kctsco/03.jpg",
+        "/images/products/kim-aura18kctsco/04.jpg",
+        "/images/products/kim-aura18kctsco/05.jpg",
+        "/images/products/kim-aura18kctsco/06.jpg",
+        "/images/products/kim-aura18kctsco/07.jpg",
+        "/images/products/kim-aura18kctsco/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/171/000000017130/000000017130-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017130/000000017130-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017130/000000017130-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017130/000000017130-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017130/000000017130-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017130/000000017130-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017130/000000017130-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017130/000000017130-08.jpg"
+      ]
+    },
+    {
+      "id": "kim-aura18kctscd",
+      "name": "幅180cm キッチンカウンター AURA 日本製 メラミン天板",
+      "price": 117000,
+      "categorySlug": "kitchen",
+      "itemUrl": "https://www.kurashi-ec.jp/c/kitchen-cabinets/kitchen-counter/kim-aura18kctscd/",
+      "itemCode": "kurashi:000000017131",
+      "rank": 3,
+      "images": [
+        "/images/products/kim-aura18kctscd/01.jpg",
+        "/images/products/kim-aura18kctscd/02.jpg",
+        "/images/products/kim-aura18kctscd/03.jpg",
+        "/images/products/kim-aura18kctscd/04.jpg",
+        "/images/products/kim-aura18kctscd/05.jpg",
+        "/images/products/kim-aura18kctscd/06.jpg",
+        "/images/products/kim-aura18kctscd/07.jpg",
+        "/images/products/kim-aura18kctscd/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/171/000000017131/000000017131-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017131/000000017131-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017131/000000017131-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017131/000000017131-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017131/000000017131-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017131/000000017131-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017131/000000017131-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017131/000000017131-08.jpg"
+      ]
+    },
+    {
+      "id": "kim-aurak18ctsdo",
+      "name": "幅180cm キッチンカウンター AURA 日本製 メラミン天板",
+      "price": 117000,
+      "categorySlug": "kitchen",
+      "itemUrl": "https://www.kurashi-ec.jp/c/kitchen-cabinets/kitchen-counter/kim-aurak18ctsdo/",
+      "itemCode": "kurashi:000000017136",
+      "rank": 4,
+      "images": [
+        "/images/products/kim-aurak18ctsdo/01.jpg",
+        "/images/products/kim-aurak18ctsdo/02.jpg",
+        "/images/products/kim-aurak18ctsdo/03.jpg",
+        "/images/products/kim-aurak18ctsdo/04.jpg",
+        "/images/products/kim-aurak18ctsdo/05.jpg",
+        "/images/products/kim-aurak18ctsdo/06.jpg",
+        "/images/products/kim-aurak18ctsdo/07.jpg",
+        "/images/products/kim-aurak18ctsdo/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/171/000000017136/000000017136-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017136/000000017136-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017136/000000017136-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017136/000000017136-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017136/000000017136-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017136/000000017136-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017136/000000017136-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017136/000000017136-08.jpg"
+      ]
+    },
+    {
+      "id": "kim-aurak18ctc2s",
+      "name": "幅180cm キッチンカウンター AURA 日本製 メラミン天板",
+      "price": 83900,
+      "categorySlug": "kitchen",
+      "itemUrl": "https://www.kurashi-ec.jp/c/kitchen-cabinets/kitchen-counter/kim-aurak18ctc2s/",
+      "itemCode": "kurashi:000000017132",
+      "rank": 5,
+      "images": [
+        "/images/products/kim-aurak18ctc2s/01.jpg",
+        "/images/products/kim-aurak18ctc2s/02.jpg",
+        "/images/products/kim-aurak18ctc2s/03.jpg",
+        "/images/products/kim-aurak18ctc2s/04.jpg",
+        "/images/products/kim-aurak18ctc2s/05.jpg",
+        "/images/products/kim-aurak18ctc2s/06.jpg",
+        "/images/products/kim-aurak18ctc2s/07.jpg",
+        "/images/products/kim-aurak18ctc2s/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/171/000000017132/000000017132-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017132/000000017132-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017132/000000017132-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017132/000000017132-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017132/000000017132-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017132/000000017132-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017132/000000017132-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017132/000000017132-08.jpg"
+      ]
+    },
+    {
+      "id": "ma-mirenia160kct",
+      "name": "幅160cm ステンレス天板 キッチンカウンター MIRENIA",
+      "price": 83900,
+      "categorySlug": "kitchen",
+      "itemUrl": "https://www.kurashi-ec.jp/c/kitchen-cabinets/kitchen-counter/ma-mirenia160kct/",
+      "itemCode": "kurashi:000000015449",
+      "rank": 6,
+      "images": [
+        "/images/products/ma-mirenia160kct/01.jpg",
+        "/images/products/ma-mirenia160kct/02.jpg",
+        "/images/products/ma-mirenia160kct/03.jpg",
+        "/images/products/ma-mirenia160kct/04.jpg",
+        "/images/products/ma-mirenia160kct/05.jpg",
+        "/images/products/ma-mirenia160kct/06.jpg",
+        "/images/products/ma-mirenia160kct/07.jpg",
+        "/images/products/ma-mirenia160kct/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/154/000000015449/000000015449-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/154/000000015449/000000015449-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/154/000000015449/000000015449-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/154/000000015449/000000015449-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/154/000000015449/000000015449-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/154/000000015449/000000015449-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/154/000000015449/000000015449-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/154/000000015449/000000015449-08.jpg"
+      ]
+    },
+    {
+      "id": "kim-aurak18ctc2o",
+      "name": "幅180cm キッチンカウンター AURA 日本製 メラミン天板",
+      "price": 117000,
+      "categorySlug": "kitchen",
+      "itemUrl": "https://www.kurashi-ec.jp/c/kitchen-cabinets/kitchen-counter/kim-aurak18ctc2o/",
+      "itemCode": "kurashi:000000017134",
+      "rank": 7,
+      "images": [
+        "/images/products/kim-aurak18ctc2o/01.jpg",
+        "/images/products/kim-aurak18ctc2o/02.jpg",
+        "/images/products/kim-aurak18ctc2o/03.jpg",
+        "/images/products/kim-aurak18ctc2o/04.jpg",
+        "/images/products/kim-aurak18ctc2o/05.jpg",
+        "/images/products/kim-aurak18ctc2o/06.jpg",
+        "/images/products/kim-aurak18ctc2o/07.jpg",
+        "/images/products/kim-aurak18ctc2o/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/171/000000017134/000000017134-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017134/000000017134-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017134/000000017134-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017134/000000017134-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017134/000000017134-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017134/000000017134-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017134/000000017134-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017134/000000017134-08.jpg"
+      ]
+    },
+    {
+      "id": "kim-aurak18ctcdo",
+      "name": "幅180cm キッチンカウンター AURA 日本製 メラミン天板",
+      "price": 78900,
+      "categorySlug": "kitchen",
+      "itemUrl": "https://www.kurashi-ec.jp/c/kitchen-cabinets/kitchen-counter/kim-aurak18ctcdo/",
+      "itemCode": "kurashi:000000017135",
+      "rank": 8,
+      "images": [
+        "/images/products/kim-aurak18ctcdo/01.jpg",
+        "/images/products/kim-aurak18ctcdo/02.jpg",
+        "/images/products/kim-aurak18ctcdo/03.jpg",
+        "/images/products/kim-aurak18ctcdo/04.jpg",
+        "/images/products/kim-aurak18ctcdo/05.jpg",
+        "/images/products/kim-aurak18ctcdo/06.jpg",
+        "/images/products/kim-aurak18ctcdo/07.jpg",
+        "/images/products/kim-aurak18ctcdo/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/171/000000017135/000000017135-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017135/000000017135-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017135/000000017135-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017135/000000017135-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017135/000000017135-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017135/000000017135-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017135/000000017135-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017135/000000017135-08.jpg"
+      ]
+    },
+    {
+      "id": "kim-orv150kct",
+      "name": "幅150cm 大理石調 キッチンカウンター ORV コンセント付き",
+      "price": 117000,
+      "categorySlug": "kitchen",
+      "itemUrl": "https://www.kurashi-ec.jp/c/kitchen-cabinets/kitchen-counter/kim-orv150kct/",
+      "itemCode": "kurashi:000000015960",
+      "rank": 9,
+      "images": [
+        "/images/products/kim-orv150kct/01.jpg",
+        "/images/products/kim-orv150kct/02.jpg",
+        "/images/products/kim-orv150kct/03.jpg",
+        "/images/products/kim-orv150kct/04.jpg",
+        "/images/products/kim-orv150kct/05.jpg",
+        "/images/products/kim-orv150kct/06.jpg",
+        "/images/products/kim-orv150kct/07.jpg",
+        "/images/products/kim-orv150kct/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/159/000000015960/000000015960-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015960/000000015960-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015960/000000015960-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015960/000000015960-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015960/000000015960-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015960/000000015960-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015960/000000015960-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015960/000000015960-08.jpg"
+      ]
+    },
+    {
+      "id": "sn-44050",
+      "name": "幅138cm サイドボード セラミック天板 木目 引き出し",
+      "price": 117000,
+      "categorySlug": "kitchen",
+      "itemUrl": "https://www.kurashi-ec.jp/c/storage-furniture/cabinet/sn-44050/",
+      "itemCode": "kurashi:000000013529",
+      "rank": 10,
+      "images": [
+        "/images/products/sn-44050/01.jpg",
+        "/images/products/sn-44050/02.jpg",
+        "/images/products/sn-44050/03.jpg",
+        "/images/products/sn-44050/04.jpg",
+        "/images/products/sn-44050/05.jpg",
+        "/images/products/sn-44050/06.jpg",
+        "/images/products/sn-44050/07.jpg",
+        "/images/products/sn-44050/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/135/000000013529/000000013529-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/135/000000013529/000000013529-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/135/000000013529/000000013529-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/135/000000013529/000000013529-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/135/000000013529/000000013529-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/135/000000013529/000000013529-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/135/000000013529/000000013529-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/135/000000013529/000000013529-08.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "generatedAt": "2026-08-30T18:20:26.398724+09:00",
+  "source": {
+    "site": "kurashi-ec.jp",
+    "baseUrl": "https://www.kurashi-ec.jp",
+    "categoryUrls": [
+      "https://www.kurashi-ec.jp/c/clothing-storage/"
+    ]
+  },
+  "products": [
+    {
+      "id": "iw-046-2",
+      "name": "幅80cm 木製 チェスト メリッサ 天然木",
+      "price": 69800,
+      "categorySlug": "clothing",
+      "itemUrl": "https://www.kurashi-ec.jp/c/clothing-storage/chest/iw-046-2/",
+      "itemCode": "kurashi:000000013218",
+      "rank": 1,
+      "images": [
+        "/images/products/iw-046-2/01.jpg",
+        "/images/products/iw-046-2/02.jpg",
+        "/images/products/iw-046-2/03.jpg",
+        "/images/products/iw-046-2/04.jpg",
+        "/images/products/iw-046-2/05.jpg",
+        "/images/products/iw-046-2/06.jpg",
+        "/images/products/iw-046-2/07.jpg",
+        "/images/products/iw-046-2/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/132/000000013218/000000013218-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013218/000000013218-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013218/000000013218-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013218/000000013218-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013218/000000013218-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013218/000000013218-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013218/000000013218-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013218/000000013218-08.jpg"
+      ]
+    },
+    {
+      "id": "ka-dresserqt2811",
+      "name": "カリモク 幅70.9cm ドレッサー 日本製 木製",
+      "price": 157300,
+      "categorySlug": "clothing",
+      "itemUrl": "https://www.kurashi-ec.jp/c/clothing-storage/dresser/ka-dresserqt2811/",
+      "itemCode": "kurashi:000000013255",
+      "rank": 2,
+      "images": [
+        "/images/products/ka-dresserqt2811/01.jpg",
+        "/images/products/ka-dresserqt2811/02.jpg",
+        "/images/products/ka-dresserqt2811/03.jpg",
+        "/images/products/ka-dresserqt2811/04.jpg",
+        "/images/products/ka-dresserqt2811/05.jpg",
+        "/images/products/ka-dresserqt2811/06.jpg",
+        "/images/products/ka-dresserqt2811/07.jpg",
+        "/images/products/ka-dresserqt2811/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/132/000000013255/000000013255-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013255/000000013255-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013255/000000013255-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013255/000000013255-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013255/000000013255-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013255/000000013255-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013255/000000013255-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013255/000000013255-08.jpg"
+      ]
+    },
+    {
+      "id": "am-db30203l",
+      "name": "幅100cm 3段 チェスト EDDA 木製",
+      "price": 148500,
+      "categorySlug": "clothing",
+      "itemUrl": "https://www.kurashi-ec.jp/c/storage-furniture/side-chest/am-db30203l/",
+      "itemCode": "kurashi:000000006233",
+      "rank": 3,
+      "images": [
+        "/images/products/am-db30203l/01.jpg",
+        "/images/products/am-db30203l/02.jpg",
+        "/images/products/am-db30203l/03.jpg",
+        "/images/products/am-db30203l/04.jpg",
+        "/images/products/am-db30203l/05.jpg",
+        "/images/products/am-db30203l/06.jpg",
+        "/images/products/am-db30203l/07.jpg",
+        "/images/products/am-db30203l/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/062/000000006233/000000006233-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/062/000000006233/000000006233-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/062/000000006233/000000006233-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/062/000000006233/000000006233-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/062/000000006233/000000006233-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/062/000000006233/000000006233-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/062/000000006233/000000006233-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/062/000000006233/000000006233-08.jpg"
+      ]
+    },
+    {
+      "id": "ka-chestqt2814",
+      "name": "カリモク 幅78.5cm リビングチェスト 日本製 木製",
+      "price": 177100,
+      "categorySlug": "clothing",
+      "itemUrl": "https://www.kurashi-ec.jp/c/storage-furniture/side-chest/ka-chestqt2814/",
+      "itemCode": "kurashi:000000013253",
+      "rank": 4,
+      "images": [
+        "/images/products/ka-chestqt2814/01.jpg",
+        "/images/products/ka-chestqt2814/02.jpg",
+        "/images/products/ka-chestqt2814/03.jpg",
+        "/images/products/ka-chestqt2814/04.jpg",
+        "/images/products/ka-chestqt2814/05.jpg",
+        "/images/products/ka-chestqt2814/06.jpg",
+        "/images/products/ka-chestqt2814/07.jpg",
+        "/images/products/ka-chestqt2814/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/132/000000013253/000000013253-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013253/000000013253-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013253/000000013253-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013253/000000013253-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013253/000000013253-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013253/000000013253-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013253/000000013253-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013253/000000013253-08.jpg"
+      ]
+    },
+    {
+      "id": "ma-morl110lc",
+      "name": "幅110cm チェスト 6段 日本製 国産",
+      "price": 48900,
+      "categorySlug": "clothing",
+      "itemUrl": "https://www.kurashi-ec.jp/c/clothing-storage/chest/ma-morl110lc/",
+      "itemCode": "kurashi:000000021031",
+      "rank": 5,
+      "images": [
+        "/images/products/ma-morl110lc/01.jpg",
+        "/images/products/ma-morl110lc/02.jpg",
+        "/images/products/ma-morl110lc/03.jpg",
+        "/images/products/ma-morl110lc/04.jpg",
+        "/images/products/ma-morl110lc/05.jpg",
+        "/images/products/ma-morl110lc/06.jpg",
+        "/images/products/ma-morl110lc/07.jpg",
+        "/images/products/ma-morl110lc/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/210/000000021031/000000021031-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/210/000000021031/000000021031-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/210/000000021031/000000021031-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/210/000000021031/000000021031-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/210/000000021031/000000021031-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/210/000000021031/000000021031-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/210/000000021031/000000021031-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/210/000000021031/000000021031-08.jpg"
+      ]
+    },
+    {
+      "id": "icb-h-3395",
+      "name": "幅32cm コートハンガー cime 木製 ポールハンガー",
+      "price": 5900,
+      "categorySlug": "clothing",
+      "itemUrl": "https://www.kurashi-ec.jp/c/clothing-storage/hanger-rack/icb-h-3395/",
+      "itemCode": "kurashi:000000013359",
+      "rank": 6,
+      "images": [
+        "/images/products/icb-h-3395/01.jpg",
+        "/images/products/icb-h-3395/02.jpg",
+        "/images/products/icb-h-3395/03.jpg",
+        "/images/products/icb-h-3395/04.jpg",
+        "/images/products/icb-h-3395/05.jpg",
+        "/images/products/icb-h-3395/06.jpg",
+        "/images/products/icb-h-3395/07.jpg",
+        "/images/products/icb-h-3395/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/133/000000013359/000000013359-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/133/000000013359/000000013359-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/133/000000013359/000000013359-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/133/000000013359/000000013359-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/133/000000013359/000000013359-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/133/000000013359/000000013359-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/133/000000013359/000000013359-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/133/000000013359/000000013359-08.jpg"
+      ]
+    },
+    {
+      "id": "iw-046-3",
+      "name": "幅45cm 木製 ジュエリーチェスト メリッサ 天然木",
+      "price": 69800,
+      "categorySlug": "clothing",
+      "itemUrl": "https://www.kurashi-ec.jp/c/clothing-storage/chest/iw-046-3/",
+      "itemCode": "kurashi:000000013219",
+      "rank": 7,
+      "images": [
+        "/images/products/iw-046-3/01.jpg",
+        "/images/products/iw-046-3/02.jpg",
+        "/images/products/iw-046-3/03.jpg",
+        "/images/products/iw-046-3/04.jpg",
+        "/images/products/iw-046-3/05.jpg",
+        "/images/products/iw-046-3/06.jpg",
+        "/images/products/iw-046-3/07.jpg",
+        "/images/products/iw-046-3/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/132/000000013219/000000013219-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013219/000000013219-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013219/000000013219-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013219/000000013219-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013219/000000013219-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013219/000000013219-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013219/000000013219-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013219/000000013219-08.jpg"
+      ]
+    },
+    {
+      "id": "icb-h-3314",
+      "name": "幅30cm クレインハンガー 木製 ポールハンガー コートハンガー",
+      "price": 6300,
+      "categorySlug": "clothing",
+      "itemUrl": "https://www.kurashi-ec.jp/c/clothing-storage/hanger-rack/icb-h-3314/",
+      "itemCode": "kurashi:000000013360",
+      "rank": 8,
+      "images": [
+        "/images/products/icb-h-3314/01.jpg",
+        "/images/products/icb-h-3314/02.jpg",
+        "/images/products/icb-h-3314/03.jpg",
+        "/images/products/icb-h-3314/04.jpg",
+        "/images/products/icb-h-3314/05.jpg",
+        "/images/products/icb-h-3314/06.jpg",
+        "/images/products/icb-h-3314/07.jpg",
+        "/images/products/icb-h-3314/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/133/000000013360/000000013360-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/133/000000013360/000000013360-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/133/000000013360/000000013360-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/133/000000013360/000000013360-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/133/000000013360/000000013360-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/133/000000013360/000000013360-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/133/000000013360/000000013360-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/133/000000013360/000000013360-08.jpg"
+      ]
+    },
+    {
+      "id": "sko-0043100",
+      "name": "幅60cm ドレッサー 椅子付き 角タイプ ベロア調",
+      "price": 27900,
+      "categorySlug": "clothing",
+      "itemUrl": "https://www.kurashi-ec.jp/c/clothing-storage/dresser/sko-0043100/",
+      "itemCode": "kurashi:000000015907",
+      "rank": 9,
+      "images": [
+        "/images/products/sko-0043100/01.jpg",
+        "/images/products/sko-0043100/02.jpg",
+        "/images/products/sko-0043100/03.jpg",
+        "/images/products/sko-0043100/04.jpg",
+        "/images/products/sko-0043100/05.jpg",
+        "/images/products/sko-0043100/06.jpg",
+        "/images/products/sko-0043100/07.jpg",
+        "/images/products/sko-0043100/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/159/000000015907/000000015907-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015907/000000015907-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015907/000000015907-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015907/000000015907-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015907/000000015907-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015907/000000015907-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015907/000000015907-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015907/000000015907-08.jpg"
+      ]
+    },
+    {
+      "id": "doi-rea50hmsbx",
+      "name": "幅50.4cm ハイタイプ シューズボックス 日本製 リアル",
+      "price": 61900,
+      "categorySlug": "clothing",
+      "itemUrl": "https://www.kurashi-ec.jp/c/clothing-storage/shoes-box/doi-rea50hmsbx/",
+      "itemCode": "kurashi:000000021659",
+      "rank": 10,
+      "images": [
+        "/images/products/doi-rea50hmsbx/01.jpg",
+        "/images/products/doi-rea50hmsbx/02.jpg",
+        "/images/products/doi-rea50hmsbx/03.jpg",
+        "/images/products/doi-rea50hmsbx/04.jpg",
+        "/images/products/doi-rea50hmsbx/05.jpg",
+        "/images/products/doi-rea50hmsbx/06.jpg",
+        "/images/products/doi-rea50hmsbx/07.jpg",
+        "/images/products/doi-rea50hmsbx/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/216/000000021659/000000021659-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/216/000000021659/000000021659-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/216/000000021659/000000021659-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/216/000000021659/000000021659-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/216/000000021659/000000021659-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/216/000000021659/000000021659-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/216/000000021659/000000021659-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/216/000000021659/000000021659-08.jpg"
+      ]
+    }
+  ]
+}
