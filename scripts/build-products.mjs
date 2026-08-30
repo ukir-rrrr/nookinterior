@@ -44,7 +44,6 @@ const VALID_CATEGORY_SLUGS = new Set([
   "tvboard",
   "storage",
   "bed",
-  "mirror",
   "lighting",
   "rug",
   "goods",
@@ -53,6 +52,95 @@ const VALID_CATEGORY_SLUGS = new Set([
   "kotatsu",
 ]);
 const DEFAULT_CATEGORY_SLUG = "goods";
+
+/** カテゴリの日本語ラベル（説明文・素材の生成に使用） */
+const CATEGORY_LABEL = {
+  sofa: "ソファ",
+  table: "テーブル・デスク",
+  chair: "チェア・ベンチ",
+  tvboard: "テレビボード",
+  storage: "リビング収納",
+  bed: "ベッド",
+  lighting: "照明",
+  rug: "ラグ・ファブリック",
+  goods: "インテリア雑貨",
+  kitchen: "キッチン収納",
+  clothing: "衣類収納",
+  kotatsu: "こたつ",
+};
+
+/** カテゴリ別のデフォルト素材（商品名から抽出できなかった場合のフォールバック） */
+const CATEGORY_MATERIAL = {
+  sofa: "ファブリック／木製フレーム",
+  table: "木製（天然木・木目調）",
+  chair: "ファブリック／スチール脚",
+  tvboard: "木製（木目調）",
+  storage: "木製（木目調）",
+  bed: "木製フレーム",
+  lighting: "スチール／ファブリックシェード",
+  rug: "ポリエステル・ウール混",
+  goods: "陶器・木製・ガラス 等",
+  kitchen: "木製／ステンレス天板",
+  clothing: "木製（天然木・木目調）",
+  kotatsu: "木製／こたつ布団付き",
+};
+
+/** 商品名に現れる素材キーワード（出現順に拾う） */
+const MATERIAL_KEYWORDS = [
+  "ステンレス", "セラミック", "天然木", "ウォールナット", "オーク", "パイン",
+  "ラタン", "アイアン", "スチール", "アルミ", "ガラス", "本革", "レザー",
+  "ファブリック", "リネン", "コットン", "ウール", "突板", "MDF", "大理石",
+  "ひのき", "木製", "無垢",
+];
+
+/**
+ * EC 向けに価格を調整する（Phase 2 の高めの EC 価格をおおよそ 45% に）。
+ * 100円単位で丸め、下限 3,000円。
+ * @param {number} raw
+ */
+function adjustPrice(raw) {
+  const p = Number(raw);
+  if (!Number.isFinite(p) || p <= 0) return p;
+  const scaled = Math.round((p * 0.45) / 100) * 100;
+  return Math.max(3000, scaled);
+}
+
+/** 商品名から寸法情報を抽出する。 */
+function extractSizeInfo(name, categorySlug) {
+  const dims = [];
+  const patterns = [
+    /(?:約\s*)?幅\s*\d+(?:\.\d+)?\s*cm/gu,
+    /(?:約\s*)?奥行き?\s*\d+(?:\.\d+)?\s*cm/gu,
+    /(?:約\s*)?高さ\s*\d+(?:\.\d+)?\s*cm/gu,
+    /[Ww]\s*\d+(?:\.\d+)?\s*[×xX]\s*[Dd]\s*\d+(?:\.\d+)?\s*[×xX]\s*[Hh]\s*\d+(?:\.\d+)?\s*(?:cm)?/gu,
+    /\d+\s*[×xX]\s*\d+\s*cm/gu,
+    /(?:直径|φ)\s*\d+(?:\.\d+)?\s*cm/gu,
+  ];
+  for (const re of patterns) {
+    const found = name.match(re);
+    if (found) dims.push(...found.map((s) => s.replace(/\s+/gu, "")));
+  }
+  const unique = [...new Set(dims)];
+  if (unique.length > 0) return unique.join(" / ");
+  return `${CATEGORY_LABEL[categorySlug] ?? "本商品"}のサイズは商品画像を目安にお選びください。`;
+}
+
+/** 商品名から素材を推定する。 */
+function extractMaterial(name, categorySlug) {
+  const hits = [];
+  for (const kw of MATERIAL_KEYWORDS) {
+    if (name.includes(kw) && !hits.includes(kw)) hits.push(kw);
+    if (hits.length >= 3) break;
+  }
+  if (hits.length > 0) return hits.join("／");
+  return CATEGORY_MATERIAL[categorySlug] ?? "木製";
+}
+
+/** 商品名とカテゴリから説明文を生成する。 */
+function buildDescription(name, categorySlug) {
+  const label = CATEGORY_LABEL[categorySlug] ?? "インテリア";
+  return `${name}。${label}として、日々の暮らしになじむデザインと使い勝手を大切にした一台です。お部屋の雰囲気に合わせて取り入れやすく、長く愛用いただけます。`;
+}
 
 /**
  * 楽天 itemName を EC 向けの短い表示名に整形する。
@@ -150,10 +238,12 @@ const SCENE_BY_CATEGORY = {
   tvboard: ["living"],
   storage: ["living", "study"],
   bed: ["bedroom"],
-  mirror: ["bedroom", "living"],
   lighting: ["living", "bedroom", "study"],
   rug: ["living", "bedroom"],
   goods: ["living"],
+  kitchen: ["dining"],
+  clothing: ["bedroom"],
+  kotatsu: ["living"],
 };
 
 /**
@@ -189,11 +279,12 @@ function toProduct(item, warnings, index) {
     categorySlug = DEFAULT_CATEGORY_SLUG;
   }
 
-  const price = Number(item.price);
-  if (!Number.isFinite(price) || price <= 0) {
+  const rawPrice = Number(item.price);
+  if (!Number.isFinite(rawPrice) || rawPrice <= 0) {
     warnings.push(`${id}: price が不正 (${item.price}) のためスキップしました`);
     return null;
   }
+  const price = adjustPrice(rawPrice);
 
   const name = cleanName(item.name);
 
@@ -206,13 +297,13 @@ function toProduct(item, warnings, index) {
     sceneSlugs: SCENE_BY_CATEGORY[categorySlug] ?? [],
     image: existingImages[0],
     images: existingImages.slice(0, 8),
-    description: `${name}（参考：楽天市場の商品情報を基にしています）`,
-    material: "詳細は商品ページ・メーカー情報をご確認ください。",
-    sizeInfo: "サイズ・仕様の詳細は商品ページをご確認ください。",
+    description: buildDescription(name, categorySlug),
+    material: extractMaterial(name, categorySlug),
+    sizeInfo: extractSizeInfo(name, categorySlug),
     deliveryNote: DEFAULT_DELIVERY_NOTE,
-    colors: DEFAULT_COLORS,
+    colors: [],
     sizes: DEFAULT_SIZES,
-    reviews: DEFAULT_REVIEWS,
+    reviews: [],
   };
 
   product.rank =
@@ -220,8 +311,10 @@ function toProduct(item, warnings, index) {
       ? Number(item.rank)
       : index + 1;
 
+  // 新着とおすすめが同一商品にならないよう、先頭4件=新着 / 次の4件=おすすめ に分離
   if (index < 4) {
     product.isNew = true;
+  } else if (index < 8) {
     product.isRecommended = true;
   }
 
@@ -349,7 +442,6 @@ export function getDefaultRankingCategory(): string {
     "chair",
     "tvboard",
     "bed",
-    "mirror",
     "lighting",
     "rug",
     "goods",

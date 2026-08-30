@@ -32,12 +32,17 @@ function CartIcon() {
   );
 }
 
+const NO_COLOR = { id: "default", label: "指定なし" };
+
 export default function ProductPurchasePanel({ product }: ProductPurchasePanelProps) {
   const { addItem } = useCart();
   const { isFavorite, toggleFavorite } = useAuth();
+  const hasColors = product.colors.length > 0;
   const availableColors = product.colors.filter((c) => c.inStock);
   const availableSizes = product.sizes.filter((s) => s.inStock);
-  const [colorId, setColorId] = useState(availableColors[0]?.id ?? "");
+  const [colorId, setColorId] = useState(
+    hasColors ? availableColors[0]?.id ?? "" : NO_COLOR.id,
+  );
   const [sizeId, setSizeId] = useState(availableSizes[0]?.id ?? "");
   const favorite = isFavorite(product.id);
   const [added, setAdded] = useState(false);
@@ -48,13 +53,17 @@ export default function ProductPurchasePanel({ product }: ProductPurchasePanelPr
   const canAdd = Boolean(colorId && sizeId);
 
   const selectedLabel = useMemo(() => {
-    const color = product.colors.find((c) => c.id === colorId)?.label;
+    const color = hasColors
+      ? product.colors.find((c) => c.id === colorId)?.label
+      : undefined;
     const size = product.sizes.find((s) => s.id === sizeId)?.label;
     return [color, size].filter(Boolean).join(" / ");
-  }, [colorId, product.colors, product.sizes, sizeId]);
+  }, [colorId, hasColors, product.colors, product.sizes, sizeId]);
 
   const handleAddToCart = () => {
-    const color = product.colors.find((c) => c.id === colorId);
+    const color = hasColors
+      ? product.colors.find((c) => c.id === colorId)
+      : NO_COLOR;
     const size = product.sizes.find((s) => s.id === sizeId);
     if (!color || !size) return;
 
@@ -95,32 +104,34 @@ export default function ProductPurchasePanel({ product }: ProductPurchasePanelPr
         </p>
       </div>
 
-      <div>
-        <p className="mb-3 text-sm font-medium text-text">カラー</p>
-        <div className="flex flex-wrap gap-2">
-          {product.colors.map((color) => {
-            const isActive = color.id === colorId;
-            return (
-              <button
-                key={color.id}
-                type="button"
-                disabled={!color.inStock}
-                onClick={() => setColorId(color.id)}
-                className={`rounded-sm border px-3 py-2 text-sm transition-colors ${
-                  !color.inStock
-                    ? "cursor-not-allowed border-[#e8e2d9] text-[#b0b0b0] line-through"
-                    : isActive
-                      ? "border-accent-1 bg-accent-1 text-white"
-                      : "border-[#d9d2c8] text-text hover:border-accent-1"
-                }`}
-              >
-                {color.label}
-                {!color.inStock ? "（在庫切れ）" : ""}
-              </button>
-            );
-          })}
+      {hasColors ? (
+        <div>
+          <p className="mb-3 text-sm font-medium text-text">カラー</p>
+          <div className="flex flex-wrap gap-2">
+            {product.colors.map((color) => {
+              const isActive = color.id === colorId;
+              return (
+                <button
+                  key={color.id}
+                  type="button"
+                  disabled={!color.inStock}
+                  onClick={() => setColorId(color.id)}
+                  className={`rounded-sm border px-3 py-2 text-sm transition-colors ${
+                    !color.inStock
+                      ? "cursor-not-allowed border-[#e8e2d9] text-[#b0b0b0] line-through"
+                      : isActive
+                        ? "border-accent-1 bg-accent-1 text-white"
+                        : "border-[#d9d2c8] text-text hover:border-accent-1"
+                  }`}
+                >
+                  {color.label}
+                  {!color.inStock ? "（在庫切れ）" : ""}
+                </button>
+              );
+            })}
+          </div>
         </div>
-      </div>
+      ) : null}
 
       <div>
         <p className="mb-3 text-sm font-medium text-text">サイズ</p>

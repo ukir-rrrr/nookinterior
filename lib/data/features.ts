@@ -23,7 +23,12 @@ export const features: Feature[] = [
       "次に座り心地。浅めの座面は姿勢が保ちやすく、深めの座面はリラックス向き。来客が多い家庭は前者、ゆったり過ごしたい方は後者が向いています。",
       "生地は、お手入れしやすさで選ぶのがおすすめ。小さなお子さまやペットがいる場合は、汚れが落ちやすいファブリックを選ぶと安心です。",
     ],
-    relatedProductIds: ["sofa-01", "sofa-02", "rug-01"],
+    relatedProductIds: [
+      "kd-modulia1as",
+      "kd-moduliacuset",
+      "kd-modulia25sset",
+      "pr-jioni1919",
+    ],
   },
   {
     slug: "one-room-layout",
@@ -38,7 +43,12 @@ export const features: Feature[] = [
       "低い家具を中心にすると視線が通り、部屋が広く感じられます。ローボードやサイドテーブルを取り入れるのもおすすめです。",
       "最後に、照明とラグで「居場所」をつくりましょう。あかりの色温度を少し暖色寄りにすると、帰宅後のくつろぎ感が高まります。",
     ],
-    relatedProductIds: ["chair-01", "table-02", "lighting-01", "goods-01"],
+    relatedProductIds: [
+      "oc-ch-ym15",
+      "kim-orv90d3set",
+      "spi-salp-0004",
+      "sgt-wav957802",
+    ],
   },
   {
     slug: "bed-size",
@@ -53,7 +63,12 @@ export const features: Feature[] = [
       "二人で使うならダブル以上が安心。ただし寝室の幅に対して、ベッド脇の通路を左右どちらか最低でも40cm以上確保できるかも確認してください。",
       "フレームの高さも重要です。低いベッドは開放感があり、収納付きや脚高めのタイプは掃除のしやすさが魅力です。暮らし方に合わせて選びましょう。",
     ],
-    relatedProductIds: ["bed-01", "bed-02", "mirror-01"],
+    relatedProductIds: [
+      "grt-2wolte2-2-d",
+      "ha-wb-7721s",
+      "grt-berio-sd",
+      "grt-2wolte-s",
+    ],
   },
 ];
 
