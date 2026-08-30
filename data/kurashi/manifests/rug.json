@@ -1,0 +1,240 @@
+{
+  "generatedAt": "2026-08-30T17:22:09.471041+09:00",
+  "source": {
+    "site": "kurashi-ec.jp",
+    "baseUrl": "https://www.kurashi-ec.jp",
+    "categoryUrls": [
+      "https://www.kurashi-ec.jp/c/rug-carpet/"
+    ]
+  },
+  "products": [
+    {
+      "id": "pr-jioni1919",
+      "name": "プレーベル 190×190cm カーペット 日本製 約2.3畳",
+      "price": 22800,
+      "categorySlug": "rug",
+      "itemUrl": "https://www.kurashi-ec.jp/c/rug-carpet/rug/191-250cm_rug/pr-jioni1919/",
+      "itemCode": "kurashi:000000011369",
+      "rank": 1,
+      "images": [
+        "/images/products/pr-jioni1919/01.jpg",
+        "/images/products/pr-jioni1919/02.jpg",
+        "/images/products/pr-jioni1919/03.jpg",
+        "/images/products/pr-jioni1919/04.jpg",
+        "/images/products/pr-jioni1919/05.jpg",
+        "/images/products/pr-jioni1919/06.jpg",
+        "/images/products/pr-jioni1919/07.jpg",
+        "/images/products/pr-jioni1919/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/113/000000011369/000000011369-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011369/000000011369-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011369/000000011369-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011369/000000011369-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011369/000000011369-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011369/000000011369-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011369/000000011369-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011369/000000011369-08.jpg"
+      ]
+    },
+    {
+      "id": "pr-jioni1924",
+      "name": "プレーベル 190×240cm カーペット 日本製 約3畳",
+      "price": 22800,
+      "categorySlug": "rug",
+      "itemUrl": "https://www.kurashi-ec.jp/c/rug-carpet/rug/191-250cm_rug/pr-jioni1924/",
+      "itemCode": "kurashi:000000011370",
+      "rank": 2,
+      "images": [
+        "/images/products/pr-jioni1924/01.jpg",
+        "/images/products/pr-jioni1924/02.jpg",
+        "/images/products/pr-jioni1924/03.jpg",
+        "/images/products/pr-jioni1924/04.jpg",
+        "/images/products/pr-jioni1924/05.jpg",
+        "/images/products/pr-jioni1924/06.jpg",
+        "/images/products/pr-jioni1924/07.jpg",
+        "/images/products/pr-jioni1924/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/113/000000011370/000000011370-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011370/000000011370-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011370/000000011370-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011370/000000011370-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011370/000000011370-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011370/000000011370-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011370/000000011370-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011370/000000011370-08.jpg"
+      ]
+    },
+    {
+      "id": "pr-jioni1319",
+      "name": "プレーベル 130×190cm カーペット 日本製 約1.5畳",
+      "price": 32800,
+      "categorySlug": "rug",
+      "itemUrl": "https://www.kurashi-ec.jp/c/rug-carpet/rug/191-250cm_rug/pr-jioni1319/",
+      "itemCode": "kurashi:000000011368",
+      "rank": 3,
+      "images": [
+        "/images/products/pr-jioni1319/01.jpg",
+        "/images/products/pr-jioni1319/02.jpg",
+        "/images/products/pr-jioni1319/03.jpg",
+        "/images/products/pr-jioni1319/04.jpg",
+        "/images/products/pr-jioni1319/05.jpg",
+        "/images/products/pr-jioni1319/06.jpg",
+        "/images/products/pr-jioni1319/07.jpg",
+        "/images/products/pr-jioni1319/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/113/000000011368/000000011368-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011368/000000011368-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011368/000000011368-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011368/000000011368-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011368/000000011368-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011368/000000011368-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011368/000000011368-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011368/000000011368-08.jpg"
+      ]
+    },
+    {
+      "id": "pr-jeido1924",
+      "name": "プレーベル 190×240cm カーペット 日本製 約3畳",
+      "price": 27800,
+      "categorySlug": "rug",
+      "itemUrl": "https://www.kurashi-ec.jp/c/rug-carpet/rug/191-250cm_rug/pr-jeido1924/",
+      "itemCode": "kurashi:000000011378",
+      "rank": 4,
+      "images": [
+        "/images/products/pr-jeido1924/01.jpg",
+        "/images/products/pr-jeido1924/02.jpg",
+        "/images/products/pr-jeido1924/03.jpg",
+        "/images/products/pr-jeido1924/04.jpg",
+        "/images/products/pr-jeido1924/05.jpg",
+        "/images/products/pr-jeido1924/06.jpg",
+        "/images/products/pr-jeido1924/07.jpg",
+        "/images/products/pr-jeido1924/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/113/000000011378/000000011378-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011378/000000011378-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011378/000000011378-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011378/000000011378-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011378/000000011378-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011378/000000011378-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011378/000000011378-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/113/000000011378/000000011378-08.jpg"
+      ]
+    },
+    {
+      "id": "pr-porin1319",
+      "name": "133×195cm ラグ ポーリン ウィルトン カーペット",
+      "price": 28800,
+      "categorySlug": "rug",
+      "itemUrl": "https://www.kurashi-ec.jp/c/rug-carpet/rug/191-250cm_rug/pr-porin1319/",
+      "itemCode": "kurashi:000000017776",
+      "rank": 5,
+      "images": [
+        "/images/products/pr-porin1319/01.jpg",
+        "/images/products/pr-porin1319/02.jpg",
+        "/images/products/pr-porin1319/03.jpg",
+        "/images/products/pr-porin1319/04.jpg",
+        "/images/products/pr-porin1319/05.jpg",
+        "/images/products/pr-porin1319/06.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/177/000000017776/000000017776-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/177/000000017776/000000017776-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/177/000000017776/000000017776-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/177/000000017776/000000017776-27.jpg",
+        "https://kurashiec202009.itembox.cloud/product/177/000000017776/000000017776-31.jpg",
+        "https://kurashiec202009.itembox.cloud/product/177/000000017776/000000017776-32.jpg"
+      ]
+    },
+    {
+      "id": "asw-nas-2020",
+      "name": "200×200cm",
+      "price": 40500,
+      "categorySlug": "rug",
+      "itemUrl": "https://www.kurashi-ec.jp/c/rug-carpet/rug/asw-nas-2020/",
+      "itemCode": "kurashi:000000008429",
+      "rank": 6,
+      "images": [
+        "/images/products/asw-nas-2020/01.jpg",
+        "/images/products/asw-nas-2020/02.jpg",
+        "/images/products/asw-nas-2020/03.jpg",
+        "/images/products/asw-nas-2020/04.jpg",
+        "/images/products/asw-nas-2020/05.jpg",
+        "/images/products/asw-nas-2020/06.jpg",
+        "/images/products/asw-nas-2020/07.jpg",
+        "/images/products/asw-nas-2020/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/084/000000008429/000000008429-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/084/000000008429/000000008429-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/084/000000008429/000000008429-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/084/000000008429/000000008429-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/084/000000008429/000000008429-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/084/000000008429/000000008429-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/084/000000008429/000000008429-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/084/000000008429/000000008429-08.jpg"
+      ]
+    },
+    {
+      "id": "pr-jina1919",
+      "name": "190×190cm ラグ ジーナ 日本製 リビング",
+      "price": 39800,
+      "categorySlug": "rug",
+      "itemUrl": "https://www.kurashi-ec.jp/c/rug-carpet/rug/191-250cm_rug/pr-jina1919/",
+      "itemCode": "kurashi:000000017759",
+      "rank": 7,
+      "images": [
+        "/images/products/pr-jina1919/01.jpg",
+        "/images/products/pr-jina1919/02.jpg",
+        "/images/products/pr-jina1919/03.jpg",
+        "/images/products/pr-jina1919/04.jpg",
+        "/images/products/pr-jina1919/05.jpg",
+        "/images/products/pr-jina1919/06.jpg",
+        "/images/products/pr-jina1919/07.jpg",
+        "/images/products/pr-jina1919/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/177/000000017759/000000017759-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/177/000000017759/000000017759-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/177/000000017759/000000017759-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/177/000000017759/000000017759-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/177/000000017759/000000017759-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/177/000000017759/000000017759-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/177/000000017759/000000017759-27.jpg",
+        "https://kurashiec202009.itembox.cloud/product/177/000000017759/000000017759-31.jpg"
+      ]
+    },
+    {
+      "id": "smi-calm2020",
+      "name": "200X200cm ラグ カーム 防炎 防音 完成品",
+      "price": 46200,
+      "categorySlug": "rug",
+      "itemUrl": "https://www.kurashi-ec.jp/c/rug-carpet/rug/miteprooof-rug/smi-calm2020/",
+      "itemCode": "kurashi:000000004222",
+      "rank": 8,
+      "images": [
+        "/images/products/smi-calm2020/01.jpg",
+        "/images/products/smi-calm2020/02.jpg",
+        "/images/products/smi-calm2020/03.jpg",
+        "/images/products/smi-calm2020/04.jpg",
+        "/images/products/smi-calm2020/05.jpg",
+        "/images/products/smi-calm2020/06.jpg",
+        "/images/products/smi-calm2020/07.jpg",
+        "/images/products/smi-calm2020/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/042/000000004222/000000004222-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/042/000000004222/000000004222-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/042/000000004222/000000004222-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/042/000000004222/000000004222-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/042/000000004222/000000004222-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/042/000000004222/000000004222-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/042/000000004222/000000004222-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/042/000000004222/000000004222-08.jpg"
+      ]
+    }
+  ]
+}
