@@ -1,0 +1,13 @@
+{
+  "baseUrl": "https://www.kurashi-ec.jp",
+  "categoryUrls": ["https://www.kurashi-ec.jp/c/bed/"],
+  "maxProducts": 8,
+  "maxImagesPerProduct": 8,
+  "requestIntervalSec": 1.0,
+  "concurrency": 3,
+  "defaultCategorySlug": "bed",
+  "manifestPath": "data/kurashi/manifests/bed.json",
+  "imagesDir": "public/images/products",
+  "imagesWebPath": "/images/products",
+  "imageCdnHost": "kurashiec202009.itembox.cloud"
+}

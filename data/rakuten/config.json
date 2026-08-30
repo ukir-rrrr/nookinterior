@@ -1,0 +1,16 @@
+{
+  "shopCode": "gachinko",
+  "mode": "category_list",
+  "categoryUrls": [
+    "https://item.rakuten.co.jp/gachinko/c/0000000927/"
+  ],
+  "searchKeyword": "ソファ",
+  "maxProducts": 100,
+  "maxImagesPerProduct": 8,
+  "requestIntervalSec": 1.0,
+  "concurrency": 5,
+  "usePageImages": true,
+  "manifestPath": "data/rakuten/manifest.json",
+  "imagesDir": "public/images/products",
+  "imagesWebPath": "/images/products"
+}

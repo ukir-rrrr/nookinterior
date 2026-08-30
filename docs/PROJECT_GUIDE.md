@@ -11,14 +11,18 @@
 
 ## このガイドの目的
 
-1. 楽天から商品画像を収集する（目標: **100商品 × 約8枚 = 800枚前後**）
+1. 外部 EC（**kurashi-ec.jp** または楽天）から商品画像を収集する（目標: **80〜100商品 × 8枚**）
 2. 収集した画像を EC サイトの `public/images/products/` に配置する
 3. `lib/data/products.ts` を生成し、EC サイトに商品画像を当てはめる
 4. DESIGN 仕様に従い EC サイトを実装・完成させる
 
-> **旧ワークフローとの差分**  
+> **商品画像刷新（kurashi-ec.jp）**  
+> 現在の推奨ワークフローは **`docs/IMAGE_REFRESH_GUIDE.md`** を参照。  
+> カテゴリ別に Phase A → マージ → Phase B を繰り返す。
+
+> **旧ワークフロー（楽天のみ）**  
 > DESIGN 内の「共通画像リスト生成ルール」（CSV / Flow / Genspark による AI 画像生成）は**使用しない**。  
-> 代わりに **STEP 2.5〜2.6 の楽天画像パイプライン** を実行する。
+> 楽天向けは **STEP 2.5〜2.6**、kurashi 向けは **IMAGE_REFRESH_GUIDE** を実行する。
 
 ---
 
@@ -26,7 +30,9 @@
 
 | フェーズ | 内容 | 主な成果物 | 単独ジョブ推奨 |
 |---------|------|-----------|--------------|
-| **Phase A** | 楽天画像収集 | `data/rakuten/manifest.json` + `public/images/products/` | ✅ 推奨 |
+| **Phase A (kurashi)** | kurashi-ec.jp 画像収集 | `data/kurashi/manifests/*.json` + 画像 | ✅ **カテゴリ 1 件ずつ** |
+| **Phase A-2** | manifest 統合 | `data/kurashi/manifest.json` | ✅ 全カテゴリ完了後 |
+| **Phase A (rakuten)** | 楽天画像収集 | `data/rakuten/manifest.json` + 画像 | ✅ 推奨 |
 | **Phase B** | 商品データ生成 | `lib/data/products.ts` | ✅ 推奨 |
 | **Phase C** | EC サイト実装 | 各ページ・コンポーネント | ✅ 優先度ごとに分割可 |
 
@@ -42,8 +48,15 @@
 │   ├── DESIGN.md              # または DESIGN_nook.txt
 │   └── PROJECT_GUIDE.md       # 本ファイル
 ├── scripts/
-│   ├── rakuten_fetch.py       # Phase A: 画像収集（Phase A で作成）
-│   └── build-products.mjs     # Phase B: manifest → products.ts（Phase B で作成）
+│   ├── kurashi_fetch.py       # Phase A: kurashi-ec.jp 画像収集
+│   ├── rakuten_fetch.py       # Phase A: 楽天画像収集
+│   ├── merge-manifests.mjs    # Phase A-2: manifest 統合
+│   └── build-products.mjs     # Phase B: manifest → products.ts
+├── data/kurashi/
+│   ├── batch-plan.json        # カテゴリ別ジョブ計画
+│   ├── configs/{slug}.json    # カテゴリ別収集設定
+│   ├── manifests/{slug}.json  # カテゴリ別 manifest
+│   └── manifest.json          # 統合 manifest
 ├── data/rakuten/
 │   ├── config.json            # 収集設定（ショップ・カテゴリ等）
 │   └── manifest.json          # Phase A 出力
@@ -356,7 +369,7 @@ node scripts/build-products.mjs
   - `scripts/generate-placeholders.mjs` による商品プレースホルダーは**使わない**
   - ヒーロー・シーン・ロゴ等の **common 画像** のみプレースホルダー可
 - コンポーネントは `components/` に切り出し（ProductCard, ProductGallery 等）
-- 商品カードの画像アスペクト比は **4:3**（DESIGN 参照）
+- 商品カードの画像アスペクト比は **1:1（aspect-square）+ object-cover**（`ProductCard` / `ProductGallery` 参照）
 
 ---
 
@@ -376,7 +389,20 @@ node scripts/build-products.mjs
 
 ## クラウドエージェント用プロンプト例
 
-### Phase A を投げるとき
+### 商品画像刷新（kurashi・推奨）
+
+**詳細は `docs/IMAGE_REFRESH_GUIDE.md` を参照。** カテゴリ 1 件ずつ投げる。
+
+```
+docs/IMAGE_REFRESH_GUIDE.md と docs/sources/kurashi-ec.md を読んで実行してください。
+
+【ジョブ】商品画像刷新 Phase A-1: sofa
+【設定】data/kurashi/configs/sofa.json
+【実行】python scripts/kurashi_fetch.py --config data/kurashi/configs/sofa.json
+【報告】IMAGE_REFRESH_GUIDE の完了報告フォーマット
+```
+
+### Phase A を投げるとき（楽天）
 
 ```
 docs/PROJECT_GUIDE.md の STEP 2.5（Phase A）を実行してください。
@@ -419,9 +445,8 @@ docs/PROJECT_GUIDE.md の STEP 3 優先度1を実行してください。
 
 ```
 docs/sources/
-  rakuten.md      … 本ガイド STEP 2.5 の詳細
-  yahoo.md        … 将来: Yahoo ショッピング API
-  shopify.md      … 将来: /products.json 等
+  kurashi-ec.md   … kurashi-ec.jp 画像収集（docs/IMAGE_REFRESH_GUIDE.md とセット）
+  rakuten.md      … 本ガイド STEP 2.5 の詳細（将来）
 ```
 
 新規 EC プロジェクトでは `data/rakuten/config.json` の `shopCode` / `categoryUrls` だけ変更し、Phase A〜C を繰り返す。

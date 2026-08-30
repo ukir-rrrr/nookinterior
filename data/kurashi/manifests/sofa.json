@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-08-30T17:03:47.094436+09:00",
+  "source": {
+    "site": "kurashi-ec.jp",
+    "baseUrl": "https://www.kurashi-ec.jp",
+    "categoryUrls": [
+      "https://www.kurashi-ec.jp/c/sofa/"
+    ]
+  },
+  "products": [
+    {
+      "id": "kd-moduliast",
+      "name": "幅70cm オットマン MODULIA 撥水 脚付き",
+      "price": 25900,
+      "categorySlug": "sofa",
+      "itemUrl": "https://www.kurashi-ec.jp/c/sofa/ottoman-sofa/kd-moduliast/",
+      "itemCode": "kurashi:000000021533",
+      "rank": 1,
+      "images": [
+        "/images/products/kd-moduliast/01.jpg",
+        "/images/products/kd-moduliast/02.jpg",
+        "/images/products/kd-moduliast/03.jpg",
+        "/images/products/kd-moduliast/04.jpg",
+        "/images/products/kd-moduliast/05.jpg",
+        "/images/products/kd-moduliast/06.jpg",
+        "/images/products/kd-moduliast/07.jpg",
+        "/images/products/kd-moduliast/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/215/000000021533/000000021533-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021533/000000021533-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021533/000000021533-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021533/000000021533-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021533/000000021533-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021533/000000021533-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021533/000000021533-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021533/000000021533-08.jpg"
+      ]
+    },
+    {
+      "id": "kd-modulia1as",
+      "name": "幅111cm 1人掛け ソファ 肘掛けテーブル付き MODULIA",
+      "price": 25900,
+      "categorySlug": "sofa",
+      "itemUrl": "https://www.kurashi-ec.jp/c/sofa/living-room-sofa/kd-modulia1as/",
+      "itemCode": "kurashi:000000021532",
+      "rank": 2,
+      "images": [
+        "/images/products/kd-modulia1as/01.jpg",
+        "/images/products/kd-modulia1as/02.jpg",
+        "/images/products/kd-modulia1as/03.jpg",
+        "/images/products/kd-modulia1as/04.jpg",
+        "/images/products/kd-modulia1as/05.jpg",
+        "/images/products/kd-modulia1as/06.jpg",
+        "/images/products/kd-modulia1as/07.jpg",
+        "/images/products/kd-modulia1as/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/215/000000021532/000000021532-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021532/000000021532-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021532/000000021532-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021532/000000021532-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021532/000000021532-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021532/000000021532-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021532/000000021532-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021532/000000021532-08.jpg"
+      ]
+    }
+  ]
+}

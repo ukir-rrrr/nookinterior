@@ -27,7 +27,7 @@ export default function ProductGallery({ images, name }: ProductGalleryProps) {
       <button
         type="button"
         onClick={() => setZoomed(true)}
-        className="relative block aspect-4/3 w-full overflow-hidden rounded-sm bg-[#f1ede7]"
+        className="relative block aspect-square w-full overflow-hidden rounded-sm bg-[#f1ede7]"
         aria-label="画像を拡大表示"
       >
         <Image
@@ -52,7 +52,7 @@ export default function ProductGallery({ images, name }: ProductGalleryProps) {
                 <button
                   type="button"
                   onClick={() => setActiveIndex(index)}
-                  className={`relative aspect-4/3 w-full overflow-hidden rounded-sm border transition-colors ${
+                  className={`relative aspect-square w-full overflow-hidden rounded-sm border bg-[#f1ede7] transition-colors ${
                     isActive
                       ? "border-accent-1"
                       : "border-transparent hover:border-[#d9d2c8]"

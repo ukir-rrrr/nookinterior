@@ -1,0 +1,7 @@
+# 楽天 API キー（Phase A: scripts/rakuten_fetch.py 用）
+# このファイルをプロジェクトルートの .env.local にコピーして値を設定してください。
+# .env.local は Git にコミットしません。
+
+RAKUTEN_APPLICATION_ID=your_application_id_here
+RAKUTEN_ACCESS_KEY=your_access_key_here
+RAKUTEN_REFERER_URL=https://your-registered-url.example.com

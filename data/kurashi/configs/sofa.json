@@ -1,0 +1,13 @@
+{
+  "baseUrl": "https://www.kurashi-ec.jp",
+  "categoryUrls": ["https://www.kurashi-ec.jp/c/sofa/"],
+  "maxProducts": 8,
+  "maxImagesPerProduct": 8,
+  "requestIntervalSec": 1.0,
+  "concurrency": 3,
+  "defaultCategorySlug": "sofa",
+  "manifestPath": "data/kurashi/manifests/sofa.json",
+  "imagesDir": "public/images/products",
+  "imagesWebPath": "/images/products",
+  "imageCdnHost": "kurashiec202009.itembox.cloud"
+}

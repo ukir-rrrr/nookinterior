@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "sourceSite": "https://www.kurashi-ec.jp",
+  "productsPerCategory": 8,
+  "imagesPerProduct": 8,
+  "jobs": [
+    {
+      "id": "table",
+      "status": "done",
+      "categorySlug": "table",
+      "label": "ダイニングテーブルセット",
+      "configPath": "data/kurashi/configs/table.json",
+      "kurashiCategoryUrl": "https://www.kurashi-ec.jp/c/dining/dining-table-chair-set/"
+    },
+    {
+      "id": "sofa",
+      "status": "pending",
+      "categorySlug": "sofa",
+      "label": "ソファ",
+      "configPath": "data/kurashi/configs/sofa.json",
+      "kurashiCategoryUrl": "https://www.kurashi-ec.jp/c/sofa/"
+    },
+    {
+      "id": "chair",
+      "status": "pending",
+      "categorySlug": "chair",
+      "label": "チェア・ベンチ",
+      "configPath": "data/kurashi/configs/chair.json",
+      "kurashiCategoryUrl": "https://www.kurashi-ec.jp/c/chair/"
+    },
+    {
+      "id": "tvboard",
+      "status": "pending",
+      "categorySlug": "tvboard",
+      "label": "テレビボード",
+      "configPath": "data/kurashi/configs/tvboard.json",
+      "kurashiCategoryUrl": "https://www.kurashi-ec.jp/c/tv-stand-board/"
+    },
+    {
+      "id": "storage",
+      "status": "pending",
+      "categorySlug": "storage",
+      "label": "リビング収納",
+      "configPath": "data/kurashi/configs/storage.json",
+      "kurashiCategoryUrl": "https://www.kurashi-ec.jp/c/storage-furniture/"
+    },
+    {
+      "id": "bed",
+      "status": "pending",
+      "categorySlug": "bed",
+      "label": "ベッド",
+      "configPath": "data/kurashi/configs/bed.json",
+      "kurashiCategoryUrl": "https://www.kurashi-ec.jp/c/bed/"
+    },
+    {
+      "id": "lighting",
+      "status": "pending",
+      "categorySlug": "lighting",
+      "label": "照明",
+      "configPath": "data/kurashi/configs/lighting.json",
+      "kurashiCategoryUrl": "https://www.kurashi-ec.jp/c/lights/"
+    },
+    {
+      "id": "rug",
+      "status": "pending",
+      "categorySlug": "rug",
+      "label": "ラグ・ファブリック",
+      "configPath": "data/kurashi/configs/rug.json",
+      "kurashiCategoryUrl": "https://www.kurashi-ec.jp/c/rug-carpet/"
+    },
+    {
+      "id": "goods",
+      "status": "pending",
+      "categorySlug": "goods",
+      "label": "インテリア雑貨",
+      "configPath": "data/kurashi/configs/goods.json",
+      "kurashiCategoryUrl": "https://www.kurashi-ec.jp/c/interior-supplies/"
+    },
+    {
+      "id": "mirror",
+      "status": "blocked",
+      "categorySlug": "mirror",
+      "label": "ミラー",
+      "note": "暮らしのデザインにミラーカテゴリなし。楽天 scripts/rakuten_fetch.py または別ソースで対応",
+      "configPath": null,
+      "kurashiCategoryUrl": null
+    }
+  ]
+}

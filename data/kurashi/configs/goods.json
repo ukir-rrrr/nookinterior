@@ -1,0 +1,13 @@
+{
+  "baseUrl": "https://www.kurashi-ec.jp",
+  "categoryUrls": ["https://www.kurashi-ec.jp/c/interior-supplies/"],
+  "maxProducts": 8,
+  "maxImagesPerProduct": 8,
+  "requestIntervalSec": 1.0,
+  "concurrency": 3,
+  "defaultCategorySlug": "goods",
+  "manifestPath": "data/kurashi/manifests/goods.json",
+  "imagesDir": "public/images/products",
+  "imagesWebPath": "/images/products",
+  "imageCdnHost": "kurashiec202009.itembox.cloud"
+}
