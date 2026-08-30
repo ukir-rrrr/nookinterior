@@ -71,13 +71,6 @@ export const categories: Category[] = [
     description: "やすらぎの夜のために。サイズと素材で選べるベッド。",
   },
   {
-    slug: "mirror",
-    name: "ミラー",
-    href: "/category/mirror",
-    image: "/images/categories/mirror.jpg",
-    description: "空間に光と奥行きを与える、佇まいのよいミラー。",
-  },
-  {
     slug: "lighting",
     name: "照明",
     href: "/category/lighting",
