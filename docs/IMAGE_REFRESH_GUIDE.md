@@ -2,7 +2,8 @@
 
 クラウドエージェント向け。**暮らしのデザイン（kurashi-ec.jp）から商品画像を取得し、EC サイトの全カテゴリを実画像で埋める**手順書。
 
-> 関連: `docs/PROJECT_GUIDE.md`（全体計画） / `docs/sources/kurashi-ec.md`（ソース詳細）
+> 関連: `docs/PROJECT_GUIDE.md`（全体計画） / `docs/sources/kurashi-ec.md`（ソース詳細）  
+> **Phase 2（カテゴリ追加 + 40商品）:** `docs/PHASE2_CATEGORY_EXPANSION.md`
 
 ---
 

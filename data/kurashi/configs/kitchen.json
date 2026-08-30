@@ -1,12 +1,12 @@
 {
   "baseUrl": "https://www.kurashi-ec.jp",
-  "categoryUrls": ["https://www.kurashi-ec.jp/c/lights/"],
+  "categoryUrls": ["https://www.kurashi-ec.jp/c/kitchen-cabinets/"],
   "maxProducts": 10,
   "maxImagesPerProduct": 8,
   "requestIntervalSec": 1.0,
   "concurrency": 3,
-  "defaultCategorySlug": "lighting",
-  "manifestPath": "data/kurashi/manifests/lighting.json",
+  "defaultCategorySlug": "kitchen",
+  "manifestPath": "data/kurashi/manifests/kitchen.json",
   "imagesDir": "public/images/products",
   "imagesWebPath": "/images/products",
   "imageCdnHost": "kurashiec202009.itembox.cloud"

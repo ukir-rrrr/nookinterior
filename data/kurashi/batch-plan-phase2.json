@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "sourceSite": "https://www.kurashi-ec.jp",
+  "productsPerCategory": 10,
+  "imagesPerProduct": 8,
+  "totalNewImages": 320,
+  "jobs": [
+    {
+      "id": "site-categories",
+      "phase": "1",
+      "status": "pending",
+      "label": "サイトに kitchen / clothing / kotatsu カテゴリ追加",
+      "doc": "docs/PHASE2_CATEGORY_EXPANSION.md#job-1-サイトにカテゴリを追加"
+    },
+    {
+      "id": "kitchen",
+      "phase": "A-1",
+      "status": "pending",
+      "categorySlug": "kitchen",
+      "label": "キッチン収納",
+      "isNewCategory": true,
+      "configPath": "data/kurashi/configs/kitchen.json",
+      "kurashiCategoryUrl": "https://www.kurashi-ec.jp/c/kitchen-cabinets/"
+    },
+    {
+      "id": "clothing",
+      "phase": "A-1",
+      "status": "pending",
+      "categorySlug": "clothing",
+      "label": "衣類収納",
+      "isNewCategory": true,
+      "configPath": "data/kurashi/configs/clothing.json",
+      "kurashiCategoryUrl": "https://www.kurashi-ec.jp/c/clothing-storage/"
+    },
+    {
+      "id": "kotatsu",
+      "phase": "A-1",
+      "status": "pending",
+      "categorySlug": "kotatsu",
+      "label": "こたつ",
+      "isNewCategory": true,
+      "configPath": "data/kurashi/configs/kotatsu.json",
+      "kurashiCategoryUrl": "https://www.kurashi-ec.jp/c/kotatu/"
+    },
+    {
+      "id": "lighting",
+      "phase": "A-1",
+      "status": "pending",
+      "categorySlug": "lighting",
+      "label": "照明・ライト（8→10商品に拡充）",
+      "isNewCategory": false,
+      "configPath": "data/kurashi/configs/lighting.json",
+      "kurashiCategoryUrl": "https://www.kurashi-ec.jp/c/lights/"
+    },
+    {
+      "id": "merge-build",
+      "phase": "3",
+      "status": "pending",
+      "label": "全 manifest マージ + build-products + npm run build",
+      "doc": "docs/PHASE2_CATEGORY_EXPANSION.md#job-3-マージ--phase-b"
+    }
+  ]
+}

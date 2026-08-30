@@ -1,12 +1,12 @@
 {
   "baseUrl": "https://www.kurashi-ec.jp",
-  "categoryUrls": ["https://www.kurashi-ec.jp/c/lights/"],
+  "categoryUrls": ["https://www.kurashi-ec.jp/c/clothing-storage/"],
   "maxProducts": 10,
   "maxImagesPerProduct": 8,
   "requestIntervalSec": 1.0,
   "concurrency": 3,
-  "defaultCategorySlug": "lighting",
-  "manifestPath": "data/kurashi/manifests/lighting.json",
+  "defaultCategorySlug": "clothing",
+  "manifestPath": "data/kurashi/manifests/clothing.json",
   "imagesDir": "public/images/products",
   "imagesWebPath": "/images/products",
   "imageCdnHost": "kurashiec202009.itembox.cloud"
