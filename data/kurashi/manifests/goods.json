@@ -1,0 +1,238 @@
+{
+  "generatedAt": "2026-08-30T17:22:36.523386+09:00",
+  "source": {
+    "site": "kurashi-ec.jp",
+    "baseUrl": "https://www.kurashi-ec.jp",
+    "categoryUrls": [
+      "https://www.kurashi-ec.jp/c/interior-supplies/"
+    ]
+  },
+  "products": [
+    {
+      "id": "sgt-wav957802",
+      "name": "幅12cm フラワーベース White Alabastar Vase",
+      "price": 5690,
+      "categorySlug": "goods",
+      "itemUrl": "https://www.kurashi-ec.jp/c/interior-supplies/foliage-plant/sgt-wav957802/",
+      "itemCode": "kurashi:000000020559",
+      "rank": 1,
+      "images": [
+        "/images/products/sgt-wav957802/01.jpg",
+        "/images/products/sgt-wav957802/02.jpg",
+        "/images/products/sgt-wav957802/03.jpg",
+        "/images/products/sgt-wav957802/04.jpg",
+        "/images/products/sgt-wav957802/05.jpg",
+        "/images/products/sgt-wav957802/06.jpg",
+        "/images/products/sgt-wav957802/07.jpg",
+        "/images/products/sgt-wav957802/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/205/000000020559/000000020559-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020559/000000020559-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020559/000000020559-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020559/000000020559-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020559/000000020559-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020559/000000020559-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020559/000000020559-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020559/000000020559-08.jpg"
+      ]
+    },
+    {
+      "id": "az-guy920a",
+      "name": "幅16cm 木製 ジュエリーボックス 5段 ジュエリーケース",
+      "price": 5790,
+      "categorySlug": "goods",
+      "itemUrl": "https://www.kurashi-ec.jp/c/interior-supplies/other-home-decor/az-guy920a/",
+      "itemCode": "kurashi:000000018592",
+      "rank": 2,
+      "images": [
+        "/images/products/az-guy920a/01.jpg",
+        "/images/products/az-guy920a/02.jpg",
+        "/images/products/az-guy920a/03.jpg",
+        "/images/products/az-guy920a/04.jpg",
+        "/images/products/az-guy920a/05.jpg",
+        "/images/products/az-guy920a/06.jpg",
+        "/images/products/az-guy920a/07.jpg",
+        "/images/products/az-guy920a/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/185/000000018592/000000018592-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/185/000000018592/000000018592-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/185/000000018592/000000018592-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/185/000000018592/000000018592-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/185/000000018592/000000018592-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/185/000000018592/000000018592-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/185/000000018592/000000018592-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/185/000000018592/000000018592-08.jpg"
+      ]
+    },
+    {
+      "id": "sgt-bkem-957",
+      "name": "幅15cm ブックエンドマーブル Bookends 大理石",
+      "price": 5690,
+      "categorySlug": "goods",
+      "itemUrl": "https://www.kurashi-ec.jp/c/interior-supplies/other-home-decor/sgt-bkem-957/",
+      "itemCode": "kurashi:000000020571",
+      "rank": 3,
+      "images": [
+        "/images/products/sgt-bkem-957/01.jpg",
+        "/images/products/sgt-bkem-957/02.jpg",
+        "/images/products/sgt-bkem-957/03.jpg",
+        "/images/products/sgt-bkem-957/04.jpg",
+        "/images/products/sgt-bkem-957/05.jpg",
+        "/images/products/sgt-bkem-957/06.jpg",
+        "/images/products/sgt-bkem-957/07.jpg",
+        "/images/products/sgt-bkem-957/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/205/000000020571/000000020571-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020571/000000020571-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020571/000000020571-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020571/000000020571-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020571/000000020571-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020571/000000020571-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020571/000000020571-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020571/000000020571-08.jpg"
+      ]
+    },
+    {
+      "id": "sgt-mdv957",
+      "name": "幅10.5cm フラワーベース 大理石 花瓶",
+      "price": 5690,
+      "categorySlug": "goods",
+      "itemUrl": "https://www.kurashi-ec.jp/c/interior-supplies/foliage-plant/sgt-mdv957/",
+      "itemCode": "kurashi:000000017857",
+      "rank": 4,
+      "images": [
+        "/images/products/sgt-mdv957/01.jpg",
+        "/images/products/sgt-mdv957/02.jpg",
+        "/images/products/sgt-mdv957/03.jpg",
+        "/images/products/sgt-mdv957/04.jpg",
+        "/images/products/sgt-mdv957/05.jpg",
+        "/images/products/sgt-mdv957/06.jpg",
+        "/images/products/sgt-mdv957/07.jpg",
+        "/images/products/sgt-mdv957/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/178/000000017857/000000017857-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/178/000000017857/000000017857-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/178/000000017857/000000017857-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/178/000000017857/000000017857-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/178/000000017857/000000017857-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/178/000000017857/000000017857-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/178/000000017857/000000017857-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/178/000000017857/000000017857-08.jpg"
+      ]
+    },
+    {
+      "id": "rok-mshower",
+      "name": "幅40cm 壁掛け時計 アナログ メテオシャワー インテリア",
+      "price": 8690,
+      "categorySlug": "goods",
+      "itemUrl": "https://www.kurashi-ec.jp/c/interior-supplies/clocks/rok-mshower/",
+      "itemCode": "kurashi:000000015523",
+      "rank": 5,
+      "images": [
+        "/images/products/rok-mshower/01.jpg",
+        "/images/products/rok-mshower/02.jpg",
+        "/images/products/rok-mshower/03.jpg",
+        "/images/products/rok-mshower/04.jpg",
+        "/images/products/rok-mshower/05.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/155/000000015523/000000015523-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/155/000000015523/000000015523-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/155/000000015523/000000015523-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/155/000000015523/000000015523-27.jpg",
+        "https://kurashiec202009.itembox.cloud/product/155/000000015523/000000015523-31.jpg"
+      ]
+    },
+    {
+      "id": "sgt-wav957801",
+      "name": "幅10cm フラワーベース White Alabastar Vase",
+      "price": 5690,
+      "categorySlug": "goods",
+      "itemUrl": "https://www.kurashi-ec.jp/c/interior-supplies/foliage-plant/sgt-wav957801/",
+      "itemCode": "kurashi:000000020558",
+      "rank": 6,
+      "images": [
+        "/images/products/sgt-wav957801/01.jpg",
+        "/images/products/sgt-wav957801/02.jpg",
+        "/images/products/sgt-wav957801/03.jpg",
+        "/images/products/sgt-wav957801/04.jpg",
+        "/images/products/sgt-wav957801/05.jpg",
+        "/images/products/sgt-wav957801/06.jpg",
+        "/images/products/sgt-wav957801/07.jpg",
+        "/images/products/sgt-wav957801/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/205/000000020558/000000020558-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020558/000000020558-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020558/000000020558-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020558/000000020558-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020558/000000020558-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020558/000000020558-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020558/000000020558-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/205/000000020558/000000020558-08.jpg"
+      ]
+    },
+    {
+      "id": "rok-mdimension",
+      "name": "幅50cm 壁掛け時計 アナログ マルチディメンション インテリア",
+      "price": 8690,
+      "categorySlug": "goods",
+      "itemUrl": "https://www.kurashi-ec.jp/c/interior-supplies/clocks/rok-mdimension/",
+      "itemCode": "kurashi:000000015524",
+      "rank": 7,
+      "images": [
+        "/images/products/rok-mdimension/01.jpg",
+        "/images/products/rok-mdimension/02.jpg",
+        "/images/products/rok-mdimension/03.jpg",
+        "/images/products/rok-mdimension/04.jpg",
+        "/images/products/rok-mdimension/05.jpg",
+        "/images/products/rok-mdimension/06.jpg",
+        "/images/products/rok-mdimension/07.jpg",
+        "/images/products/rok-mdimension/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/155/000000015524/000000015524-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/155/000000015524/000000015524-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/155/000000015524/000000015524-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/155/000000015524/000000015524-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/155/000000015524/000000015524-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/155/000000015524/000000015524-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/155/000000015524/000000015524-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/155/000000015524/000000015524-08.jpg"
+      ]
+    },
+    {
+      "id": "gfc-moboa21801",
+      "name": "幅8cm オブジェ 丸形 レジン 円形",
+      "price": 5890,
+      "categorySlug": "goods",
+      "itemUrl": "https://www.kurashi-ec.jp/c/interior-supplies/art-interior-object/interior-object/gfc-moboa21801/",
+      "itemCode": "kurashi:000000019628",
+      "rank": 8,
+      "images": [
+        "/images/products/gfc-moboa21801/01.jpg",
+        "/images/products/gfc-moboa21801/02.jpg",
+        "/images/products/gfc-moboa21801/03.jpg",
+        "/images/products/gfc-moboa21801/04.jpg",
+        "/images/products/gfc-moboa21801/05.jpg",
+        "/images/products/gfc-moboa21801/06.jpg",
+        "/images/products/gfc-moboa21801/07.jpg",
+        "/images/products/gfc-moboa21801/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/196/000000019628/000000019628-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/196/000000019628/000000019628-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/196/000000019628/000000019628-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/196/000000019628/000000019628-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/196/000000019628/000000019628-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/196/000000019628/000000019628-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/196/000000019628/000000019628-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/196/000000019628/000000019628-08.jpg"
+      ]
+    }
+  ]
+}

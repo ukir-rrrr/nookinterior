@@ -1,0 +1,244 @@
+{
+  "generatedAt": "2026-08-30T17:19:44.593356+09:00",
+  "source": {
+    "site": "kurashi-ec.jp",
+    "baseUrl": "https://www.kurashi-ec.jp",
+    "categoryUrls": [
+      "https://www.kurashi-ec.jp/c/chair/"
+    ]
+  },
+  "products": [
+    {
+      "id": "oc-ch-ym15",
+      "name": "オフィスチェア LF",
+      "price": 5990,
+      "categorySlug": "chair",
+      "itemUrl": "https://www.kurashi-ec.jp/c/chair/office-chair/mesh-chair/oc-ch-ym15/",
+      "itemCode": "kurashi:000000020638",
+      "rank": 1,
+      "images": [
+        "/images/products/oc-ch-ym15/01.jpg",
+        "/images/products/oc-ch-ym15/02.jpg",
+        "/images/products/oc-ch-ym15/03.jpg",
+        "/images/products/oc-ch-ym15/04.jpg",
+        "/images/products/oc-ch-ym15/05.jpg",
+        "/images/products/oc-ch-ym15/06.jpg",
+        "/images/products/oc-ch-ym15/07.jpg",
+        "/images/products/oc-ch-ym15/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/206/000000020638/000000020638-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020638/000000020638-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020638/000000020638-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020638/000000020638-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020638/000000020638-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020638/000000020638-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020638/000000020638-08.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020638/000000020638-09.jpg"
+      ]
+    },
+    {
+      "id": "oc-ch-ym02",
+      "name": "パソコンチェア RBチェア 肘掛け 布張り チェア",
+      "price": 15990,
+      "categorySlug": "chair",
+      "itemUrl": "https://www.kurashi-ec.jp/c/chair/office-chair/cloth-chair/oc-ch-ym02/",
+      "itemCode": "kurashi:000000015468",
+      "rank": 2,
+      "images": [
+        "/images/products/oc-ch-ym02/01.jpg",
+        "/images/products/oc-ch-ym02/02.jpg",
+        "/images/products/oc-ch-ym02/03.jpg",
+        "/images/products/oc-ch-ym02/04.jpg",
+        "/images/products/oc-ch-ym02/05.jpg",
+        "/images/products/oc-ch-ym02/06.jpg",
+        "/images/products/oc-ch-ym02/07.jpg",
+        "/images/products/oc-ch-ym02/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/154/000000015468/000000015468-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/154/000000015468/000000015468-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/154/000000015468/000000015468-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/154/000000015468/000000015468-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/154/000000015468/000000015468-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/154/000000015468/000000015468-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/154/000000015468/000000015468-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/154/000000015468/000000015468-08.jpg"
+      ]
+    },
+    {
+      "id": "oc-chfb-ny03-ahh",
+      "name": "オフィスチェア YS",
+      "price": 31980,
+      "categorySlug": "chair",
+      "itemUrl": "https://www.kurashi-ec.jp/c/chair/office-chair/mesh-chair/oc-chfb-ny03-ahh/",
+      "itemCode": "kurashi:000000020635",
+      "rank": 3,
+      "images": [
+        "/images/products/oc-chfb-ny03-ahh/01.jpg",
+        "/images/products/oc-chfb-ny03-ahh/02.jpg",
+        "/images/products/oc-chfb-ny03-ahh/03.jpg",
+        "/images/products/oc-chfb-ny03-ahh/04.jpg",
+        "/images/products/oc-chfb-ny03-ahh/05.jpg",
+        "/images/products/oc-chfb-ny03-ahh/06.jpg",
+        "/images/products/oc-chfb-ny03-ahh/07.jpg",
+        "/images/products/oc-chfb-ny03-ahh/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/206/000000020635/000000020635-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020635/000000020635-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020635/000000020635-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020635/000000020635-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020635/000000020635-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020635/000000020635-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020635/000000020635-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020635/000000020635-08.jpg"
+      ]
+    },
+    {
+      "id": "hbdk-workchair",
+      "name": "パソコンチェア メティオ 回転 チェア キャスター付き",
+      "price": 23980,
+      "categorySlug": "chair",
+      "itemUrl": "https://www.kurashi-ec.jp/c/chair/office-chair/leather-chair/hbdk-workchair/",
+      "itemCode": "kurashi:000000001830",
+      "rank": 4,
+      "images": [
+        "/images/products/hbdk-workchair/01.jpg",
+        "/images/products/hbdk-workchair/02.jpg",
+        "/images/products/hbdk-workchair/03.jpg",
+        "/images/products/hbdk-workchair/04.jpg",
+        "/images/products/hbdk-workchair/05.jpg",
+        "/images/products/hbdk-workchair/06.jpg",
+        "/images/products/hbdk-workchair/07.jpg",
+        "/images/products/hbdk-workchair/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/018/000000001830/000000001830-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/018/000000001830/000000001830-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/018/000000001830/000000001830-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/018/000000001830/000000001830-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/018/000000001830/000000001830-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/018/000000001830/000000001830-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/018/000000001830/000000001830-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/018/000000001830/000000001830-08.jpg"
+      ]
+    },
+    {
+      "id": "hbdk-workchair-c",
+      "name": "パソコンチェア メティオ2.0 チェック柄 高さ調節 椅子",
+      "price": 27990,
+      "categorySlug": "chair",
+      "itemUrl": "https://www.kurashi-ec.jp/c/chair/office-chair/cloth-chair/hbdk-workchair-c/",
+      "itemCode": "kurashi:000000012822",
+      "rank": 5,
+      "images": [
+        "/images/products/hbdk-workchair-c/01.jpg",
+        "/images/products/hbdk-workchair-c/02.jpg",
+        "/images/products/hbdk-workchair-c/03.jpg",
+        "/images/products/hbdk-workchair-c/04.jpg",
+        "/images/products/hbdk-workchair-c/05.jpg",
+        "/images/products/hbdk-workchair-c/06.jpg",
+        "/images/products/hbdk-workchair-c/07.jpg",
+        "/images/products/hbdk-workchair-c/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/128/000000012822/000000012822-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/128/000000012822/000000012822-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/128/000000012822/000000012822-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/128/000000012822/000000012822-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/128/000000012822/000000012822-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/128/000000012822/000000012822-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/128/000000012822/000000012822-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/128/000000012822/000000012822-08.jpg"
+      ]
+    },
+    {
+      "id": "kim-orvdc2set",
+      "name": "ダイニングチェア 肘付き PUレザー ORV ゴールド",
+      "price": 39600,
+      "categorySlug": "chair",
+      "itemUrl": "https://www.kurashi-ec.jp/c/dining/dining-dining-chair/dining-arm-dining-chair/kim-orvdc2set/",
+      "itemCode": "kurashi:000000015962",
+      "rank": 6,
+      "images": [
+        "/images/products/kim-orvdc2set/01.jpg",
+        "/images/products/kim-orvdc2set/02.jpg",
+        "/images/products/kim-orvdc2set/03.jpg",
+        "/images/products/kim-orvdc2set/04.jpg",
+        "/images/products/kim-orvdc2set/05.jpg",
+        "/images/products/kim-orvdc2set/06.jpg",
+        "/images/products/kim-orvdc2set/07.jpg",
+        "/images/products/kim-orvdc2set/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/159/000000015962/000000015962-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015962/000000015962-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015962/000000015962-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015962/000000015962-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015962/000000015962-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015962/000000015962-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015962/000000015962-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/159/000000015962/000000015962-08.jpg"
+      ]
+    },
+    {
+      "id": "kd-modulia1as",
+      "name": "幅111cm 1人掛け ソファ 肘掛けテーブル付き MODULIA",
+      "price": 25900,
+      "categorySlug": "chair",
+      "itemUrl": "https://www.kurashi-ec.jp/c/sofa/living-room-sofa/kd-modulia1as/",
+      "itemCode": "kurashi:000000021532",
+      "rank": 7,
+      "images": [
+        "/images/products/kd-modulia1as/01.jpg",
+        "/images/products/kd-modulia1as/02.jpg",
+        "/images/products/kd-modulia1as/03.jpg",
+        "/images/products/kd-modulia1as/04.jpg",
+        "/images/products/kd-modulia1as/05.jpg",
+        "/images/products/kd-modulia1as/06.jpg",
+        "/images/products/kd-modulia1as/07.jpg",
+        "/images/products/kd-modulia1as/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/215/000000021532/000000021532-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021532/000000021532-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021532/000000021532-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021532/000000021532-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021532/000000021532-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021532/000000021532-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021532/000000021532-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/215/000000021532/000000021532-08.jpg"
+      ]
+    },
+    {
+      "id": "oc-ch-ym20",
+      "name": "レザーチェア 肘付き オフィスチェア リクライニング",
+      "price": 29990,
+      "categorySlug": "chair",
+      "itemUrl": "https://www.kurashi-ec.jp/c/chair/office-chair/leather-chair/oc-ch-ym20/",
+      "itemCode": "kurashi:000000020809",
+      "rank": 8,
+      "images": [
+        "/images/products/oc-ch-ym20/01.jpg",
+        "/images/products/oc-ch-ym20/02.jpg",
+        "/images/products/oc-ch-ym20/03.jpg",
+        "/images/products/oc-ch-ym20/04.jpg",
+        "/images/products/oc-ch-ym20/05.jpg",
+        "/images/products/oc-ch-ym20/06.jpg",
+        "/images/products/oc-ch-ym20/07.jpg",
+        "/images/products/oc-ch-ym20/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/208/000000020809/000000020809-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/208/000000020809/000000020809-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/208/000000020809/000000020809-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/208/000000020809/000000020809-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/208/000000020809/000000020809-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/208/000000020809/000000020809-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/208/000000020809/000000020809-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/208/000000020809/000000020809-08.jpg"
+      ]
+    }
+  ]
+}

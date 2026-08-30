@@ -1,0 +1,244 @@
+{
+  "generatedAt": "2026-08-30T17:20:13.768802+09:00",
+  "source": {
+    "site": "kurashi-ec.jp",
+    "baseUrl": "https://www.kurashi-ec.jp",
+    "categoryUrls": [
+      "https://www.kurashi-ec.jp/c/tv-stand-board/"
+    ]
+  },
+  "products": [
+    {
+      "id": "kim-glm180lowbm",
+      "name": "幅180cm テレビ台 LUGA 木製 テレビボード",
+      "price": 63900,
+      "categorySlug": "tvboard",
+      "itemUrl": "https://www.kurashi-ec.jp/c/tv-stand-board/tv-board-low/kim-glm180lowbm/",
+      "itemCode": "kurashi:000000007470",
+      "rank": 1,
+      "images": [
+        "/images/products/kim-glm180lowbm/01.jpg",
+        "/images/products/kim-glm180lowbm/02.jpg",
+        "/images/products/kim-glm180lowbm/03.jpg",
+        "/images/products/kim-glm180lowbm/04.jpg",
+        "/images/products/kim-glm180lowbm/05.jpg",
+        "/images/products/kim-glm180lowbm/06.jpg",
+        "/images/products/kim-glm180lowbm/07.jpg",
+        "/images/products/kim-glm180lowbm/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/074/000000007470/000000007470-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/074/000000007470/000000007470-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/074/000000007470/000000007470-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/074/000000007470/000000007470-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/074/000000007470/000000007470-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/074/000000007470/000000007470-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/074/000000007470/000000007470-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/074/000000007470/000000007470-08.jpg"
+      ]
+    },
+    {
+      "id": "snk-safuran180",
+      "name": "幅180cm テレビボード 木製 テレビ台 収納",
+      "price": 72900,
+      "categorySlug": "tvboard",
+      "itemUrl": "https://www.kurashi-ec.jp/c/tv-stand-board/tv-board-low/snk-safuran180/",
+      "itemCode": "kurashi:000000016800",
+      "rank": 2,
+      "images": [
+        "/images/products/snk-safuran180/01.jpg",
+        "/images/products/snk-safuran180/02.jpg",
+        "/images/products/snk-safuran180/03.jpg",
+        "/images/products/snk-safuran180/04.jpg",
+        "/images/products/snk-safuran180/05.jpg",
+        "/images/products/snk-safuran180/06.jpg",
+        "/images/products/snk-safuran180/07.jpg",
+        "/images/products/snk-safuran180/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/168/000000016800/000000016800-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/168/000000016800/000000016800-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/168/000000016800/000000016800-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/168/000000016800/000000016800-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/168/000000016800/000000016800-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/168/000000016800/000000016800-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/168/000000016800/000000016800-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/168/000000016800/000000016800-08.jpg"
+      ]
+    },
+    {
+      "id": "he-olfe120sb",
+      "name": "幅120cm OLFE サイドボード 木目 キャビネット",
+      "price": 52900,
+      "categorySlug": "tvboard",
+      "itemUrl": "https://www.kurashi-ec.jp/c/tv-stand-board/tv-board-high/he-olfe120sb/",
+      "itemCode": "kurashi:000000017128",
+      "rank": 3,
+      "images": [
+        "/images/products/he-olfe120sb/01.jpg",
+        "/images/products/he-olfe120sb/02.jpg",
+        "/images/products/he-olfe120sb/03.jpg",
+        "/images/products/he-olfe120sb/04.jpg",
+        "/images/products/he-olfe120sb/05.jpg",
+        "/images/products/he-olfe120sb/06.jpg",
+        "/images/products/he-olfe120sb/07.jpg",
+        "/images/products/he-olfe120sb/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/171/000000017128/000000017128-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017128/000000017128-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017128/000000017128-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017128/000000017128-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017128/000000017128-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017128/000000017128-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017128/000000017128-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/171/000000017128/000000017128-08.jpg"
+      ]
+    },
+    {
+      "id": "snk-safuran200",
+      "name": "幅200cm テレビボード 木製 テレビ台 収納",
+      "price": 74900,
+      "categorySlug": "tvboard",
+      "itemUrl": "https://www.kurashi-ec.jp/c/tv-stand-board/tv-board-low/snk-safuran200/",
+      "itemCode": "kurashi:000000016801",
+      "rank": 4,
+      "images": [
+        "/images/products/snk-safuran200/01.jpg",
+        "/images/products/snk-safuran200/02.jpg",
+        "/images/products/snk-safuran200/03.jpg",
+        "/images/products/snk-safuran200/04.jpg",
+        "/images/products/snk-safuran200/05.jpg",
+        "/images/products/snk-safuran200/06.jpg",
+        "/images/products/snk-safuran200/07.jpg",
+        "/images/products/snk-safuran200/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/168/000000016801/000000016801-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/168/000000016801/000000016801-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/168/000000016801/000000016801-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/168/000000016801/000000016801-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/168/000000016801/000000016801-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/168/000000016801/000000016801-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/168/000000016801/000000016801-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/168/000000016801/000000016801-08.jpg"
+      ]
+    },
+    {
+      "id": "ma-mocha180tv",
+      "name": "幅180cm ローボード 日本製 セラミック調 アイアン脚",
+      "price": 30900,
+      "categorySlug": "tvboard",
+      "itemUrl": "https://www.kurashi-ec.jp/c/tv-stand-board/tv-stand-180cm/ma-mocha180tv/",
+      "itemCode": "kurashi:000000007423",
+      "rank": 5,
+      "images": [
+        "/images/products/ma-mocha180tv/01.jpg",
+        "/images/products/ma-mocha180tv/02.jpg",
+        "/images/products/ma-mocha180tv/03.jpg",
+        "/images/products/ma-mocha180tv/04.jpg",
+        "/images/products/ma-mocha180tv/05.jpg",
+        "/images/products/ma-mocha180tv/06.jpg",
+        "/images/products/ma-mocha180tv/07.jpg",
+        "/images/products/ma-mocha180tv/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/074/000000007423/000000007423-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/074/000000007423/000000007423-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/074/000000007423/000000007423-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/074/000000007423/000000007423-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/074/000000007423/000000007423-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/074/000000007423/000000007423-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/074/000000007423/000000007423-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/074/000000007423/000000007423-08.jpg"
+      ]
+    },
+    {
+      "id": "sig-calvi180tvb",
+      "name": "幅180cm テレビボード 木目調 セラミック調 ウォールナット柄",
+      "price": 44900,
+      "categorySlug": "tvboard",
+      "itemUrl": "https://www.kurashi-ec.jp/c/tv-stand-board/tv-board-low/sig-calvi180tvb/",
+      "itemCode": "kurashi:000000007905",
+      "rank": 6,
+      "images": [
+        "/images/products/sig-calvi180tvb/01.jpg",
+        "/images/products/sig-calvi180tvb/02.jpg",
+        "/images/products/sig-calvi180tvb/03.jpg",
+        "/images/products/sig-calvi180tvb/04.jpg",
+        "/images/products/sig-calvi180tvb/05.jpg",
+        "/images/products/sig-calvi180tvb/06.jpg",
+        "/images/products/sig-calvi180tvb/07.jpg",
+        "/images/products/sig-calvi180tvb/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/079/000000007905/000000007905-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/079/000000007905/000000007905-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/079/000000007905/000000007905-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/079/000000007905/000000007905-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/079/000000007905/000000007905-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/079/000000007905/000000007905-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/079/000000007905/000000007905-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/079/000000007905/000000007905-08.jpg"
+      ]
+    },
+    {
+      "id": "az-pm-306",
+      "name": "幅150cm 木製 ローボード アンティーク風 ～55型対応",
+      "price": 26900,
+      "categorySlug": "tvboard",
+      "itemUrl": "https://www.kurashi-ec.jp/c/tv-stand-board/tv-board-low/az-pm-306/",
+      "itemCode": "kurashi:000000004827",
+      "rank": 7,
+      "images": [
+        "/images/products/az-pm-306/01.jpg",
+        "/images/products/az-pm-306/02.jpg",
+        "/images/products/az-pm-306/03.jpg",
+        "/images/products/az-pm-306/04.jpg",
+        "/images/products/az-pm-306/05.jpg",
+        "/images/products/az-pm-306/06.jpg",
+        "/images/products/az-pm-306/07.jpg",
+        "/images/products/az-pm-306/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/048/000000004827/000000004827-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/048/000000004827/000000004827-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/048/000000004827/000000004827-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/048/000000004827/000000004827-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/048/000000004827/000000004827-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/048/000000004827/000000004827-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/048/000000004827/000000004827-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/048/000000004827/000000004827-08.jpg"
+      ]
+    },
+    {
+      "id": "ka-ltvbqd6107",
+      "name": "カリモク 幅182cm 木製 テレビボード 日本製",
+      "price": 185900,
+      "categorySlug": "tvboard",
+      "itemUrl": "https://www.kurashi-ec.jp/c/tv-stand-board/tv-board-low/ka-ltvbqd6107/",
+      "itemCode": "kurashi:000000013257",
+      "rank": 8,
+      "images": [
+        "/images/products/ka-ltvbqd6107/01.jpg",
+        "/images/products/ka-ltvbqd6107/02.jpg",
+        "/images/products/ka-ltvbqd6107/03.jpg",
+        "/images/products/ka-ltvbqd6107/04.jpg",
+        "/images/products/ka-ltvbqd6107/05.jpg",
+        "/images/products/ka-ltvbqd6107/06.jpg",
+        "/images/products/ka-ltvbqd6107/07.jpg",
+        "/images/products/ka-ltvbqd6107/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/132/000000013257/000000013257-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013257/000000013257-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013257/000000013257-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013257/000000013257-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013257/000000013257-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013257/000000013257-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013257/000000013257-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/132/000000013257/000000013257-08.jpg"
+      ]
+    }
+  ]
+}
