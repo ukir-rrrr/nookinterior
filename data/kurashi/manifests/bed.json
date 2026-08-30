@@ -1,0 +1,244 @@
+{
+  "generatedAt": "2026-08-30T17:21:11.532413+09:00",
+  "source": {
+    "site": "kurashi-ec.jp",
+    "baseUrl": "https://www.kurashi-ec.jp",
+    "categoryUrls": [
+      "https://www.kurashi-ec.jp/c/bed/"
+    ]
+  },
+  "products": [
+    {
+      "id": "grt-2wolte2-2-d",
+      "name": "ダブル ウォルテ ベッド 木製 寝室",
+      "price": 89800,
+      "categorySlug": "bed",
+      "itemUrl": "https://www.kurashi-ec.jp/c/bed/double-bed/double-bedframe03/grt-2wolte2-2-d/",
+      "itemCode": "kurashi:000000006976",
+      "rank": 1,
+      "images": [
+        "/images/products/grt-2wolte2-2-d/01.jpg",
+        "/images/products/grt-2wolte2-2-d/02.jpg",
+        "/images/products/grt-2wolte2-2-d/03.jpg",
+        "/images/products/grt-2wolte2-2-d/04.jpg",
+        "/images/products/grt-2wolte2-2-d/05.jpg",
+        "/images/products/grt-2wolte2-2-d/06.jpg",
+        "/images/products/grt-2wolte2-2-d/07.jpg",
+        "/images/products/grt-2wolte2-2-d/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/069/000000006976/000000006976-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006976/000000006976-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006976/000000006976-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006976/000000006976-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006976/000000006976-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006976/000000006976-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006976/000000006976-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006976/000000006976-08.jpg"
+      ]
+    },
+    {
+      "id": "ha-wb-7721s",
+      "name": "シングル ベッドフレーム 国産 ひのき ベッド",
+      "price": 16900,
+      "categorySlug": "bed",
+      "itemUrl": "https://www.kurashi-ec.jp/c/bed/single-bed/single-bedframe/ha-wb-7721s/",
+      "itemCode": "kurashi:000000019845",
+      "rank": 2,
+      "images": [
+        "/images/products/ha-wb-7721s/01.jpg",
+        "/images/products/ha-wb-7721s/02.jpg",
+        "/images/products/ha-wb-7721s/03.jpg",
+        "/images/products/ha-wb-7721s/04.jpg",
+        "/images/products/ha-wb-7721s/05.jpg",
+        "/images/products/ha-wb-7721s/06.jpg",
+        "/images/products/ha-wb-7721s/07.jpg",
+        "/images/products/ha-wb-7721s/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/198/000000019845/000000019845-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/198/000000019845/000000019845-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/198/000000019845/000000019845-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/198/000000019845/000000019845-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/198/000000019845/000000019845-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/198/000000019845/000000019845-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/198/000000019845/000000019845-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/198/000000019845/000000019845-08.jpg"
+      ]
+    },
+    {
+      "id": "grt-berio-sd",
+      "name": "セミダブル ベッドフレーム ベリオ LED 照明付き",
+      "price": 48900,
+      "categorySlug": "bed",
+      "itemUrl": "https://www.kurashi-ec.jp/c/bed/semi-double-bed/semidouble-bedframe/grt-berio-sd/",
+      "itemCode": "kurashi:000000013717",
+      "rank": 3,
+      "images": [
+        "/images/products/grt-berio-sd/01.jpg",
+        "/images/products/grt-berio-sd/02.jpg",
+        "/images/products/grt-berio-sd/03.jpg",
+        "/images/products/grt-berio-sd/04.jpg",
+        "/images/products/grt-berio-sd/05.jpg",
+        "/images/products/grt-berio-sd/06.jpg",
+        "/images/products/grt-berio-sd/07.jpg",
+        "/images/products/grt-berio-sd/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/137/000000013717/000000013717-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013717/000000013717-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013717/000000013717-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013717/000000013717-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013717/000000013717-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013717/000000013717-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013717/000000013717-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013717/000000013717-08.jpg"
+      ]
+    },
+    {
+      "id": "grt-2wolte-s",
+      "name": "シングル ウォルテ ベッド 木製 寝室",
+      "price": 69800,
+      "categorySlug": "bed",
+      "itemUrl": "https://www.kurashi-ec.jp/c/bed/single-bed/single-bedframe/grt-2wolte-s/",
+      "itemCode": "kurashi:000000006969",
+      "rank": 4,
+      "images": [
+        "/images/products/grt-2wolte-s/01.jpg",
+        "/images/products/grt-2wolte-s/02.jpg",
+        "/images/products/grt-2wolte-s/03.jpg",
+        "/images/products/grt-2wolte-s/04.jpg",
+        "/images/products/grt-2wolte-s/05.jpg",
+        "/images/products/grt-2wolte-s/06.jpg",
+        "/images/products/grt-2wolte-s/07.jpg",
+        "/images/products/grt-2wolte-s/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/069/000000006969/000000006969-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006969/000000006969-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006969/000000006969-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006969/000000006969-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006969/000000006969-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006969/000000006969-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006969/000000006969-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006969/000000006969-08.jpg"
+      ]
+    },
+    {
+      "id": "grt-gm-01sdm",
+      "name": "セミダブル 電動ベッド マットレス付き マイルドタイプ LED",
+      "price": 99000,
+      "categorySlug": "bed",
+      "itemUrl": "https://www.kurashi-ec.jp/c/bed/semi-double-bed/semidouble-mattress-frame/grt-gm-01sdm/",
+      "itemCode": "kurashi:000000013730",
+      "rank": 5,
+      "images": [
+        "/images/products/grt-gm-01sdm/01.jpg",
+        "/images/products/grt-gm-01sdm/02.jpg",
+        "/images/products/grt-gm-01sdm/03.jpg",
+        "/images/products/grt-gm-01sdm/04.jpg",
+        "/images/products/grt-gm-01sdm/05.jpg",
+        "/images/products/grt-gm-01sdm/06.jpg",
+        "/images/products/grt-gm-01sdm/07.jpg",
+        "/images/products/grt-gm-01sdm/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/137/000000013730/000000013730-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013730/000000013730-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013730/000000013730-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013730/000000013730-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013730/000000013730-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013730/000000013730-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013730/000000013730-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013730/000000013730-08.jpg"
+      ]
+    },
+    {
+      "id": "grt-gm-01sm",
+      "name": "シングル 電動ベッド マットレス付き マイルドタイプ LED",
+      "price": 99000,
+      "categorySlug": "bed",
+      "itemUrl": "https://www.kurashi-ec.jp/c/bed/single-bed/single-mattress-frame/grt-gm-01sm/",
+      "itemCode": "kurashi:000000013726",
+      "rank": 6,
+      "images": [
+        "/images/products/grt-gm-01sm/01.jpg",
+        "/images/products/grt-gm-01sm/02.jpg",
+        "/images/products/grt-gm-01sm/03.jpg",
+        "/images/products/grt-gm-01sm/04.jpg",
+        "/images/products/grt-gm-01sm/05.jpg",
+        "/images/products/grt-gm-01sm/06.jpg",
+        "/images/products/grt-gm-01sm/07.jpg",
+        "/images/products/grt-gm-01sm/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/137/000000013726/000000013726-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013726/000000013726-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013726/000000013726-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013726/000000013726-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013726/000000013726-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013726/000000013726-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013726/000000013726-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/137/000000013726/000000013726-08.jpg"
+      ]
+    },
+    {
+      "id": "grt-4wolte-sd",
+      "name": "セミダブル ウォルテ ベッド 木製 寝室",
+      "price": 59800,
+      "categorySlug": "bed",
+      "itemUrl": "https://www.kurashi-ec.jp/c/bed/semi-double-bed/semidouble-bedframe/grt-4wolte-sd/",
+      "itemCode": "kurashi:000000006990",
+      "rank": 7,
+      "images": [
+        "/images/products/grt-4wolte-sd/01.jpg",
+        "/images/products/grt-4wolte-sd/02.jpg",
+        "/images/products/grt-4wolte-sd/03.jpg",
+        "/images/products/grt-4wolte-sd/04.jpg",
+        "/images/products/grt-4wolte-sd/05.jpg",
+        "/images/products/grt-4wolte-sd/06.jpg",
+        "/images/products/grt-4wolte-sd/07.jpg",
+        "/images/products/grt-4wolte-sd/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/069/000000006990/000000006990-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006990/000000006990-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006990/000000006990-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006990/000000006990-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006990/000000006990-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006990/000000006990-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006990/000000006990-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006990/000000006990-08.jpg"
+      ]
+    },
+    {
+      "id": "grt-1wolte2-1-sd",
+      "name": "セミダブル ウォルテ ベッド 木製 寝室",
+      "price": 55000,
+      "categorySlug": "bed",
+      "itemUrl": "https://www.kurashi-ec.jp/c/bed/semi-double-bed/semidouble-bedframe/grt-1wolte2-1-sd/",
+      "itemCode": "kurashi:000000006965",
+      "rank": 8,
+      "images": [
+        "/images/products/grt-1wolte2-1-sd/01.jpg",
+        "/images/products/grt-1wolte2-1-sd/02.jpg",
+        "/images/products/grt-1wolte2-1-sd/03.jpg",
+        "/images/products/grt-1wolte2-1-sd/04.jpg",
+        "/images/products/grt-1wolte2-1-sd/05.jpg",
+        "/images/products/grt-1wolte2-1-sd/06.jpg",
+        "/images/products/grt-1wolte2-1-sd/07.jpg",
+        "/images/products/grt-1wolte2-1-sd/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/069/000000006965/000000006965-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006965/000000006965-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006965/000000006965-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006965/000000006965-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006965/000000006965-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006965/000000006965-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006965/000000006965-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/069/000000006965/000000006965-08.jpg"
+      ]
+    }
+  ]
+}
