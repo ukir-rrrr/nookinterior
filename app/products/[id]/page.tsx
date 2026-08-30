@@ -6,7 +6,6 @@ import ProductPurchasePanel from "@/components/ProductPurchasePanel";
 import RelatedProducts from "@/components/RelatedProducts";
 import { getCategoryBySlug } from "@/lib/data/categories";
 import {
-  getAverageRating,
   getProductById,
   getRelatedProducts,
   products,
@@ -32,21 +31,6 @@ export async function generateMetadata({
   };
 }
 
-function StarRating({ rating }: { rating: number }) {
-  return (
-    <span className="inline-flex items-center gap-0.5 text-accent-1" aria-label={`${rating}点`}>
-      {Array.from({ length: 5 }, (_, index) => {
-        const filled = index < Math.round(rating);
-        return (
-          <span key={index} aria-hidden>
-            {filled ? "★" : "☆"}
-          </span>
-        );
-      })}
-    </span>
-  );
-}
-
 export default async function ProductDetailPage({
   params,
 }: {
@@ -61,7 +45,6 @@ export default async function ProductDetailPage({
 
   const category = getCategoryBySlug(product.categorySlug);
   const related = getRelatedProducts(product, 4);
-  const averageRating = getAverageRating(product);
 
   return (
     <div className="pb-16 md:pb-20">
@@ -104,40 +87,6 @@ export default async function ProductDetailPage({
               <dd className="mt-1 text-[#6b6b6b]">{category?.name ?? product.categorySlug}</dd>
             </div>
           </dl>
-        </section>
-
-        {/* レビュー */}
-        <section className="mt-16 border-t border-[#e8e2d9] pt-12 pb-16 md:pb-20">
-          <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-            <div>
-              <h2 className="font-serif text-xl text-text md:text-2xl">レビュー</h2>
-              <p className="mt-2 flex items-center gap-2 text-sm text-[#6b6b6b]">
-                <StarRating rating={averageRating} />
-                <span>
-                  {averageRating.toFixed(1)}（{product.reviews.length}件）
-                </span>
-              </p>
-            </div>
-          </div>
-          <ul className="space-y-6">
-            {product.reviews.map((review) => (
-              <li
-                key={review.id}
-                className="rounded-sm border border-[#e8e2d9] bg-main px-5 py-5"
-              >
-                <div className="flex flex-wrap items-center gap-3 text-sm">
-                  <StarRating rating={review.rating} />
-                  <span className="font-medium text-text">{review.author}</span>
-                  <time className="text-[#6b6b6b]" dateTime={review.date.replace(/\./g, "-")}>
-                    {review.date}
-                  </time>
-                </div>
-                <p className="mt-3 text-sm leading-relaxed text-[#6b6b6b]">
-                  {review.comment}
-                </p>
-              </li>
-            ))}
-          </ul>
         </section>
       </div>
 

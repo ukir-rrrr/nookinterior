@@ -42,7 +42,12 @@ export function buildOrderFromCatalog(
       return { error: `商品が見つかりません（${line.productId}）` };
     }
 
-    const color = product.colors.find((c) => c.id === line.colorId);
+    // カラー未設定の商品（Phase 3 でカラー選択を廃止）は既定値を使い、
+    // クライアント送信のカラー情報は無視する（改ざん対策）。
+    const hasColors = product.colors.length > 0;
+    const color = hasColors
+      ? product.colors.find((c) => c.id === line.colorId)
+      : { id: "default", label: "指定なし", inStock: true };
     const size = product.sizes.find((s) => s.id === line.sizeId);
     if (!color || !size) {
       return { error: `選択できないオプションがあります（${product.name}）` };
@@ -50,8 +55,11 @@ export function buildOrderFromCatalog(
     if (!color.inStock || !size.inStock) {
       return { error: `在庫のないオプションが選択されています（${product.name}）` };
     }
-    // ラベル改ざん対策：サーバー側の正式ラベルを使う
-    if (color.label !== line.colorLabel || size.label !== line.sizeLabel) {
+    // ラベル改ざん対策：サーバー側の正式ラベルを使う（カラーは有色商品のみ検証）
+    if (
+      (hasColors && color.label !== line.colorLabel) ||
+      size.label !== line.sizeLabel
+    ) {
       return { error: `オプション情報が一致しません（${product.name}）` };
     }
 
