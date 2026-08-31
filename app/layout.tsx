@@ -35,6 +35,16 @@ export const metadata: Metadata = {
     shortcut: "/favicon.ico",
     apple: [{ url: "/images/apple-touch-icon_v1.png", sizes: "180x180" }],
   },
+  openGraph: {
+    title: "roomy｜暮らしに、心地いい居場所を。",
+    description:
+      "roomy（ルーミー）は、利用シーンから探す家具・インテリアのセレクトショップです。ソファから雑貨まで、部屋づくりの最初の1歩を提案します。",
+    images: [{ url: "/images/apple-touch-icon_v1.png", width: 180, height: 180, alt: "roomy" }],
+  },
+  twitter: {
+    card: "summary",
+    images: ["/images/apple-touch-icon_v1.png"],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
