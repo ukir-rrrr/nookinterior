@@ -1,6 +1,15 @@
 {
   "baseUrl": "https://www.kurashi-ec.jp",
-  "categoryUrls": ["https://www.kurashi-ec.jp/c/rug-carpet/"],
+  "productUrls": [
+    "https://www.kurashi-ec.jp/c/rug-carpet/rug/191-250cm_rug/kw-0219/",
+    "https://www.kurashi-ec.jp/c/rug-carpet/rug/asw-mdy-1420/",
+    "https://www.kurashi-ec.jp/c/rug-carpet/rug/round-rug/smi-lustre1420r/",
+    "https://www.kurashi-ec.jp/c/rug-carpet/rug/251cm_rug/pr-porin2025/",
+    "https://www.kurashi-ec.jp/c/rug-carpet/rug/191-250cm_rug/kw-0251/",
+    "https://www.kurashi-ec.jp/c/rug-carpet/rug/251cm_rug/pr-ragna2434/",
+    "https://www.kurashi-ec.jp/c/rug-carpet/rug/191-250cm_rug/pr-scop1319/",
+    "https://www.kurashi-ec.jp/c/rug-carpet/rug/round-rug/smi-neoglass15r/"
+  ],
   "maxProducts": 8,
   "maxImagesPerProduct": 8,
   "requestIntervalSec": 1.0,

@@ -1,0 +1,598 @@
+/* roomy 3つ折りパンフレット — A4横・印刷用 */
+
+:root {
+  --bg: #faf8f5;
+  --panel: #f1ede7;
+  --cover: #3d3d3d;
+  --text: #3a3a3a;
+  --muted: #6b6b6b;
+  --accent: #c97c5d;
+  --accent2: #8a9a7e;
+  --white: #ffffff;
+  --panel-w: 99mm;
+  --sheet-h: 210mm;
+  --sheet-w: 297mm;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: #ddd;
+  color: var(--text);
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 9pt;
+  line-height: 1.55;
+}
+
+.print-note {
+  font-size: 10px;
+  margin: 12px auto;
+  max-width: var(--sheet-w);
+  padding: 0 8px;
+  text-align: center;
+}
+
+.sheet {
+  background: var(--bg);
+  display: flex;
+  height: var(--sheet-h);
+  margin: 0 auto 16px;
+  overflow: hidden;
+  width: var(--sheet-w);
+}
+
+.panel {
+  flex: 0 0 var(--panel-w);
+  height: 100%;
+  overflow: hidden;
+  padding: 10mm 7mm 8mm;
+  position: relative;
+  width: var(--panel-w);
+}
+
+.panel-light {
+  background: var(--panel);
+}
+
+.panel-warm {
+  background: var(--bg);
+}
+
+.panel-story {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-dark {
+  background: var(--cover);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-service {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-service .panel-header h2 {
+  margin-bottom: 3mm;
+}
+
+.fold-guide {
+  border-left: 0.4mm dashed rgba(120, 120, 120, 0.45);
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+
+.panel:first-child .fold-guide {
+  display: none;
+}
+
+.eyebrow {
+  color: var(--accent);
+  font-size: 7.5pt;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  margin-bottom: 3mm;
+  text-transform: uppercase;
+}
+
+.eyebrow.light {
+  color: #d4b5a5;
+}
+
+.panel-header h2,
+.cover-heading,
+.hero-title,
+.service-subtitle {
+  font-family: "Noto Serif JP", serif;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.panel-header h2 {
+  font-size: 14pt;
+  margin-bottom: 5mm;
+}
+
+.panel-footer-note {
+  bottom: 8mm;
+  color: var(--muted);
+  font-size: 7.5pt;
+  font-weight: 500;
+  left: 7mm;
+  position: absolute;
+  right: 7mm;
+  text-align: center;
+}
+
+.panel-products {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-products .panel-header {
+  flex-shrink: 0;
+}
+
+.panel-products .panel-header h2 {
+  margin-bottom: 4mm;
+}
+
+.panel-products .product-list {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0;
+  justify-content: space-between;
+  min-height: 0;
+}
+
+.panel-products .product-card {
+  flex-shrink: 0;
+  gap: 3mm;
+  padding: 3mm;
+}
+
+.panel-products .product-thumb {
+  flex: 0 0 21mm;
+  height: 21mm;
+}
+
+.panel-products .product-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
+
+.panel-products .product-body h4 {
+  font-size: 7.5pt;
+  line-height: 1.35;
+}
+
+.panel-products .product-price {
+  font-size: 8.5pt;
+}
+
+.panel-products .product-price .tax {
+  font-size: 6pt;
+}
+
+.panel-products .panel-footer-note {
+  flex-shrink: 0;
+  position: static;
+  margin-top: auto;
+  padding-top: 2mm;
+  text-align: center;
+}
+
+/* 商品カード */
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4mm;
+}
+
+.product-card {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.72);
+  border-radius: 3px;
+  display: flex;
+  gap: 3mm;
+  padding: 2.5mm;
+}
+
+.panel-dark .product-card {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.product-thumb {
+  flex: 0 0 18mm;
+  height: 18mm;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.product-thumb img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.product-body h4 {
+  font-size: 8pt;
+  font-weight: 500;
+  line-height: 1.35;
+  margin-bottom: 1mm;
+}
+
+.product-price {
+  color: var(--accent);
+  font-size: 9pt;
+  font-weight: 700;
+}
+
+.product-price .tax {
+  color: var(--muted);
+  font-size: 6.5pt;
+  font-weight: 400;
+}
+
+/* ストーリー */
+.panel-story .panel-header h2 {
+  margin-bottom: 3mm;
+}
+
+.story-photo {
+  border-radius: 3px;
+  flex-shrink: 0;
+  height: 70mm;
+  margin-bottom: 4mm;
+  overflow: hidden;
+}
+
+.story-photo img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+}
+
+.story-text {
+  color: var(--muted);
+  font-size: 7.5pt;
+  line-height: 1.6;
+  margin-bottom: 2mm;
+  text-align: justify;
+}
+
+.story-footer {
+  border-top: 0.3mm solid rgba(201, 124, 93, 0.25);
+  margin-top: auto;
+  padding-top: 3mm;
+}
+
+.story-quote {
+  border-left: 2px solid var(--accent);
+  color: var(--text);
+  font-family: "Noto Serif JP", serif;
+  font-size: 8.5pt;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 3mm;
+  padding-left: 3mm;
+}
+
+.story-scene-grid {
+  display: grid;
+  gap: 2mm;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  margin-bottom: 4mm;
+}
+
+.story-scene-item {
+  background: rgba(255, 255, 255, 0.72);
+  border-radius: 2px;
+  padding: 2.5mm 3mm;
+}
+
+.story-scene-name {
+  color: var(--text);
+  display: block;
+  font-size: 7.5pt;
+  font-weight: 700;
+  margin-bottom: 0.5mm;
+}
+
+.story-scene-note {
+  color: var(--muted);
+  display: block;
+  font-size: 6.5pt;
+}
+
+.story-stats {
+  align-items: center;
+  color: var(--accent2);
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 6.5pt;
+  font-weight: 700;
+  gap: 2mm;
+  justify-content: center;
+  letter-spacing: 0.08em;
+}
+
+.story-stats-dot {
+  background: var(--accent);
+  border-radius: 50%;
+  height: 1.2mm;
+  width: 1.2mm;
+}
+
+/* 表紙 */
+.cover-top {
+  margin-bottom: 5mm;
+}
+
+.cover-heading {
+  color: var(--white);
+  font-size: 11pt;
+  margin-bottom: 4mm;
+}
+
+.category-grid {
+  display: grid;
+  gap: 2.5mm 4mm;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+}
+
+.category-item {
+  align-items: center;
+  display: flex;
+  font-size: 7pt;
+  gap: 2.5mm;
+}
+
+.category-icon {
+  color: #d4b5a5;
+  flex: 0 0 4.5mm;
+  height: 4.5mm;
+  width: 4.5mm;
+}
+
+.category-name {
+  color: #f0f0f0;
+  line-height: 1.25;
+}
+
+.cover-brand {
+  border-bottom: 0.3mm solid rgba(255, 255, 255, 0.15);
+  border-top: 0.3mm solid rgba(255, 255, 255, 0.15);
+  margin: 5mm 0;
+  padding: 5mm 0;
+  text-align: center;
+}
+
+.cover-logo {
+  background: var(--bg);
+  border-radius: 2px;
+  display: block;
+  height: auto;
+  margin: 0 auto 3mm;
+  max-height: 11mm;
+  object-fit: contain;
+  padding: 2.5mm 5mm;
+  width: auto;
+}
+
+.cover-tagline {
+  color: #d8d8d8;
+  font-size: 7pt;
+  margin-bottom: 2mm;
+}
+
+.cover-catch {
+  font-family: "Noto Serif JP", serif;
+  font-size: 10pt;
+  line-height: 1.45;
+}
+
+.cover-shop {
+  margin-top: auto;
+}
+
+.shop-row {
+  align-items: flex-end;
+  display: flex;
+  gap: 4mm;
+  justify-content: space-between;
+  margin-top: 3mm;
+}
+
+.shop-details {
+  color: #ececec;
+  flex: 1;
+  font-size: 7pt;
+  line-height: 1.6;
+}
+
+.shop-url {
+  color: #d4b5a5;
+  margin-top: 1mm;
+  word-break: break-all;
+}
+
+.shop-qr {
+  background: var(--bg);
+  border-radius: 2px;
+  flex: 0 0 18mm;
+  height: 18mm;
+  padding: 1mm;
+  width: 18mm;
+}
+
+/* ヒーロー */
+.panel-hero {
+  padding: 0;
+}
+
+.hero-bg {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: 38% center;
+  width: 100%;
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    180deg,
+    rgba(61, 61, 61, 0.15) 0%,
+    rgba(61, 61, 61, 0.72) 100%
+  );
+  bottom: 0;
+  color: var(--white);
+  left: 0;
+  padding: 10mm 7mm;
+  position: absolute;
+  right: 0;
+}
+
+.hero-title {
+  font-size: 13pt;
+  margin: 2mm 0 3mm;
+}
+
+.hero-sub {
+  font-size: 8pt;
+  letter-spacing: 0.08em;
+}
+
+/* サービス */
+.service-photo {
+  border-radius: 3px;
+  flex-shrink: 0;
+  height: 58mm;
+  margin-bottom: 4mm;
+  overflow: hidden;
+}
+
+.service-photo img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+}
+
+.service-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.service-subtitle {
+  color: var(--accent2);
+  font-size: 10pt;
+  margin-bottom: 3mm;
+}
+
+.strength-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3mm;
+  list-style: none;
+  margin-bottom: 4mm;
+}
+
+.strength-item {
+  align-items: flex-start;
+  display: flex;
+  gap: 2.5mm;
+}
+
+.strength-num {
+  color: var(--accent);
+  flex: 0 0 auto;
+  font-family: "Noto Serif JP", serif;
+  font-size: 11pt;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.strength-item h4 {
+  font-size: 8pt;
+  font-weight: 700;
+  margin-bottom: 0.5mm;
+}
+
+.strength-item p {
+  color: var(--muted);
+  font-size: 7pt;
+}
+
+.scene-box {
+  background: rgba(255, 255, 255, 0.65);
+  border-left: 2px solid var(--accent2);
+  margin-top: auto;
+  padding: 3mm;
+}
+
+.scene-label {
+  font-size: 7.5pt;
+  font-weight: 700;
+  margin-bottom: 2mm;
+}
+
+.scene-list {
+  color: var(--muted);
+  display: grid;
+  font-size: 7pt;
+  gap: 1mm;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+}
+
+@page {
+  margin: 0;
+  size: A4 landscape;
+}
+
+@media print {
+  html,
+  body {
+    background: white;
+  }
+
+  .print-note {
+    display: none;
+  }
+
+  .sheet {
+    break-after: page;
+    margin: 0;
+    page-break-after: always;
+  }
+
+  .sheet:last-child {
+    break-after: auto;
+    page-break-after: auto;
+  }
+}

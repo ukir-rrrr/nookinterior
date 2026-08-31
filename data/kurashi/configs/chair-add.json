@@ -1,0 +1,18 @@
+{
+  "baseUrl": "https://www.kurashi-ec.jp",
+  "productUrls": [
+    "https://www.kurashi-ec.jp/c/dining/dining-dining-chair/dining-arm-dining-chair/kd-vaisdc2set/",
+    "https://www.kurashi-ec.jp/c/chair/gaming-chair/oc-chfb-ny05-ah/",
+    "https://www.kurashi-ec.jp/c/chair/office-chair/mesh-chair/oc-ch-ym09/",
+    "https://www.kurashi-ec.jp/c/chair/office-chair/mesh-chair/oc-chfb-ny04-ahh/"
+  ],
+  "maxProducts": 4,
+  "maxImagesPerProduct": 8,
+  "requestIntervalSec": 1.0,
+  "concurrency": 3,
+  "defaultCategorySlug": "chair",
+  "manifestPath": "data/kurashi/manifests/chair-add.json",
+  "imagesDir": "public/images/products",
+  "imagesWebPath": "/images/products",
+  "imageCdnHost": "kurashiec202009.itembox.cloud"
+}

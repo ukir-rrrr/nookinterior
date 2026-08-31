@@ -1,0 +1,23 @@
+{
+  "baseUrl": "https://www.kurashi-ec.jp",
+  "categoryUrls": ["https://www.kurashi-ec.jp/c/rug-carpet/"],
+  "maxProducts": 4,
+  "maxImagesPerProduct": 8,
+  "requestIntervalSec": 1.0,
+  "concurrency": 3,
+  "defaultCategorySlug": "rug",
+  "excludeProductIds": [
+    "pr-jioni1919",
+    "pr-jioni1924",
+    "pr-jioni1319",
+    "asw-nas-2020",
+    "pr-jeido1924",
+    "pr-porin1319",
+    "pr-jina1919",
+    "smi-calm2020"
+  ],
+  "manifestPath": "data/kurashi/manifests/rug-replace.json",
+  "imagesDir": "public/images/products",
+  "imagesWebPath": "/images/products",
+  "imageCdnHost": "kurashiec202009.itembox.cloud"
+}

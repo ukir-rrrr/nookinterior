@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T17:19:44.593356+09:00",
+  "generatedAt": "2026-08-31T16:53:24.411Z",
   "source": {
     "site": "kurashi-ec.jp",
     "baseUrl": "https://www.kurashi-ec.jp",
@@ -238,6 +238,122 @@
         "https://kurashiec202009.itembox.cloud/product/208/000000020809/000000020809-06.jpg",
         "https://kurashiec202009.itembox.cloud/product/208/000000020809/000000020809-07.jpg",
         "https://kurashiec202009.itembox.cloud/product/208/000000020809/000000020809-08.jpg"
+      ]
+    },
+    {
+      "id": "kd-vaisdc2set",
+      "name": "ダイニングチェア Vais コンパクト 椅子 布張り",
+      "price": 41900,
+      "categorySlug": "chair",
+      "itemUrl": "https://www.kurashi-ec.jp/c/dining/dining-dining-chair/dining-arm-dining-chair/kd-vaisdc2set/",
+      "itemCode": "kurashi:000000020798",
+      "rank": 9,
+      "images": [
+        "/images/products/kd-vaisdc2set/01.jpg",
+        "/images/products/kd-vaisdc2set/02.jpg",
+        "/images/products/kd-vaisdc2set/03.jpg",
+        "/images/products/kd-vaisdc2set/04.jpg",
+        "/images/products/kd-vaisdc2set/05.jpg",
+        "/images/products/kd-vaisdc2set/06.jpg",
+        "/images/products/kd-vaisdc2set/07.jpg",
+        "/images/products/kd-vaisdc2set/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/207/000000020798/000000020798-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/207/000000020798/000000020798-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/207/000000020798/000000020798-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/207/000000020798/000000020798-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/207/000000020798/000000020798-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/207/000000020798/000000020798-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/207/000000020798/000000020798-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/207/000000020798/000000020798-08.jpg"
+      ]
+    },
+    {
+      "id": "oc-chfb-ny05-ah",
+      "name": "ゲーミングチェア YS",
+      "price": 23980,
+      "categorySlug": "chair",
+      "itemUrl": "https://www.kurashi-ec.jp/c/chair/gaming-chair/oc-chfb-ny05-ah/",
+      "itemCode": "kurashi:000000011121",
+      "rank": 10,
+      "images": [
+        "/images/products/oc-chfb-ny05-ah/01.jpg",
+        "/images/products/oc-chfb-ny05-ah/02.jpg",
+        "/images/products/oc-chfb-ny05-ah/03.jpg",
+        "/images/products/oc-chfb-ny05-ah/04.jpg",
+        "/images/products/oc-chfb-ny05-ah/05.jpg",
+        "/images/products/oc-chfb-ny05-ah/06.jpg",
+        "/images/products/oc-chfb-ny05-ah/07.jpg",
+        "/images/products/oc-chfb-ny05-ah/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/111/000000011121/000000011121-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/111/000000011121/000000011121-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/111/000000011121/000000011121-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/111/000000011121/000000011121-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/111/000000011121/000000011121-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/111/000000011121/000000011121-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/111/000000011121/000000011121-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/111/000000011121/000000011121-08.jpg"
+      ]
+    },
+    {
+      "id": "oc-ch-ym09",
+      "name": "メッシュチェア RESTIVA",
+      "price": 29990,
+      "categorySlug": "chair",
+      "itemUrl": "https://www.kurashi-ec.jp/c/chair/office-chair/mesh-chair/oc-ch-ym09/",
+      "itemCode": "kurashi:000000017392",
+      "rank": 11,
+      "images": [
+        "/images/products/oc-ch-ym09/01.jpg",
+        "/images/products/oc-ch-ym09/02.jpg",
+        "/images/products/oc-ch-ym09/03.jpg",
+        "/images/products/oc-ch-ym09/04.jpg",
+        "/images/products/oc-ch-ym09/05.jpg",
+        "/images/products/oc-ch-ym09/06.jpg",
+        "/images/products/oc-ch-ym09/07.jpg",
+        "/images/products/oc-ch-ym09/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/173/000000017392/000000017392-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/173/000000017392/000000017392-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/173/000000017392/000000017392-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/173/000000017392/000000017392-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/173/000000017392/000000017392-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/173/000000017392/000000017392-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/173/000000017392/000000017392-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/173/000000017392/000000017392-08.jpg"
+      ]
+    },
+    {
+      "id": "oc-chfb-ny04-ahh",
+      "name": "オフィスチェア YS",
+      "price": 23980,
+      "categorySlug": "chair",
+      "itemUrl": "https://www.kurashi-ec.jp/c/chair/office-chair/mesh-chair/oc-chfb-ny04-ahh/",
+      "itemCode": "kurashi:000000020636",
+      "rank": 12,
+      "images": [
+        "/images/products/oc-chfb-ny04-ahh/01.jpg",
+        "/images/products/oc-chfb-ny04-ahh/02.jpg",
+        "/images/products/oc-chfb-ny04-ahh/03.jpg",
+        "/images/products/oc-chfb-ny04-ahh/04.jpg",
+        "/images/products/oc-chfb-ny04-ahh/05.jpg",
+        "/images/products/oc-chfb-ny04-ahh/06.jpg",
+        "/images/products/oc-chfb-ny04-ahh/07.jpg",
+        "/images/products/oc-chfb-ny04-ahh/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/206/000000020636/000000020636-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020636/000000020636-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020636/000000020636-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020636/000000020636-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020636/000000020636-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020636/000000020636-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020636/000000020636-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/206/000000020636/000000020636-08.jpg"
       ]
     }
   ]

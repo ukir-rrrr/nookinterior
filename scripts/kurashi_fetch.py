@@ -72,6 +72,8 @@ class Config:
     request_interval_sec: float = 1.0
     concurrency: int = 3
     default_category_slug: str = "table"
+    exclude_product_ids: list[str] = field(default_factory=list)
+    product_urls: list[str] = field(default_factory=list)
     manifest_path: Path = field(
         default_factory=lambda: PROJECT_ROOT / "data" / "kurashi" / "manifest.json"
     )
@@ -117,6 +119,8 @@ def load_config(path: Path) -> Config:
         request_interval_sec=float(raw.get("requestIntervalSec", 1.0)),
         concurrency=max(1, int(raw.get("concurrency", 3))),
         default_category_slug=raw.get("defaultCategorySlug", "table"),
+        exclude_product_ids=list(raw.get("excludeProductIds") or []),
+        product_urls=list(raw.get("productUrls") or []),
         manifest_path=manifest_path,
         images_dir=resolve_project_path(raw.get("imagesDir", "public/images/products")),
         images_web_path=raw.get("imagesWebPath", "/images/products").rstrip("/"),
@@ -207,8 +211,10 @@ def collect_product_urls(cfg: Config) -> list[dict]:
             for url in page_urls:
                 if url in seen:
                     continue
-                seen.add(url)
                 slug = url.rstrip("/").split("/")[-1]
+                if slug in cfg.exclude_product_ids:
+                    continue
+                seen.add(url)
                 products.append({
                     "id": slug,
                     "itemUrl": url,
@@ -223,6 +229,19 @@ def collect_product_urls(cfg: Config) -> list[dict]:
                 break
             time.sleep(cfg.request_interval_sec)
 
+    return products[: cfg.max_products]
+
+
+def stubs_from_product_urls(cfg: Config) -> list[dict]:
+    products: list[dict] = []
+    for index, raw_url in enumerate(cfg.product_urls, start=1):
+        url = normalize_url(cfg.base_url, raw_url)
+        slug = url.rstrip("/").split("/")[-1]
+        products.append({
+            "id": slug,
+            "itemUrl": url,
+            "rank": index,
+        })
     return products[: cfg.max_products]
 
 
@@ -436,8 +455,8 @@ def main() -> None:
     if args.max_products:
         cfg.max_products = args.max_products
 
-    if not cfg.category_urls:
-        print("エラー: categoryUrls が設定されていません")
+    if not cfg.product_urls and not cfg.category_urls:
+        print("エラー: categoryUrls または productUrls が設定されていません")
         sys.exit(1)
 
     cfg.images_dir.mkdir(parents=True, exist_ok=True)
@@ -450,7 +469,11 @@ def main() -> None:
     log(f"manifest       : {cfg.manifest_path}")
     log(f"imagesDir      : {cfg.images_dir}")
 
-    product_stubs = collect_product_urls(cfg)
+    if cfg.product_urls:
+        product_stubs = stubs_from_product_urls(cfg)
+        log(f"productUrls    : {len(cfg.product_urls)} 件（指定URLから取得）")
+    else:
+        product_stubs = collect_product_urls(cfg)
     if not product_stubs:
         log("商品が見つかりませんでした。")
         sys.exit(1)

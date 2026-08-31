@@ -32,13 +32,13 @@ export default function CartView() {
       <div className="mx-auto max-w-7xl px-4 py-10 md:px-6 md:py-16">
         <Breadcrumb items={[{ label: "TOP", href: "/" }, { label: "カート" }]} />
         <div className="mt-16 flex flex-col items-center text-center">
-          <div className="relative mb-8 h-40 w-40 overflow-hidden rounded-sm">
+          <div className="relative mb-8 h-48 w-48 md:h-56 md:w-56">
             <Image
-              src="/images/common/empty-cart.jpg"
-              alt=""
+              src="/images/common/empty-cart.png"
+              alt="カートは空のイラスト"
               fill
-              sizes="160px"
-              className="object-cover"
+              sizes="(max-width: 768px) 192px, 224px"
+              className="object-contain"
             />
           </div>
           <h1 className="font-serif text-2xl text-text md:text-3xl">カートは空です</h1>

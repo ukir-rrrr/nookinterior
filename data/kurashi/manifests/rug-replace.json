@@ -1,0 +1,116 @@
+{
+  "generatedAt": "2026-09-01T01:44:47.809678+09:00",
+  "source": {
+    "site": "kurashi-ec.jp",
+    "baseUrl": "https://www.kurashi-ec.jp",
+    "categoryUrls": [
+      "https://www.kurashi-ec.jp/c/rug-carpet/"
+    ]
+  },
+  "products": [
+    {
+      "id": "kw-0219",
+      "name": "160×230cm ラグ Mix GAVINO",
+      "price": 63800,
+      "categorySlug": "rug",
+      "itemUrl": "https://www.kurashi-ec.jp/c/rug-carpet/rug/191-250cm_rug/kw-0219/",
+      "itemCode": "kurashi:000000020334",
+      "rank": 1,
+      "images": [
+        "/images/products/kw-0219/01.jpg",
+        "/images/products/kw-0219/02.jpg",
+        "/images/products/kw-0219/03.jpg",
+        "/images/products/kw-0219/04.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/203/000000020334/000000020334-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/203/000000020334/000000020334-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/203/000000020334/000000020334-31.jpg",
+        "https://kurashiec202009.itembox.cloud/product/203/000000020334/000000020334-32.jpg"
+      ]
+    },
+    {
+      "id": "asw-mdy-1420",
+      "name": "140×200cm 最高級メリノウール 極上の使い心地ラグ ラグ ウール",
+      "price": 57900,
+      "categorySlug": "rug",
+      "itemUrl": "https://www.kurashi-ec.jp/c/rug-carpet/rug/asw-mdy-1420/",
+      "itemCode": "kurashi:000000008421",
+      "rank": 2,
+      "images": [
+        "/images/products/asw-mdy-1420/01.jpg",
+        "/images/products/asw-mdy-1420/02.jpg",
+        "/images/products/asw-mdy-1420/03.jpg",
+        "/images/products/asw-mdy-1420/04.jpg",
+        "/images/products/asw-mdy-1420/05.jpg",
+        "/images/products/asw-mdy-1420/06.jpg",
+        "/images/products/asw-mdy-1420/07.jpg",
+        "/images/products/asw-mdy-1420/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/084/000000008421/000000008421-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/084/000000008421/000000008421-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/084/000000008421/000000008421-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/084/000000008421/000000008421-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/084/000000008421/000000008421-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/084/000000008421/000000008421-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/084/000000008421/000000008421-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/084/000000008421/000000008421-08.jpg"
+      ]
+    },
+    {
+      "id": "smi-lustre1420r",
+      "name": "140×200cm楕円 ラグ リュストル 防炎 防音 ナイロン 完成品",
+      "price": 19800,
+      "categorySlug": "rug",
+      "itemUrl": "https://www.kurashi-ec.jp/c/rug-carpet/rug/round-rug/smi-lustre1420r/",
+      "itemCode": "kurashi:000000004240",
+      "rank": 3,
+      "images": [
+        "/images/products/smi-lustre1420r/01.jpg",
+        "/images/products/smi-lustre1420r/02.jpg",
+        "/images/products/smi-lustre1420r/03.jpg",
+        "/images/products/smi-lustre1420r/04.jpg",
+        "/images/products/smi-lustre1420r/05.jpg",
+        "/images/products/smi-lustre1420r/06.jpg",
+        "/images/products/smi-lustre1420r/07.jpg",
+        "/images/products/smi-lustre1420r/08.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/042/000000004240/000000004240-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/042/000000004240/000000004240-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/042/000000004240/000000004240-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/042/000000004240/000000004240-04.jpg",
+        "https://kurashiec202009.itembox.cloud/product/042/000000004240/000000004240-05.jpg",
+        "https://kurashiec202009.itembox.cloud/product/042/000000004240/000000004240-06.jpg",
+        "https://kurashiec202009.itembox.cloud/product/042/000000004240/000000004240-07.jpg",
+        "https://kurashiec202009.itembox.cloud/product/042/000000004240/000000004240-08.jpg"
+      ]
+    },
+    {
+      "id": "pr-porin2025",
+      "name": "200×250cm ラグ ポーリン ウィルトン カーペット",
+      "price": 54800,
+      "categorySlug": "rug",
+      "itemUrl": "https://www.kurashi-ec.jp/c/rug-carpet/rug/251cm_rug/pr-porin2025/",
+      "itemCode": "kurashi:000000017778",
+      "rank": 4,
+      "images": [
+        "/images/products/pr-porin2025/01.jpg",
+        "/images/products/pr-porin2025/02.jpg",
+        "/images/products/pr-porin2025/03.jpg",
+        "/images/products/pr-porin2025/04.jpg",
+        "/images/products/pr-porin2025/05.jpg",
+        "/images/products/pr-porin2025/06.jpg"
+      ],
+      "sourceUrls": [
+        "https://kurashiec202009.itembox.cloud/product/177/000000017778/000000017778-01.jpg",
+        "https://kurashiec202009.itembox.cloud/product/177/000000017778/000000017778-02.jpg",
+        "https://kurashiec202009.itembox.cloud/product/177/000000017778/000000017778-03.jpg",
+        "https://kurashiec202009.itembox.cloud/product/177/000000017778/000000017778-27.jpg",
+        "https://kurashiec202009.itembox.cloud/product/177/000000017778/000000017778-31.jpg",
+        "https://kurashiec202009.itembox.cloud/product/177/000000017778/000000017778-32.jpg"
+      ]
+    }
+  ]
+}

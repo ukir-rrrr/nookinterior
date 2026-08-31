@@ -2,7 +2,7 @@ export const companyInfo = {
   name: "フォースペース合同会社",
   representative: "四宮  良輔",
   address: "〒985-0084  宮城県塩竈市楓町三丁目1番13号",
-  phone: "080-6045-5714",
+  phone: "000-0000-0000",
   capital: "900万",
   business:
     "家具・インテリア雑貨の企画・販売、およびインターネットによる通信販売事業",

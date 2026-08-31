@@ -27,7 +27,7 @@ export const features: Feature[] = [
       "kd-modulia1as",
       "kd-moduliacuset",
       "kd-modulia25sset",
-      "pr-jioni1919",
+      "smi-lustre1420r",
     ],
   },
   {
